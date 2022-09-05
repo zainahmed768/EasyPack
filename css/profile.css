@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+/* .nav-list ul li a {
+  color: #000;
+} */
+/* *********************** end of of header section***************** */
+
+/* **************Begin of banner section************** */
+.profile-car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 144px;
+    bottom: 404px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car-img img {
+    width: auto;
+}
+.profile-car-caption {
+    display: flex;
+    align-items: center;
+}
+.car-text h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.car-text p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.car-text {
+    padding-left: 20px;
+}
+/* ****************End of banner section **************** */
+
+/* ******************Begin of profile section************ */
+.profile-head h3 {
+    font-size: 30px;
+    color: #3a3a3a;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.profile-list ul {
+    list-style: none;
+    padding: 0;
+}
+.profile-list ul li a {
+    font-size: 18px;
+    color: #939393;
+    line-height: 41px;
+}
+.profile-things {
+    display: flex;
+    align-items: center;
+}
+.pro-btn button {
+    background-color: #d29f45;
+    border: 1px solid #d29f45;
+    border-radius: unset;
+}
+.pro-btn1 button {
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 14px;
+    border-radius: unset;
+    color: #423c47;
+    text-transform: uppercase;
+}
+.pro-btn button {
+    background-color: #d29f45;
+
+    border-radius: unset;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    border: 1px solid #d29f45;
+}
+.profile-sec input#exampleInputEmail1 {
+    border: 1px solid #ebebeb;
+    border-radius: unset;
+}
+.profile-sec input#exampleInputEmail1::placeholder {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.profile-sec label {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.profile-sec textarea#exampleFormControlTextarea1 {
+    border: 1px solid #ebebeb;
+    border-radius: unset;
+    height: 148px;
+    resize: none;
+}
+.profile-sec textarea#exampleFormControlTextarea1::placeholder {
+    font-size: 13px;
+    color: #e0e0e0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.form-main-btn button {
+    width: 100%;
+    border-radius: unset;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 14px;
+    background-color: #d29f45;
+    border: 1px solid #d29f45;
+}
+section.profile-sec {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.profile-head {
+    padding-top: 30px;
+}
+/* *********************End of profile section************** */
+/* **********************Begin of Contact******************* */
+.contact-head h2 {
+    font-size: 54px;
+    color: #575757;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .contact-head p {
+    font-size: 12px;
+    color: b7b7b7;
+    color: #b7b7b7;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  .contact-icon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .contact-icon ul li a {
+    background-color: #d29f45;
+    margin: 0px 12px;
+    padding: 10px 17px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+  }
+  .contact-sec input#exampleInputEmail1 {
+    border: none;
+    border-bottom: 1px solid #606060;
+    border-radius: unset;
+  }
+  .contact-sec button.btn.btn-primary {
+    width: 100%;
+    border-radius: unset;
+    background-color: #d29f45;
+    border: 1px solid #d29f45;
+    text-transform: uppercase;
+  }
+  section.contact-sec {
+    padding: 50px 0px;
+  }
+  
+  /* **********************End of Begin of Contact******************* */
+  /* ************************Responsive****************** */
+@media(max-width: 1100px){
+    .profile-car-caption-flex {
+        bottom: 330px;
+    }
+    .contact-head h2 {
+        font-size: 42px;
+    }
+
+}
+@media(max-width: 768px){
+    .profile-car-caption-flex {
+        bottom: unset;
+        top: 86px;
+        left: 44px;
+    }
+    .car-img img {
+        width: 80px;
+    }
+    .car-text h3 {
+        font-size: 15px;
+    }
+    .car-text p {
+        font-size: 8px;
+    }
+    .car-text {
+        padding-left: 20px;
+    }
+    .profile-head h3 {
+        font-size: 20px;
+    }
+    .profile-list ul li a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .contact-head h2 {
+        font-size: 30px;
+    }
+    .contact-head p {
+        font-size: 10px;
+    }
+    .contact-icon ul li a {
+        margin: 0px 4px;
+    }
+    .pro-btn button {
+        font-size: 10px;
+       
+    }
+    
+}
+@media(max-width: 480px){
+    section.profile-sec {
+        padding-top: 10px;
+    }
+    .car-img img {
+        width: 58px;
+    }
+    .car-text h3 {
+        font-size: 8px;
+    }
+    .car-text p {
+        font-size: 5px;
+
+    }
+}
+  /* ************************End of Responsive****************** */

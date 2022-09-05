@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+/* *********************** end of of header section***************** */
+
+/* ********Begin of banner-section */
+.car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .car-caption h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .car-caption h2 {
+    font-size: 81px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0;
+  }
+  .car-caption p {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 1px;
+    padding-bottom: 50px;
+  }
+  .car-caption {
+    text-align: center;
+    margin: 0;
+  }
+ 
+  .car-caption-flex a {
+    font-size: 14px !important;
+    background: #d29f45 !important;
+    padding: 10px 50px !important;
+    color: #ffffff !important;
+}
+  /* ***********End of banner-section******* */
+  /* **************Begin of form section****** */
+  .form-heading h2 {
+    font-size: 86px;
+    color: #575757;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.form-heading p {
+    font-size: 15px;
+    color: #7f7f7f;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.contact-form input#exampleInputEmail1 {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: unset;
+}
+.contact-form textarea#exampleFormControlTextarea1 {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: unset;
+    resize: none;
+}
+.contact-form button.btn.btn-primary {
+    font-size: 12px;
+    background-color: #d29f45;
+    border: 1px ghostwhite;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: unset;
+    font-weight: 700;
+    padding: 12px 0px;
+}
+.contact-form input#exampleInputEmail1::placeholder {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.contact-form textarea#exampleFormControlTextarea1::placeholder {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.form-img img {
+    width: 100%;
+}
+section.contact-form .row {
+    display: flex;
+    align-items: center;
+}
+section.contact-form {
+    padding: 40px 0px;
+}
+  /* *****************End of form section******** */
+/* **********************Begin of Contact******************* */
+.contact-head h2 {
+    font-size: 54px;
+    color: #575757;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .contact-head p {
+    font-size: 12px;
+    color: b7b7b7;
+    color: #b7b7b7;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  .contact-icon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .contact-icon ul li a {
+    background-color: #d29f45;
+    margin: 0px 12px;
+    padding: 10px 17px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+  }
+  .contact-sec input#exampleInputEmail1 {
+    border: none;
+    border-bottom: 1px solid #606060;
+    border-radius: unset;
+    background-color: transparent;
+}
+  .contact-sec button.btn.btn-primary {
+    width: 100%;
+    border-radius: unset;
+    background-color: #d29f45;
+    border: 1px solid #d29f45;
+    text-transform: uppercase;
+  }
+  section.contact-sec {
+    padding: 50px 0px;
+  }
+  
+  /* **********************End of Begin of Contact******************* */
+  
+/* ************************Responsive****************** */
+@media(max-width: 1100px){
+    .nav-list ul li a {
+        font-size: 12px;
+        margin-right: 11px;
+    }
+    .contact-head h2 {
+        font-size: 44px;
+    }
+    .for-news p {
+        font-size: 12px;
+    }
+}
+@media(max-width: 768px){
+    .nav-list ul li a {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+    .car-caption h2 {
+        font-size: 44px;
+    }
+    .car-caption h3 {
+        font-size: 18px;
+    }
+    .car-caption p {
+        font-size: 13px;
+        padding-bottom: 34px;
+    }
+    .car-caption-flex {
+        bottom: 570px;
+    }
+    .form-heading h2 {
+        font-size: 50px;
+    }
+    .contact-head h2 {
+        font-size: 30px;
+    }
+    .contact-icon ul li a {
+        margin: 0px 4px;
+        padding: 7px 14px;
+    }
+    footer svg.bi.bi-arrow-right {
+        top: 54px;
+        width: 45px;
+        height: 50px;
+    }
+    .footer-head ul {
+        padding: 10px;
+    }
+    .copy-img p {
+        font-size: 7px;
+    }
+    .terms ul li a {
+        font-size: 10px;
+    }
+    footer input#exampleInputEmail1::placeholder {
+        font-size: 6px;
+    }
+}
+@media(max-width: 480px){
+    .nav-list ul li a {
+        font-size: 6px;
+    }
+    .car-caption-flex {
+        bottom: 400px;
+    }
+    .car-caption h2 {
+        font-size: 24px;
+    }
+    .car-caption p {
+        font-size: 7px;
+        padding-bottom: 25px;
+    }
+    .car-caption-flex a {
+        font-size: 8px !important;
+        padding: 7px 32px !important;
+  
+    }
+    footer {
+        padding: 0px 0px;
+    }
+    .footer-head h4 {
+        text-align: inherit;
+    }
+    footer svg.bi.bi-arrow-right {
+        top: 34px;
+        width: 50px;
+    }
+    .car-caption h3 {
+        font-size: 10px;
+    }
+}
+/* ************************End of Responsive****************** */

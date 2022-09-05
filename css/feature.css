@@ -1,0 +1,198 @@
+
+/* ********Begin of banner-section */
+.car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 153px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car-caption h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+  .car-caption h2 {
+    font-size: 81px;
+    color: #ffffff;;
+    font-weight: 800;
+    margin: 0;
+}
+.car-caption p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 24px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.car-caption {
+    text-align: left;
+    margin: 0;
+}
+  .car-caption-flex a {
+    font-size: 14px !important;
+    background: #d29f45 !important;
+    padding: 10px 50px !important;
+    color: #ffffff !important;
+}
+/* ***************End of banner section******* */
+
+.slide-text h3 {
+    font-size: 13px;
+    color: #9e9d9d;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding-top: 4px;
+}
+.slide-stars ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+.slide-stars ul li a i {
+    color: #fcb040;
+    margin-right: 5px;
+}
+.slide-text h5 {
+    font-size: 17px;
+    color: #b50603;
+    font-family: 'Montserrat';
+}
+.slidedv1.slick-slide {
+    text-align: center;
+    margin: 0px 12px;
+}
+section.caro {
+    padding-top: 70px;
+}
+.caro-head h2 {
+    font-size: 86px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+}
+.caro-head {
+    text-align: center;
+}
+/* *********Begin of shop section******** */
+.shop-text h3 {
+    font-size: 25px;
+    color: #5e5e5e;
+    font-family: 'Montserrat';
+    font-weight: 700;
+  }
+  .shop-text h4 {
+    font-size: 12px;
+    color: #5e5e5e;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+  .shop-text h2 {
+    font-size: 15px;
+    color: #5e5e5e;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+  .pro-stars ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .pro-stars ul li a {
+    color: #d29f45;
+    margin-right: 8px;
+  }
+  .shop-text {
+    text-align: center;
+}
+.shop-img img {
+    width: 90%;
+    border: 1px solid #c6c6c6;
+}
+/* **********End of shop section************* */
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+
+}
+@media(max-width: 768px){
+    .car-caption-flex {
+        left: 38px;
+        bottom: unset;
+        top: 120px;
+    }
+    .car-caption h2 {
+        font-size: 40px;
+    }
+    .car-caption p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 30px;
+  
+    }
+    .shop-text h2 {
+        font-size: 8px;
+    }
+    .shop-text h4 {
+        font-size: 8px;
+    }
+    .shop-text h3 {
+        font-size: 20px;
+    }
+    .shop-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+  
+}
+@media(max-width: 480px){
+    .car-caption h2 {
+        font-size: 20px;
+    }
+    .car-caption h3 {
+        font-size: 13px;
+    }
+    .caro-head h2 {
+        font-size: 32px;
+    }
+    .car-caption-flex {
+        left: 16px;
+        bottom: unset;
+    }
+    .car-caption-flex a {
+        padding: 5px 20px !important; 
+    }
+ .car-caption p {
+        font-size: 8px;
+
+      
+        line-height: 8px;
+        padding-bottom: 16px;
+     
+    }
+    .car-caption-flex {
+        left: 16px;
+        bottom: unset;
+        top: 60px;
+    }
+    .slidedv1.slick-slide {
+        text-align: -webkit-center;
+    }
+
+}
+
+/* ************************Responsive****************** */

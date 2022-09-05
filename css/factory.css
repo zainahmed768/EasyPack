@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+/* *********************** end of of header section***************** */
+
+/* ********Begin of banner-section */
+.car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 153px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+  .car-caption h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .car-caption h2 {
+    font-size: 81px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0;
+  }
+  .car-caption p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 24px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.car-caption {
+    text-align: left;
+    margin: 0;
+}
+  .car-caption-flex a {
+    font-size: 14px !important;
+    background: #d29f45 !important;
+    padding: 10px 50px !important;
+    color: #ffffff !important;
+}
+/* ***************End of banner section******* */
+
+/* *******Begin of factory Section******* */
+.fac-head h2 {
+    font-size: 86px;
+    color: #000000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.fac-head h5 {
+    font-size: 20px;
+    color: #898989;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.fac-para h4 {
+    font-size: 20px;
+    color: #898989;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fac-para p {
+    font-size: 14px;
+    color: #5e5e5e;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.fac-law h3 {
+    font-size: 20px;
+    color: #898989;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fac-law p {
+    font-size: 12px;
+    color: #5e5e5e;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.fac-img img {
+    width: 100%;
+}
+.fac-head {
+    padding-bottom: 60px;
+}
+.fac-para {
+    padding-bottom: 50px;
+}
+section.fac-sec .row {
+    display: flex;
+    padding: 30px 0px;
+}
+section.fac-sec {
+    padding-top: 50px;
+}
+/* *********End of factory section********** */
+/* **************Collection section********** */
+.collection-heading a {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #d29f45;
+    padding: 8px 32px;
+  }
+  .collection-heading {
+    text-align: center;
+  }
+  .collection-heading h2 {
+    font-size: 86px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 40px 0px;
+}
+  .collec-stars ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  section.collection-sec {
+    padding-bottom: 70px;
+    padding-top: 40px;
+  }
+  .collec-stars ul li a i {
+    color: #d29f45;
+    padding-right: 10px;
+  }
+  .collec-img img {
+    width: 100%;
+    position: relative;
+  }
+  .collec-text {
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+  }
+  .collec-text h4 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    margin: 0;
+    font-weight: 700;
+  }
+  .collec-text h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat';
+  }
+  .collec-text h5 {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+  }
+  .collec-text p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Montserrat';
+  }
+  .collec-text h2 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat';
+  }
+  .collec-an a {
+    background-color: #ffffff;
+    color: #d29f45;
+    font-weight: bold;
+    padding: 6px 32px;
+  }
+  .collec-text h2 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding-bottom: 12px;
+  }
+  .collec-text {
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .collection:hover .collec-text {
+    opacity: 1;
+  }
+  section.collection-sec .row {
+    padding: 15px;
+  }
+  /* **************End of Collection section********** */
+  /* *****************Begin of Picture Section*********** */
+.all-pics {
+    display: flex;
+  }
+  section.pics-sec {
+    padding: 30px 0px;
+  }
+  .pic1 img {
+    filter: grayscale(1);
+  }
+  .all-pics {
+    border-bottom: 1px solid #efefef;
+  }
+  
+  /* *****************End of Begin of Picture Section*********** */
+  /* **********************Begin of Contact******************* */
+.contact-head h2 {
+    font-size: 54px;
+    color: #575757;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .contact-head p {
+    font-size: 12px;
+    color: b7b7b7;
+    color: #b7b7b7;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  .contact-icon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .contact-icon ul li a {
+    background-color: #d29f45;
+    margin: 0px 12px;
+    padding: 10px 17px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+  }
+  .contact-sec input#exampleInputEmail1 {
+    border: none;
+    border-bottom: 1px solid #606060;
+    border-radius: unset;
+  }
+  .contact-sec button.btn.btn-primary {
+    width: 100%;
+    border-radius: unset;
+    background-color: #d29f45;
+    border: 1px solid #d29f45;
+    text-transform: uppercase;
+  }
+  section.contact-sec {
+    padding: 50px 0px;
+  } 
+  /* **********************End of Begin of Contact******************* */
+  
+/* ************************Responsive****************** */
+@media(max-width: 1100px){
+    .car-caption h2 {
+        font-size: 40px;
+    }
+    .car-caption p {
+        font-size: 12px;
+    }
+    .car-caption-flex {
+        left: 82px;
+    }
+    .car-caption-flex a {
+        font-size: 12px !important;
+        padding: 7px 32px !important; 
+    }
+    .nav-list ul li a {
+        font-size: 9px;
+        margin-right: 25px;
+    }
+    .fac-head h2 {
+        font-size: 65px;
+    }
+    .fac-law p {
+        font-size: 10px;
+    }
+    .contact-head h2 {
+        font-size: 44px;
+
+    }
+    .contact-head p {
+        font-size: 10px;
+    }
+    footer svg.bi.bi-arrow-right {
+        top: 55px;
+    }
+}
+@media(max-width: 768px){
+    .nav-list ul li a {
+        font-size: 8px;
+        margin-right: 12px;
+    }
+    .car-caption-flex {
+        bottom: 535px;
+    }
+    .car-caption p {
+        padding-bottom: 20px;
+    }
+    .fac-law h3 {
+        font-size: 16px;
+    }
+    .fac-law p {
+        font-size: 7px;
+    }
+    .contact-head h2 {
+        font-size: 32px;
+    }
+    .contact-icon ul li a {
+        margin: 0px 5px;
+    }
+    .footer-head ul {
+        padding: 10px;
+    }
+    .terms ul li a {
+        font-size: 10px;
+    }
+    footer input#exampleInputEmail1::placeholder {
+        font-size: 6px;
+    }
+    .copy-img p {
+        font-size: 7px;
+    }
+}
+@media(max-width: 480px){
+    .nav-list ul li a {
+        font-size: 5px;
+    }
+    .fac-head h2 {
+        font-size: 48px;
+    }
+    .fac-head h5 {
+        font-size: 14px;
+    }
+    .fac-law p {
+        font-size: 12px;
+    }
+    .fac-head {
+        padding-bottom: 30px;
+    }
+    .fac-para h4 {
+        font-size: 13px;
+    }
+    footer {
+        padding: 0px 0px;
+    }
+    .footer-head h4 {
+        text-align: inherit;
+    }
+    footer svg.bi.bi-arrow-right {
+        top: 34px;
+        width: 50px;
+    }
+    section.collection-sec {
+        padding-top: 0px;
+    }
+    .car-caption h2 {
+        font-size: 20px;
+    }
+    .car-caption h3 {
+        font-size: 14px;
+    }
+    .car-caption-flex {
+        bottom: 415px;
+        left: 50px;
+    }
+    .car-caption p {
+        padding-bottom: 10px;
+    }
+    .car-caption p {
+        padding-bottom: 10px;
+        font-size: 7px;
+        line-height: 8px;
+    }
+    .fac-law h3 {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    .car-caption-flex a {
+        font-size: 10px !important;
+        padding: 6px 19px !important;
+    }
+}
+/* ************************End of Responsive****************** */

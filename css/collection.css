@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+.nav-list ul li a {
+  color: #000;
+}
+section.nav-sec img {
+  filter: drop-shadow(0px -0px 3px #000);
+}
+/* *********************** end of of header section***************** */
+
+/* ********Begin of banner-section */
+.car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 153px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car-caption h3 {
+    font-size: 23px;
+    color: #101211;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+  .car-caption h2 {
+    font-size: 81px;
+    color: #101211;
+    font-weight: 800;
+    margin: 0;
+}
+.car-caption p {
+    font-size: 18px;
+    color: #101211;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 24px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.car-caption {
+    text-align: left;
+    margin: 0;
+}
+  .car-caption-flex a {
+    font-size: 14px !important;
+    background: #d29f45 !important;
+    padding: 10px 50px !important;
+    color: #ffffff !important;
+}
+/* ***************End of banner section******* */
+/* **********Begin of products section************* */
+.pro-stars ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.pro-text h3 {
+  font-size: 25px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.pro-text h4 {
+  font-size: 16px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.pro-text h2 {
+  font-size: 25px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.pro-img img {
+  width: 100%;
+}
+.pro-img img {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  position: relative;
+}
+.pro-stars ul li a {
+  color: #d29f45;
+  margin-right: 8px;
+}
+.pro-text {
+  text-align: center;
+}
+.pro-text {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+.pro-head h2 {
+  font-size: 86px;
+  color: #000000;
+  font-weight: 400;
+  padding: 50px;
+}
+.pro-head {
+  text-align: center;
+}
+section.pro-sec .col-md-4 {
+  padding: 10px;
+}
+.pro-btn a {
+  background-color: #d29f45;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.pro-btn {
+  margin: 0 auto;
+  display: block;
+  padding-top: 60px;
+}
+section.pro-sec {
+  padding-bottom: 50px;
+}
+/* ***********End of Products section************** */
+/* *****************Begin of Picture Section*********** */
+.all-pics {
+  display: flex;
+}
+section.pics-sec {
+  padding: 30px 0px;
+}
+.pic1 img {
+  filter: grayscale(1);
+}
+.all-pics {
+  border-bottom: 1px solid #efefef;
+}
+
+/* *****************End of Begin of Picture Section*********** */
+
+/* *******************Begin of Blog Section********************* */
+.blog-text h2 {
+  font-size: 22px;
+  color: #6b6b6b;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+}
+.blog-1 p {
+  font-size: 12px;
+  color: #868686;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 30px;
+}
+.blog-1 {
+  display: flex;
+  align-items: center;
+}
+.blog-btn a {
+  background-color: #d29f45;
+  padding: 10px 46px;
+  color: #ffffffff;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.blog-col-2 h3 {
+  font-size: 24px;
+  color: #6b6b6b;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
+}
+section.blog-sec .row {
+  display: flex;
+  align-items: center;
+}
+.blog-1 img {
+  width: auto;
+  padding-bottom: 20px;
+}
+section.blog-sec {
+  padding: 80px 0px;
+}
+
+/* *******************Begin of Blog Section********************* */
+
+/* **********************Begin of Contact******************* */
+.contact-head h2 {
+  font-size: 54px;
+  color: #575757;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.contact-head p {
+  font-size: 12px;
+  color: b7b7b7;
+  color: #b7b7b7;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+.contact-icon ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.contact-icon ul li a {
+    background-color: transparent;
+    margin: 0px 0px;
+    padding: 10px 19px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+}
+.contact-sec input#exampleInputEmail1 {
+  border: none;
+  border-bottom: 1px solid #606060;
+  border-radius: unset;
+}
+.contact-sec button.btn.btn-primary {
+  width: 100%;
+  border-radius: unset;
+  background-color: #d29f45;
+  border: 1px solid #d29f45;
+  text-transform: uppercase;
+}
+section.contact-sec {
+  padding: 50px 0px;
+}
+/* **********************End of Begin of Contact******************* */
+/* ************************Responsive****************** */
+@media(max-width: 1100px){
+  .pro-head h2 {
+    font-size: 64px;
+}
+.pro-text h2 {
+  font-size: 20px;
+}
+.contact-head h2 {
+  font-size: 40px;
+}
+.contact-head p {
+  font-size: 10px;
+}
+}
+@media(max-width: 768px){
+  .car-caption h2 {
+    font-size: 50px;
+}
+.car-caption-flex {
+  left: 33px;
+  bottom: 520px;
+}
+.car-caption p {
+  font-size: 11px;
+  line-height: 14px;
+  padding-bottom: 30px;
+}
+.pro-head h2 {
+  font-size: 54px;
+}
+.pro-text h2 {
+  font-size: 14px;
+}
+.pro-text h4 {
+  font-size: 12px;
+  margin: 0;
+}
+.pro-text h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.pro-stars ul {
+  margin-bottom: 20px;
+}
+.blog-1 p {
+  font-size: 10px;
+}
+.blog-1 {
+  align-items: flex-start;
+}
+.contact-head h2 {
+  font-size: 31px;
+}
+.contact-icon ul li a {
+  margin: 0px 5px;
+  padding: 9px 16px;
+}
+}
+@media(max-width: 480px){
+  .car-caption p {
+    font-size: 7px;
+    letter-spacing: 1px;
+    line-height: 10px;
+   
+}
+.car-caption-flex a {
+  font-size: 10px !important;
+  padding: 8px 38px !important;
+}
+.car-caption h2 {
+  font-size: 22px;
+}
+.car-caption-flex {
+  bottom: 417px;
+  display: flex;
+}
+.car-caption p {
+  padding-bottom: 8px;
+
+}
+.car-caption h3 {
+  font-size: 11px;
+}
+.pro-head h2 {
+  font-size: 30px;
+}
+.pro-head h2 {
+  padding: 25px;
+}
+.pro-text h2 {
+  font-size: 23px;
+}
+.blog-col-2 h3 {
+  padding-top: 10px;
+}
+section.blog-sec {
+  padding: 8px 0px;
+}
+}
+/* ************************End of Responsive****************** */

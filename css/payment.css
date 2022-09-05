@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+/* .nav-list ul li a {
+  color: #000;
+} */
+/* *********************** end of of header section***************** */
+
+/* **************Begin of banner section************** */
+.profile-car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 144px;
+    bottom: 404px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car-img img {
+    width: auto;
+}
+.profile-car-caption {
+    display: flex;
+    align-items: center;
+}
+.car-text h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.car-text p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.car-text {
+    padding-left: 20px;
+}
+/* ****************End of banner section **************** */
+
+.pay-table .table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    /* border-top: 1px solid #eceeef; */
+}
+/* .container {
+    padding: 2rem 0rem;
+  } */
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .table-image {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+
+  .pay-head h3 {
+    font-size: 18px;
+    color: #3b3b3b;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding: 50px 0px;
+    letter-spacing: 2px;
+}
+.pay-head .form-check label {
+    padding: 0;
+    font-size: 13px;
+    color: #3b3b3b;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form1 .form-group label {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form1 input#exampleInputEmail1::placeholder {
+    font-size: 13px;
+    color: #b7b7b7;
+    font-family: 'Montserrat';
+}
+
+.form-check label {
+    padding: 0;
+    font-size: 13px;
+    color: #3b3b3b;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form2 .form-group label {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form2 input#exampleInputEmail1::placeholder {
+    font-size: 13px;
+    color: #b7b7b7;
+    font-family: 'Montserrat';
+}
+.pay-sec button.btn.btn-primary {
+    width: 100%;
+    background-color: #d29f45;
+    border: none;
+    border-radius: unset;
+}
+.pay-sec .form-check {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.pay-sec th {
+    font-size: 8px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #ebebeb;
+}
+.pay-sec td {
+    font-size: 13px;
+    display: table-cell;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    vertical-align: middle;
+}
+.pay-sec td {
+    border: 1px solid #ebebeb;
+}
+.edit-cart-table h4 {
+    font-size: 20px;
+    color: #d29f45;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.edit-cart-table h5 {
+    font-size: 20px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.edit-cart-table {
+    text-align: end;
+}
+.table-images {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 90px;
+}
+.edit-head h3 {
+    font-size: 35px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.edit-head h3 span {
+    font-weight: 700;
+}
+.pay-div h4 {
+    font-size: 13px;
+    color: #3b3b3b;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+    /* margin: 0; */
+    margin-right: 50px;
+}
+.pay-div {
+    display: flex;
+}
+.form2 .form-check {
+    padding-top: 40px;
+}
+/* .form2 {
+    border-top: 1px solid #e3e3e3;
+} */
+/* ************************Responsive****************** */
+@media(max-width: 1100px){
+
+}
+@media(max-width: 768px){
+
+}
+@media(max-width: 480px){
+    .pay-sec td {
+        font-size: 10px;
+    }
+    .pay-div h4 {
+        font-size: 9px;
+    }
+
+}
+/* ************************Responsive****************** */

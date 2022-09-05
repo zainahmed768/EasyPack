@@ -1,0 +1,89 @@
+/* Signin Css Start Here */
+figure {
+    padding: 0;
+}
+section.nav-sec img {
+    filter: drop-shadow(2px 4px 3px black);
+}
+.nav-list ul li a {
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.signin {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.signin .logoDv {
+    padding-bottom: 70px;
+}
+.signin .SigninBox .head {
+    padding-bottom: 25px;
+}
+.signin .SigninBox .head h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.signin .SigninBox .head h4 strong {
+    font-weight: 700;
+}
+.signin .SigninBox .actionBtn {
+    padding-bottom: 25px;
+}
+.signin .SigninBox .actionBtn p a {
+    color: #d29f45;
+    padding-left: 5px;
+}
+.signin .SigninBox form {
+    padding: 0 28%;
+}
+.signin .SigninBox form .form-group .form-control {
+    border-radius: 50px;
+    padding: 14px 30px;
+    border: 1px solid #00000052;
+    background: transparent;
+}
+.signin .SigninBox form button {
+    background: #d29f45;
+    border: 0;
+    color: #fff;
+    padding: 12px 0px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+}
+.signin .SigninBox .actionBtn2 {
+    position: absolute;
+    bottom: unset;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+.signin .SigninBox .actionBtn2 p a {
+    color: #d29f45;
+}
+@media (max-width: 991px) {
+    .signin .SigninBox form {
+        padding: 0 15%;
+    }
+}
+@media (max-width: 575px) {
+    .signin .SigninBox .head h4 {
+        font-size: 20px;
+    }
+    .signin .SigninBox form {
+        padding: 0 0%;
+    }
+    .signin .SigninBox .actionBtn2 {
+        padding-bottom: 0px;
+    }
+}
+/* Signin Css End Here */

@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+@import url('http://fonts.cdnfonts.com/css/generica-2');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+/* *********************** Begin of header section***************** */
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header.active {
+  background-color: #333132;
+}
+/* .nav-list ul li a {
+  color: #000;
+} */
+/* *********************** end of of header section***************** */
+
+/* ********Begin of banner-section */
+.car-caption-flex {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 153px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.car-caption h3 {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+  .car-caption h2 {
+    font-size: 81px;
+    color: #ffffff;;
+    font-weight: 800;
+    margin: 0;
+}
+.car-caption p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 24px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.car-caption {
+    text-align: left;
+    margin: 0;
+}
+.car-caption-flex a {
+  font-size: 14px !important;
+  background: #d29f45 !important;
+  padding: 7px 18px !important;
+  color: #ffffff !important;
+}
+/* ***************End of banner section******* */
+
+
+/* ******Begin of testimonial section************* */
+/* .pro-stars ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+.pro-stars ul li a {
+  color: #d29f45;
+  margin-right: 8px;
+}
+.test-stuff h3 {
+  font-size: 22px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.test-stuff h5 {
+  font-size: 16px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+
+/* html, body{
+  background-color: #e74c3c;
+} */
+
+/* .test-stuff img {
+  margin: 0 auto;
+  width: 154px;
+}
+
+.test-stuff {
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  margin: 0px;
+}
+.testi ul.slick-dots {
+  display: flex;
+  font-size: 0px;
+  justify-content: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.testi ul.slick-dots li {
+  width: 40px;
+  border: none;
+  border-radius: 71px;
+}
+
+.testi ul.slick-dots li button {
+  width: 17px;
+  background-color: #ababab;
+  height: 16px;
+  border-radius: 50px;
+  border: none;
+}
+.test-stuff p {
+  font-size: 14px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.testi.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #d29f45;
+}
+.testi button.slick-prev.slick-arrow {
+  position: absolute;
+  top: 170px;
+  right: 0;
+  left: -54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testi button.slick-next.slick-arrow {
+  position: absolute;
+  bottom: 261px;
+  right: -52px;
+} */ */
+
+.information p {
+  font-size: 13px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-align: center;
+}
+.ourworks-box{
+	width: 60%;
+	justify-content: center;
+	text-align: center;
+}
+
+.our-works-head{
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+.introduce {
+  height: 430px;
+  background-color: white;
+  color: black;
+  border: 1px solid #c4c4c4;
+  padding: 30px;
+}
+.introduce:hover{
+	box-shadow: 0 3px 15px #5969f666;
+	border-bottom: 4px solid #d29f45;
+	color: black;
+	text-decoration: none;
+}
+.flex-column-1 {
+  height: 70%;
+  width: 100%;
+  text-align: center;
+}
+.flex-column-2 {
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+}
+.text-gray{
+	color: gray;
+}
+.pic{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+.information {
+  padding: 0;
+}
+.information.flex-column p {
+  text-align: center;
+  margin: 4px 0px;
+  font-size: 13px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+.introduce:hover .pic{
+	transform: scale(1.1);
+}
+.carousel-indicators .active{
+	background-color: #d29f45;
+}
+.carousel-indicators li{
+	background-color: #c8e5ff;
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.p1{
+	background-image: url("http://lorempixel.com/150/150/nature");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.p2{
+	background-image: url("http://lorempixel.com/150/150/people");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.p3{
+	background-image: url("http://lorempixel.com/150/150/cats");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.flex-column-1 p {
+  font-size: 12px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.pro-stars ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+.pro-stars ul li a {
+  color: #d29f45;
+  margin-right: 8px;
+}
+.carousel-indicators li {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  max-width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 30px;
+  background-color: #ababab;
+}
+.flex-column-1 img {
+  width: 130px;
+}
+.head-house h2 {
+  font-size: 86px;
+  color: #000000;
+  font-weight: 400;
+  padding: 50px;
+}
+.head-house {
+  text-align: center;
+}
+.test-para p {
+  font-size: 16px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+.test-stars ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.test-stars ul li a {
+  color: #d29f45;
+  margin: 3px;
+}
+.test-para h3 {
+  font-size: 25px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+.test-para h5 {
+  font-size: 16px;
+  color: #5e5e5e;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+/* ***************End of testimonial section********* */
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+
+}
+@media(max-width: 768px){
+  .car-caption-flex {
+    top: 50px;
+    left: 30px;
+    bottom: unset;
+}
+.introduce {
+  height: 364px;
+}
+.head-house h2 {
+  font-size: 53px;
+}
+.flex-column-1 p {
+  font-size: 7px;
+}
+.information.flex-column p {
+  font-size: 9px;
+
+}
+
+}
+@media(max-width: 480px){
+  .car-caption h2 {
+    font-size: 46px;
+}
+.car-caption p {
+  font-size: 9px;
+  line-height: 11px;
+  padding-bottom: 30px;
+
+}
+.head-house h2 {
+  font-size: 20px;
+}
+.introduce {
+  height: 228px;
+}
+}
+/* ************************Responsive****************** */
