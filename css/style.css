@@ -115,11 +115,13 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 	padding: 0;
 }
 .nav-list ul li a {
-	font-size: 13px;
+	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-right: 15px;
 	text-decoration: none;
+	font-weight: 500;
+	font-family: "Montserrat";
 }
 .nav-list ul li a active {
 	color: #d29f45;
