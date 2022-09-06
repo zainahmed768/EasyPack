@@ -7,7 +7,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src="images/banner.png" alt="First slide">
+            <img class="d-block w-100 img-fluid" src="images/banner-img.png" alt="First slide">
 
         </div>
         <!-- <div class="carousel-item">
@@ -34,290 +34,199 @@
 </div>
 <div class="car-caption-flex">
     <div class="car-caption">
-        <h3 class="animate__animated animate__bounce">Best of our Products</h3>
-        <h2 class="wow animate__animated animate__fadeInRight">ShelfPack Suitcases</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-        <img class="img-fluid" src="images/vv.png" alt="">
+        <!-- <h3 class="animate__animated animate__bounce">Best of our Products</h3> -->
+        <h2 class="wow animate__animated animate__fadeInRight">EasyPack Luggage</h2>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p> -->
+        <!-- <img class="img-fluid" src="images/vv.png" alt=""> -->
 
     </div>
 </div>
 <!-- ************************End of bannersection*************************** -->
 
 <!-- *****************************Collection section***************************** -->
-<section class="collection-sec">
-    <div class="collection-heading">
-        <a href="shop.php">Shop Now</a>
-        <h2 class="wow animate__animated animate__fadeInLeft">our collection</h2>
-    </div>
+
+<!-- **********************************End of Collection Section********************* -->
+<!-- Product sec starts here -->
+<section class="product-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                <div class="collection">
-                    <div class="collec-img">
-                        <img class="img-fluid wow animate__animated animate__slideInLeft " src="images/pic1.png" alt="">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="content-wrapper">
+                    <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
+                        Customize it at No Additional Cost.</h2>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop7.png" class="img-fluid" alt="">
+                        </figure>
                     </div>
-                    <div class="collec-text">
-                        <h4>24 INCH & 18 INCH</h4>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
                         <h3>DELSEY Paris Helium</h3>
-                        <h5>Pair of 2 Suitcases</h5>
-                        <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                        <div class="collec-stars">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2>$139</h2>
-                        <div class="collec-an">
-                            <a href="#">Add to cart</a>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                <div class="collection">
-                    <div class="collec-img">
-                        <img class="img-fluid wow animate__animated animate__slideInUp" src="images/pic2.png" alt="">
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop12.png" class="img-fluid" alt="">
+                        </figure>
                     </div>
-                    <div class="collec-text">
-                        <h4>24 INCH & 18 INCH</h4>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
                         <h3>DELSEY Paris Helium</h3>
-                        <h5>Pair of 2 Suitcases</h5>
-                        <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                        <div class="collec-stars">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2>$139</h2>
-                        <div class="collec-an">
-                            <div class="collec-an">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                <div class="collection">
-                    <div class="collec-img">
-                        <img class="img-fluid wow animate__animated animate__slideInRight" src="images/pic3.png" alt="">
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop11.png" class="img-fluid" alt="">
+                        </figure>
                     </div>
-                    <div class="collec-text">
-                        <h4>24 INCH & 18 INCH</h4>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
                         <h3>DELSEY Paris Helium</h3>
-                        <h5>Pair of 2 Suitcases</h5>
-                        <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                        <div class="collec-stars">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                        <h2>$139</h2>
-                        <div class="collec-an">
-                            <div class="collec-an">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <!-- new row  -->
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                    <div class="collection">
-                        <div class="collec-img">
-                            <img class="img-fluid wow animate__animated animate__slideInLeft" src="images/pic4.png" alt="">
-                        </div>
-                        <div class="collec-text">
-                            <h4>24 INCH & 18 INCH</h4>
-                            <h3>DELSEY Paris Helium</h3>
-                            <h5>Pair of 2 Suitcases</h5>
-                            <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                            <div class="collec-stars">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2>$139</h2>
-                            <div class="collec-an">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop7.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
+                        <h3>DELSEY Paris Helium</h3>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                    <div class="collection">
-                        <div class="collec-img">
-                            <img class="img-fluid wow animate__animated animate__slideInDown" src="images/pic5.png" alt="">
-                        </div>
-                        <div class="collec-text">
-                            <h4>24 INCH & 18 INCH</h4>
-                            <h3>DELSEY Paris Helium</h3>
-                            <h5>Pair of 2 Suitcases</h5>
-                            <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                            <div class="collec-stars">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2>$139</h2>
-                            <div class="collec-an">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop7.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
+                        <h3>DELSEY Paris Helium</h3>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-                    <div class="collection">
-                        <div class="collec-img">
-                            <img class="img-fluid wow animate__animated animate__slideInRight" src="images/pic6.png" alt="">
-                        </div>
-                        <div class="collec-text">
-                            <h4>24 INCH & 18 INCH</h4>
-                            <h3>DELSEY Paris Helium</h3>
-                            <h5>Pair of 2 Suitcases</h5>
-                            <p>COLOUR: Black, Blue, Brown, Maroon</p>
-                            <div class="collec-stars">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2>$139</h2>
-                            <div class="collec-an">
-                                <a href="#">Add to cart</a>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop12.png" class="img-fluid" alt="">
+                        </figure>
                     </div>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
+                        <h3>DELSEY Paris Helium</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop11.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
+                        <h3>DELSEY Paris Helium</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-card-wrapper">
+                    <div class="product-img-wrapper">
+                        <figure>
+                            <img src="images/shop7.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="product-content-wrapper">
+                        <h4>$139</h4>
+                        <h6>Easypack Suitcase</h6>
+                        <h3>DELSEY Paris Helium</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="btn-wrapper">
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+                <div class="content-wrapper">
+                    <h3>Make It Your Way</h3>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- **********************************End of Collection Section********************* -->
+<!-- Product sec End here -->
 
 <!-- ***************************************Customize Section**************************** -->
-
 <section class="custom-sec">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-sm-6 col-xs-6 col-lg-6 for-back">
                 <div class="custom-all">
                     <div class="custom-heading">
-                        <h2>Customize</h2>
+                        <h2>When you Customize Your <br>
+                            EasyPack Luggage You can:</h2>
                     </div>
-                    <div class="custom-arrow">
-                        <h3> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                                </svg></span> Step 01 <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                                </svg></span> </h3>
+                    <div class="coutomizz-list-wrapper">
+                        <ul>
+                            <li>
+                                Select the size
+                            </li>
+                            <li>
+                                Select quanitity
+                            </li>
+                            <li>
+                                Select Hard-Body color
+                            </li>
+                            <li>
+                                Select Soft-Cover color
+                            </li>
+                            <li>
+                                Select the Trim color
+                            </li>
+                            <li>
+                                Accessorize it
+                            </li>
+                        </ul>
                     </div>
-                    <!-- <div class="center" >
-                      <div>
-                          <h3>1</h3>
-                      </div>
-                      <div>
-                          <h3>2</h3>
-                      </div>
-                      <div>
-                          <h3>3</h3>
-                      </div>
-                  </div> -->
-                    <div class="custom-radio">
-                        <div class="sample-color">
-                            <h5>color of body</h5>
-                            <div class="radio-color-btn">
-                                <div class="color-variation">
-                                    <div class="colors">
-                                        <!-- <span class="color">
-                              <input type="radio" id="blue" name="radio">
-                              <label id="blue" for="blue">blue</label>
-                                  </span> -->
-                                        <label class="label_container">
-                                            <input type="radio" checked="checked" name="radio">
-                                            <span class="checkmark">
-                                                <div class="label" style="background-color: #000000;">
-                                                    <span></span>
-                                                </div>
-                                            </span>
-                                        </label>
-                                        <label class="label_container">
-                                            <input type="radio" checked="checked" name="radio">
-                                            <span class="checkmark">
-                                                <div class="label" style="background-color: #c10538;">
-                                                    <span></span>
-                                                </div>
-                                            </span>
-                                        </label>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn">CUSTOMIZE NOW</a>
+                    </div>
 
-                                        <label class="label_container">
-                                            <input type="radio" checked="checked" name="radio">
-                                            <span class="checkmark">
-                                                <div class="label" style="background-color: #041e42;">
-                                                    <span></span>
-                                                </div>
-                                            </span>
-                                        </label>
-                                        <label class="label_container">
-                                            <input type="radio" checked="checked" name="radio">
-                                            <span class="checkmark">
-                                                <div class="label" style="background-color: #f9ddd6;">
-                                                    <span></span>
-                                                </div>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="custom-stuff">
-                        <div class="head">
-                            <h3>Product Name l $495.00 </h3>
-                            <h5>Features and details</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="measure">
-                    <div class="three-head">
-                        <h3>Measurements</h3>
-                        <h3>Weight</h3>
-                        <h3>Capacity</h3>
-                    </div>
-                    <div class="three-head-type">
-                        <p>22”h x 14”w x 9”d</p>
-                        <p>6.6 lbs</p>
-                        <p>40 Liters</p>
-                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6 col-sm-6 col-xs-6 col-lg-6">
-                <div class="custom-case">
+                <!-- <div class="custom-case">
                     <div class="custom-text">
                         <h5>Look inside</h5>
                         <a id="plus" onclick="changeImage()"><img class="img-fluid mb-2" src="images/iconminus.png" alt=""></a> <br>
@@ -326,115 +235,271 @@
 
                     </div>
                     <div class="custom-img">
-                        <!-- <img id="myImage" onclick="changeImage()" class="minus wow animate__animated animate__slideInRight" src="images/case.png" alt=""> -->
                         <model-viewer style="height: 557px;" src="images/Suit Case low 2 (1).glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
                     </div>
+                </div> -->
+                <div class="custom-case">
+                    <div class="pro-wrapper">
+                        <div class="single-product-wrapper">
+                            <div class="img-wrapper">
+                                <!-- <figure>
+                                    <img src="images/custom1.png" class="img-fluid" alt="">
+                                </figure> -->
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Suit Case low 2 (1).glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                            </div>
+                            <div class="single-content-wrapper">
+                                <h6>21’’ (53 cms)</h6>
+                                <h6>Carry On – Case</h6>
+                            </div>
+                        </div>
+                        <div class="single-product-wrapper">
+                            <div class="img-wrapper">
+                                <!-- <figure>
+                                    <img src="images/custom2.png" class="img-fluid" alt="">
+                                </figure> -->
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Black.glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                            </div>
+                            <div class="single-content-wrapper">
+                                <h6>24’’ (61 cms)</h6>
+                                <h6>Mid- Size Case</h6>
+                            </div>
+                        </div>
+                        <div class="single-product-wrapper">
+                            <div class="img-wrapper">
+                                <!-- <figure>
+                                    <img src="images/custom3.png" class="img-fluid" alt="">
+                                </figure> -->
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Red.glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                            </div>
+                            <div class="single-content-wrapper">
+                                <h6>28’’ (71 cms)</h6>
+                                <h6>Large-Size Case</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="look-wrapper">
+                        <div class="heading-wrapper">
+                            <h6>Look Inside</h6>
+                        </div>
+                        <div class="magnifer-wrapper">
+                            <button class="minus"><i class="fa fa-search-minus" aria-hidden="true"></i>
+                            </button>
+                            <button class="plus"><i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="heading-wrapper">
+                            <h6>Click image to rotate</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!-- ********************************************End of Customize section*********************** -->
 
-<!-- **************************************************Pictures section******************************* -->
-
-<section class="pics-sec">
+<!-- reviews sec starts here -->
+<section class="review-sec">
     <div class="container">
         <div class="row">
-            <div class="all-pics">
-                <div class="pic1 ">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog1.png" alt="">
+            <div class="col-lg-12">
+                <div class="content-wrapper">
+                    <h2>Reviews</h2>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog2.png" alt="">
+            </div>
+        </div>
+        <div class="row slider-row">
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev1.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Mathew McClean</h4>
+                        <h6>Traveler</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog3.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev2.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Rosy James</h4>
+                        <h6>Traveler</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog4.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev3.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Peter Stryker</h4>
+                        <h6>Chief Exevutive Officer</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog5.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev1.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Mathew McClean</h4>
+                        <h6>Traveler</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog6.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev2.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Rosy James</h4>
+                        <h6>Traveler</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog7.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev3.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Peter Stryker</h4>
+                        <h6>Chief Exevutive Officer</h6>
+                    </div>
                 </div>
-                <div class="pic1">
-                    <img class="img-fluid wow animate__animated animate__fadeIn" src="images/blog8.png" alt="">
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev1.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Mathew McClean</h4>
+                        <h6>Traveler</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev2.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Rosy James</h4>
+                        <h6>Traveler</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="reviews-card-wrapper">
+                    <div class="review-img-wrapper">
+                        <figure>
+                            <img src="images/rev3.png" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="review-content-wrapper">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <h4>Peter Stryker</h4>
+                        <h6>Chief Exevutive Officer</h6>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- **************************************************End of Pictures section******************************* -->
-
-<!-- ******************************************************Blogs section****************************************** -->
-<section class="blog-sec">
+<!-- reviews sec ends here -->
+<!-- easypack starts here -->
+<section class="easypack-sec">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 wow animate__animated animate__fadeInRight">
-                <div class="blog-text">
-                    <h2>Lorem ipsum dolor sit amet, consectetur...</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row py-3">
+            <div class="col-lg-12">
+                <div class="content-wrapper">
+                    <h2>Our EasyPack Unique Feature</h2>
                 </div>
-                <!-- new row in blog  -->
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                        <div class="b-img">
-                            <img class="img-fluid" src="images/lorem1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                        <div class="b-img">
-                            <img class="img-fluid" src="images/lorem2.png" alt="">
-                        </div>
-
-                    </div>
-                </div>
-                <!-- End of new row  -->
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 wow animate__animated animate__fadeInLeft">
-                <div class="blog-col-2">
-                    <h3>BLogs</h3>
-                    <div class="blog-1">
-                        <img class="img-fluid" src="images/small1.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="blog-1">
-                        <img class="img-fluid" src="images/small2.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="blog-1">
-                        <img class="img-fluid" src="images/small3.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="img-wrapper">
+                    <figure>
+                        <img src="images/pack1.png" class="img-fluid" alt="">
+                    </figure>
                 </div>
-                <div class="blog-btn">
-                    <a href="#">Learn More</a>
+            </div>
+            <div class="col-lg-4">
+                <div class="img-wrapper">
+                    <figure>
+                        <img src="images/pack1.png" class="img-fluid" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="img-wrapper">
+                    <figure>
+                        <img src="images/pack1.png" class="img-fluid" alt="">
+                    </figure>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- ******************************************************End of Blogs section****************************************** -->
-
+<!-- easypack ends here -->
 <!-- ***********************************************Contact Us section********************************************** -->
 <section class="contact-sec wow animate__animated animate__fadeIn">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
                 <div class="contact-head">
-                    <h2>Contact Us</h2>
+                    <h2>Customer Care</h2>
                     <p>Contact us for repair and customise Job</p>
                 </div>
             </div>
