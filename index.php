@@ -478,14 +478,14 @@
             <div class="col-lg-4">
                 <div class="img-wrapper">
                     <figure>
-                        <img src="images/pack1.png" class="img-fluid" alt="">
+                        <img src="images/pack2.png" class="img-fluid" alt="">
                     </figure>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="img-wrapper">
                     <figure>
-                        <img src="images/pack1.png" class="img-fluid" alt="">
+                        <img src="images/pack3.png" class="img-fluid" alt="">
                     </figure>
                 </div>
             </div>

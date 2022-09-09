@@ -3,10 +3,10 @@
         <section class="nav-sec">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <a href="index.php"><img class="img-fluid" src="images/logo.png" alt=""></a>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                         <div class="nav-list">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
@@ -16,9 +16,18 @@
                                 <li><a href="">SOCIAL</a></li>
                                 <li><a href="user-guide.php">About US </a></li>
                                 <li><a href="#">CUSTOMER CARE</a></li>
-                                <!-- <li><a href="">Our Collection</a></li> -->
-                                <!-- <li><a href="collection.php">Gallery</a></li> -->
-                                <!-- <li><a href="testimonials.php">Testimonials</a></li> -->
+
+                            </ul>
+                            <div class="canvas-icon text-white text-right">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="nav-list">
+                            <ul>
+
                                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                                 <li><a href="signin.php"><i class="fa fa-user" aria-hidden="true"></i> </a></li>
                                 <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>

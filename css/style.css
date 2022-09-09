@@ -75,6 +75,9 @@ header .mobile-header {
 	transition: 0.7s;
 	transform: translateX(100%);
 }
+header .nav-sec .img-fluid {
+	width: 80%;
+}
 header .mobile-header.show {
 	transform: translateX(0%);
 }
@@ -113,15 +116,17 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 	display: flex;
 	list-style: none;
 	padding: 0;
+	justify-content: space-evenly;
 }
 .nav-list ul li a {
-	font-size: 15px;
+	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-right: 15px;
 	text-decoration: none;
 	font-weight: 500;
 	font-family: "Montserrat";
+	margin: 0px;
 }
 .nav-list ul li a active {
 	color: #d29f45;
