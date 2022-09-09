@@ -56,9 +56,10 @@ a {
 }
 /* *********************** Begin of header section***************** */
 header {
-	position: fixed;
+	position: relative;
 	z-index: 1;
 	width: 100%;
+	background-color: #333132;
 }
 header.active {
 	background-color: #333132;
