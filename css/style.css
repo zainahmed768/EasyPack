@@ -35,12 +35,13 @@ p {
 .btn {
 	background: #d29f45;
 	border-radius: 0px;
-	padding: 9px 47px;
+	padding: 14px 47px;
 	border: 2px solid #000;
 	color: #f7f7f7;
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: "Segoe UI Bold";
+	letter-spacing: 3px;
 }
 h1,
 h2,
@@ -174,6 +175,10 @@ section.nav-sec .row {
 	color: #ffffff;
 	font-weight: 800;
 	margin: 0;
+}
+div#carouselExampleControls video {
+	filter: brightness(0.6);
+	object-fit: cover;
 }
 .car-caption p {
 	font-size: 16px;
@@ -360,7 +365,8 @@ section.collection-sec .row {
 }
 .custom-case {
 	background: #f7f7f7;
-	padding: 13px 34px;
+	padding: 98px 34px;
+	/* padding-top: 63px; */
 }
 .custom-sec .look-wrapper {
 	display: flex;
@@ -475,7 +481,8 @@ section.custom-sec {
 }
 .custom-all {
 	position: relative;
-	left: 139px;
+	left: 117px;
+	padding-top: 137px;
 }
 .head {
 	padding-top: 50px;
@@ -653,6 +660,14 @@ section.blog-sec {
 	color: #575757;
 	font-weight: 500;
 	text-transform: capitalize;
+	margin-bottom: 13px;
+}
+.contact-icon:nth-child(2) ul {
+	margin: 0px;
+}
+
+.contact-icon:nth-child(2) ul li img {
+	margin-bottom: 0px;
 }
 .contact-head p {
 	font-size: 12px;
@@ -678,6 +693,7 @@ section.blog-sec {
 } */
 .contact-icon ul li a img {
 	margin-right: 26px;
+	margin-bottom: 13px;
 }
 .contact-sec input#exampleInputEmail1 {
 	border: none;
@@ -693,6 +709,7 @@ section.blog-sec {
 	text-transform: uppercase;
 	transition: 1s;
 	border: 2px solid #000;
+	padding: 10px 47px;
 }
 .contact-sec button.btn.btn-primary:hover {
 	background-color: transparent;
@@ -701,6 +718,9 @@ section.blog-sec {
 section.contact-sec {
 	padding: 50px 0px;
 	background: whitesmoke;
+}
+.contact-sec .contact-form .form-group {
+	margin: 37px 0px;
 }
 .for-border {
 	border-left: 1px solid #dfdfdf;
@@ -803,7 +823,7 @@ footer .footer-widget-5 h4 {
 	color: #313131;
 	font-family: "Montserrat";
 	font-weight: 400;
-	padding-bottom: 22px;
+	/* padding-bottom: 22px; */
 }
 footer input#exampleInputEmail1 {
 	position: relative;
@@ -817,7 +837,7 @@ footer input#exampleInputEmail1::placeholder {
 }
 footer svg.bi.bi-arrow-right {
 	position: absolute;
-	top: 105px;
+	top: 83px;
 	right: 15px;
 	background-color: #d29f45;
 	width: 52px;

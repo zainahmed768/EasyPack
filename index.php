@@ -7,7 +7,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100 img-fluid" src="images/banner-img.png" alt="First slide">
+            <!-- <img class="d-block w-100 img-fluid" src="images/banner-img.png" alt="First slide"> -->
+            <!-- <img class="d-block w-100 img-fluid" src="video/pexels-vlada-karpovich-8044790.mp4" alt="First slide"> -->
+            <!-- <video src="video/pexels-vlada-karpovich-8044790.mp4"></video> -->
+            <video width="100%" height="800px" loop muted autoplay>
+                <source src="video/pexels-vlada-karpovich-8044790.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
         </div>
         <!-- <div class="carousel-item">
@@ -503,7 +509,7 @@
                     <p>Contact us for repair and customise Job</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 for-border">
+            <div class="col-md-3 align-self-center col-sm-3 col-xs-3 col-lg-3 for-border">
                 <div class="contact-icon">
                     <ul>
                         <li><a href="#"><img class="img-fluid" src="images/fill1.png" alt=""> </a></li>
