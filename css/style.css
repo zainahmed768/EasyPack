@@ -526,7 +526,7 @@ section.pics-sec {
 .product-sec .content-wrapper h2 span {
 	color: #d29f45;
 }
-.product-sec .product-card-wrapper {
+.product-card-wrapper {
 	background: #fff;
 	padding: 10px;
 	border: 1px solid #c4c4c4;
@@ -536,27 +536,27 @@ section.pics-sec {
 	-moz-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.22);
 	margin: 14px 0px;
 }
-.product-sec .product-card-wrapper .product-content-wrapper {
+.product-card-wrapper .product-content-wrapper {
 	text-align: center;
 }
-.product-sec .product-card-wrapper .product-content-wrapper h3 {
+.product-card-wrapper .product-content-wrapper h3 {
 	color: #5e5e5e;
 	font-size: 22px;
 	font-weight: 700;
 }
-.product-sec .product-card-wrapper .product-content-wrapper h6 {
+.product-card-wrapper .product-content-wrapper h6 {
 	color: #5e5e5e;
 	font-size: 16px;
 	font-family: "Montserrat";
 	font-weight: 700;
 }
-.product-sec .product-card-wrapper .product-content-wrapper h4 {
+.product-card-wrapper .product-content-wrapper h4 {
 	color: #5e5e5e;
 	font-size: 30px;
 	font-family: "Montserrat";
 	font-weight: 700;
 }
-.product-sec .btn-wrapper a.btn {
+.product-card-wrapper .btn-wrapper a.btn {
 	background: #d29f45;
 	border-radius: 0px;
 	padding: 9px 47px;
@@ -566,7 +566,7 @@ section.pics-sec {
 	font-weight: 700;
 	font-family: "Segoe UI Bold";
 }
-.product-sec .btn-wrapper {
+.product-card-wrapper .btn-wrapper {
 	text-align: center;
 	padding-top: 40px;
 }
@@ -577,6 +577,10 @@ section.pics-sec {
 	font-size: 55px;
 	text-align: center;
 	margin-top: 44px;
+}
+.product-card-wrapper .product-img-wrapper img {
+	height: 308px;
+	object-fit: contain;
 }
 /* product sec End here */
 /* easypack css starts here */

@@ -1,5 +1,5 @@
  <!-- Header Include -->
- <?php include 'inc/head.php';?>
+ <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
 
  <link rel="stylesheet" href="css/collection.css">
@@ -405,66 +405,63 @@
  <!-- ******************************************************End of Blogs section****************************************** -->
 
 
-<!-- ***********************************************Contact Us section********************************************** -->
-<section class="contact-sec wow animate__animated animate__fadeIn">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
-                <div class="contact-head">
-                    <h2>Contact Us</h2>
-                    <p>Contact us for repair and customise Job</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 for-border">
-                <div class="contact-icon">
-                    <ul>
-                        <li><a href="#"><img class="img-fluid" src="images/fill1.png" alt=""> </a></li>
-                        <li><a href="#"><img class="img-fluid" src="images/fill2.png" alt=""> </a></li>
-                        <li><a href="#"><img class="img-fluid" src="images/fill3.png" alt=""> </a></li>
-                    </ul>
-                </div>
-                <div class="contact-icon">
-                    <ul>
-                    <li><a href="#"><img class="img-fluid" src="images/fill4.png" alt=""> </a></li>
-                    <li><a href="#"><img class="img-fluid" src="images/fill5.png" alt=""> </a></li>
-                    <li><a href="#"><img class="img-fluid" src="images/fill6.png" alt=""> </a></li>
-                    </ul>
-                </div>
+ <!-- ***********************************************Contact Us section********************************************** -->
+ <section class="contact-sec wow animate__animated animate__fadeIn">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+                 <div class="contact-head">
+                     <h2>Contact Us</h2>
+                     <p>Contact us for repair and customise Job</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 for-border">
+                 <div class="contact-icon">
+                     <ul>
+                         <li><a href="#"><img class="img-fluid" src="images/fill1.png" alt=""> </a></li>
+                         <li><a href="#"><img class="img-fluid" src="images/fill2.png" alt=""> </a></li>
+                         <li><a href="#"><img class="img-fluid" src="images/fill3.png" alt=""> </a></li>
+                     </ul>
+                 </div>
+                 <div class="contact-icon">
+                     <ul>
+                         <li><a href="#"><img class="img-fluid" src="images/fill4.png" alt=""> </a></li>
+                         <li><a href="#"><img class="img-fluid" src="images/fill5.png" alt=""> </a></li>
+                         <li><a href="#"><img class="img-fluid" src="images/fill6.png" alt=""> </a></li>
+                     </ul>
+                 </div>
 
-            </div>
-            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                        <div class="contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Full Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Phone">
-                            </div>
-                        </div>
+             </div>
+             <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6">
+                 <div class="row">
+                     <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                         <div class="contact-form">
+                             <div class="form-group">
+                                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+                             </div>
+                             <div class="form-group">
+                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone">
+                             </div>
+                         </div>
 
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                        <div class="contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email Address">
-                            </div>
-                            <div class="form-btn">
-                                <button type="submit" class="btn btn-primary">Get In Touch</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                         <div class="contact-form">
+                             <div class="form-group">
+                                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                             </div>
+                             <div class="form-btn">
+                                 <button type="submit" class="btn btn-primary">Get In Touch</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
 
-</section>
-<!-- ***********************************************End of Contact Us section********************************************** -->
+ </section>
+ <!-- ***********************************************End of Contact Us section********************************************** -->
 
  <!-- Carousel SLick STart Here -->
  <!-- <section class="caro">
@@ -482,5 +479,5 @@
  <!-- Carousel SLick STart Here -->
 
  <!-- Head include -->
- <?php include 'inc/footer.php';?>
+ <?php include 'inc/footer.php'; ?>
  <!-- Head include -->
