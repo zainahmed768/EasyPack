@@ -821,6 +821,8 @@ section.unique_feature .unique_feature_start.text-center figure {
     color: #D19E43;
     font-size: 16px;
     font-weight: 500;
+    display: block;
+    text-align: right;
 }
 
 .total_products .orders_list {
