@@ -1,5 +1,18 @@
 // ********* PROFILE SCRIPT START  *********** \\
-$(".edit_profile_option").click(function(){
+
+// Copy Link To Clip Board
+
+$(".copy_link").click(function () {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+    // Select the text field
+    // copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+});
+
+$(".edit_profile_option").click(function () {
     $(".my_profile").addClass("hide");
     $(".edit_profile_start").removeClass("hide");
 });
@@ -15,3 +28,4 @@ $(".see_order_details").click(function () {
     $(".the_orders_table").addClass("hide");
     $(".orders_details_start_here").removeClass("hide");
 });
+

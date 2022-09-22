@@ -1,0 +1,127 @@
+.cart_section .
+/* Order Table Start Here */
+.orders_start_here .shadowed_box {
+    padding: 0px 0px 6px;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .top_heading {
+    padding: 33px 32px 23px;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr {
+    background: #D19E43;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+    text-align: center;
+    font-size: 14px;
+    color: #2A263D;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 21px 5px 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span {
+    color: #00BC26;
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position-y: center;
+    background-position-x: right;
+    display: block;
+}
+
+/* Table inner width */
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_1 {
+    width: 20%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_2 {
+    width: 15%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_3 {
+    width: 17%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_4 {
+    width: 20%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_5 {
+    width: 14%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.payment {
+    background-position-x: right 18px !important;
+    background-position: center right 25%;
+}
+
+.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
+    color: #2692FF;
+    background-image: unset;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+/* Table Responsiveness */
+@media (max-width: 1200px) {
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 14px;
+    }
+
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .order_table_start_here {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    .order_table_start_here table.table {
+        min-width: 668px;
+    }
+
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 12px;
+    }
+
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 10px;
+    }
+
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 9px;
+    }
+
+
+    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
+        font-size: 9px;
+    }
+
+    .order_table_start_here table.table {
+        min-width: 539px;
+    }
+}

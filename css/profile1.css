@@ -19,9 +19,11 @@
 header {
     position: unset;
 }
-a.logout{
+
+a.logout {
     cursor: pointer;
 }
+
 /* End here */
 /* Change In Universal */
 h1,
@@ -781,6 +783,13 @@ section.unique_feature .unique_feature_start.text-center figure {
     padding: 13px 0px;
 }
 
+.total_products .orders_list .single_order .product_price.completed span.review {
+    color: #D19E43;
+}
+.total_products .orders_list .single_order .product_price.completed span {
+    color: #000;
+}
+
 .total_products .orders_list .single_order figure {
     margin-bottom: 0px;
     background: #F5F5F5;
@@ -846,11 +855,13 @@ section.unique_feature .unique_feature_start.text-center figure {
     color: #000;
     width: 50%;
 }
-@media (min-width: 768px){
-    .responsive-pedding{
+
+@media (min-width: 768px) {
+    .responsive-pedding {
         padding: 0px;
     }
 }
+
 @media (max-width: 1200px) {
     .single_order_detail .sngle_details_start .detail_information .the_row span {
         font-size: 13px;
@@ -872,6 +883,7 @@ section.unique_feature .unique_feature_start.text-center figure {
         font-size: 14px;
     }
 }
+
 @media (max-width: 1200px) {
     .single_order_detail .sngle_details_start .detail_information .the_row span {
         font-size: 11px;
@@ -893,8 +905,157 @@ section.unique_feature .unique_feature_start.text-center figure {
         font-size: 12px;
     }
 }
+
 @media (max-width: 768px) {
-    .single_order_detail{
+    .single_order_detail {
         padding-top: 55px;
+    }
+}
+
+/* Tell Friend Css Start Here */
+.friend_start .shadowed_box {
+    padding: 0px;
+    height: unset;
+}
+
+.friend_start .shadowed_box .for_frien_img {
+    background-image: url(../images/frind.png);
+    background-size: 100%;
+    min-height: 260px;
+    background-repeat: no-repeat;
+}
+
+.friend_start .shadowed_box .for_frien_img .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 257px;
+    padding-left: 9%;
+}
+
+.friend_start .shadowed_box .for_frien_img .text h3 {
+    font-size: 33px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.friend_start .shadowed_box .share_options {
+    padding: 26px 41px 46px;
+}
+
+.friend_start .shadowed_box .share_options .heading h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.friend_start .shadowed_box .share_options .heading span {
+    font-weight: 600;
+    color: #606060;
+    font-size: 11px;
+}
+
+.friend_start .shadowed_box .share_options .link_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #EBEBEB;
+    padding: 9px 24px;
+    margin-top: 16px;
+}
+
+.friend_start .shadowed_box .share_options .link_flex input {
+    width: 79%;
+    display: block;
+    background: transparent;
+    border: 0px;
+    color: #000000;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    font-family: "Montserrat", sans-serif;
+}
+
+.friend_start .shadowed_box .share_options .link_flex button.copy_link {
+    background-color: transparent;
+    border: 0px;
+    background-image: url(../images/icon.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: center left 0px;
+    padding-left: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #D19E43;
+    outline: none;
+    cursor: pointer;
+}
+
+.friend_start .shadowed_box .share_options .socail_options ul {
+    display: flex;
+    margin-bottom: 0px;
+    gap: 22px;
+    padding-left: 0px;
+    margin-top: 21px;
+}
+
+.friend_start .shadowed_box .share_options .socail_options ul li {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+@media (max-width: 991px) {
+    .friend_start .shadowed_box .for_frien_img .text h3 {
+        font-size: 23px;
+    }
+
+    .friend_start .shadowed_box .for_frien_img {
+        min-height: 175px;
+    }
+
+    .friend_start .shadowed_box .for_frien_img .text {
+        min-height: 162px;
+        padding-left: 5%;
+    }
+
+    .friend_start .shadowed_box .share_options {
+        padding: 17px 30px 7px;
+    }
+}
+
+@media (max-width: 576px) {
+    .friend_start .shadowed_box .for_frien_img .text {
+        min-height: 90px;
+    }
+
+    .friend_start .shadowed_box .for_frien_img {
+        min-height: 93px;
+    }
+
+    .friend_start .shadowed_box .share_options .heading h4 {
+        font-size: 17px;
+    }
+
+    .friend_start .shadowed_box .share_options .heading span {
+        font-size: 8px;
+        line-height: 12px;
+        display: block;
+    }
+
+    .friend_start .shadowed_box .share_options {
+        padding: 17px;
+    }
+
+    .friend_start .shadowed_box .share_options .link_flex {
+        padding: 7px;
+    }
+
+    .friend_start .shadowed_box .share_options .link_flex input {
+        font-size: 12px;
+    }
+
+    .friend_start .shadowed_box .share_options .link_flex button.copy_link {
+        font-size: 10px;
+        background-size: 10px;
+        background-position: center left 4px;
     }
 }
