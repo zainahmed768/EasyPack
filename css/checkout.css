@@ -1,0 +1,155 @@
+/* Customk Radio Btn */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked+label .address_flex .address_text .radio_btn span,
+[type="radio"]:not(:checked)+label .address_flex .address_text .radio_btn span {
+    position: relative;
+    padding-left: 41px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    position: relative;
+    top: -11px;
+}
+
+[type="radio"]:checked+label .address_flex .address_text .radio_btn span:before,
+[type="radio"]:not(:checked)+label .address_flex .address_text .radio_btn span:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D29F45;
+    border-radius: 100%;
+    /* background: #fff; */
+}
+
+[type="radio"]:checked+label .address_flex .address_text .radio_btn span:after,
+[type="radio"]:not(:checked)+label .address_flex .address_text .radio_btn span:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #D29F45;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label .address_flex .address_text .radio_btn span:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label .address_flex .address_text .radio_btn span:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* End Here */
+
+.page_heading h2 {
+    font-size: 47px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.page_heading {
+    padding: 57px 0px 23px;
+}
+
+section.checkout_section .checkout_start .top_headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #D29F45;
+    padding: 11px 17px;
+}
+
+section.checkout_section .checkout_start .top_headings span,
+section.checkout_section .checkout_start .top_headings span a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+section.checkout_section .checkout_start .address_side {
+    padding-top: 13px;
+}
+
+section.checkout_section .checkout_start .address_side span.old_address {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+section.checkout_section span {
+    FONT-FAMILY: "Montserrat", sans-serif;
+}
+
+section.checkout_section .checkout_start .address_side .address_box {
+    display: flex;
+    flex-direction: column;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .address_text {
+    display: flex;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .address_text .single_line {
+    display: flex;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .address_text .single_line button {
+    background: transparent;
+    border: 0px;
+    padding: 0px;
+    color: #1473E6;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .address_text .single_line span.the_light_text {
+    color: #00000073;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .address_text .single_line span.default {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address label {
+    display: block;
+}
+
+section.checkout_section .checkout_start .address_side .address_box .single_address .address_flex .edit_btn button.edit {
+    color: #1473E6;
+    font-size: 13px;
+    background: transparent;
+    border: 0px;
+    font-weight: 500;
+    text-decoration: underline;
+}

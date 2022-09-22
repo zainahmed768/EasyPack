@@ -1,6 +1,6 @@
  <!-- Header Include --> <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
- <link rel="stylesheet" href="css/profile1.css">
+ <link rel="stylesheet" href="css/cart.css">
  <!-- **********************Profile section Start  Here *********************** -->
  <section class="cart_section">
      <div class="container">
@@ -9,119 +9,220 @@
                  <h2>Cart</h2>
              </div>
              <div class="cart_start_here">
-                 <div class="orders_start_here">
-                     <div class="complete_orders_start">
-
-                         <div class="order_table_start_here">
-                             <table class="table">
-                                 <thead>
-                                     <tr>
-                                         <th class="no_1">OrderNo</th>
-                                         <th class="no_2">Order Date</th>
-                                         <th class="no_3">Status</th>
-                                         <th class="no_4">Payment Status</th>
-                                         <th class="no_5">Total</th>
-                                         <th class="no_6">Detail</th>
-                                     </tr>
-                                 </thead>
-                                 <tbody>
-                                     <tr>
-                                         <td>#1084598423154</td>
-                                         <td>04-12-21</td>
-                                         <td><span>Completed</span></td>
-                                         <td><span class="payment">Paid</span></td>
-                                         <td>$590.00</td>
-                                         <td><span class="details see_order_details">view
-                                                 Details</span></td>
-                                     </tr>
-                                     <tr>
-                                         <td>#1084598423154</td>
-                                         <td>04-12-21</td>
-                                         <td>Confirm</td>
-                                         <td><span class="payment">Paid</span></td>
-                                         <td>$590.00</td>
-                                         <td><span class="details see_order_details">view
-                                                 Details</span></td>
-                                     </tr>
-                                     <tr>
-                                         <td>#1084598423154</td>
-                                         <td>04-12-21</td>
-                                         <td>Confirm</td>
-                                         <td><span class="payment">Paid</span></td>
-                                         <td>$590.00</td>
-                                         <td><span class="details see_order_details">view
-                                                 Details</span></td>
-                                     </tr>
-                                     <tr>
-                                         <td>#1084598423154</td>
-                                         <td>04-12-21</td>
-                                         <td>Confirm</td>
-                                         <td><span class="payment">Paid</span></td>
-                                         <td>$590.00</td>
-                                         <td><span class="details see_order_details">view
-                                                 Details</span></td>
-                                     </tr>
-                                     <tr>
-                                         <td>#1084598423154</td>
-                                         <td>04-12-21</td>
-                                         <td>Confirm</td>
-                                         <td><span class="payment">Paid</span></td>
-                                         <td>$590.00</td>
-                                         <td><span class="details see_order_details">view
-                                                 Details</span></td>
-                                     </tr>
-                                 </tbody>
-                             </table>
+                 <div class="complete_orders_start">
+                     <div class="order_table_start_here">
+                         <table class="table">
+                             <thead>
+                                 <tr>
+                                     <th class="no_1">S.No</th>
+                                     <th class="no_2">Product Name</th>
+                                     <th class="no_3">Quantity</th>
+                                     <th class="no_4">Subtotal</th>
+                                     <th class="no_5">Total Amount</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                                 <tr>
+                                     <td class="no_1">01</td>
+                                     <td class="no_2">
+                                         <div class="the_product_name">
+                                             <figure>
+                                                 <img src="images/small_icon.png" alt="">
+                                             </figure>
+                                             <span>DELSEY Paris Helium</span>
+                                         </div>
+                                     </td>
+                                     <td class="no_3"><span>X2</td>
+                                     <td class="no_4">$ 250.00</td>
+                                     <td class="no_5">$$ 500.00</td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                     <div class="total_and_promo">
+                         <div class="promo_start">
+                             <input type="text" placeholder="eNTER PROMO">
+                             <button class="btn">APPLY</button>
+                         </div>
+                         <div class="price_totals">
+                             <div class="subtotal_totals">
+                                 <div class="detail_information">
+                                     <div class="the_row">
+                                         <span class="question">Subtotal:</span>
+                                         <span class="answer">$90.37</span>
+                                     </div>
+                                     <div class="the_row">
+                                         <span class="question">Discount:</span>
+                                         <span class="answer">$0</span>
+                                     </div>
+                                     <div class="the_row">
+                                         <span class="question">Shipping Charges: $0</span>
+                                         <span class="answer">$0</span>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="grand_totaols">
+                                 <div class="gran_price">
+                                     <div class="the_row">
+                                         <span class="question">Grand Total:</span>
+                                         <span class="answer">$90.37</span>
+                                     </div>
+                                 </div>
+                             </div>
                          </div>
                      </div>
-                 </div>
-                 <div class="the_pagination">
-                     <nav aria-label="Page navigation example">
-                         <ul class="pagination">
-                             <li class="page-item disabled move_toward">
-                                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-angle-left"></i></a>
-                             </li>
-                             <li class="page-item"><a class="page-link" href="#">1</a></li>
-                             <li class="page-item active"><a class="page-link" href="#">2</a>
-                             </li>
-                             <li class="page-item"><a class="page-link" href="#">3</a></li>
-                             <li class="page-item"><a class="page-link" href="#">4</a></li>
-                             <li class="page-item move_toward">
-                                 <a class="page-link" href="#"><i class="fa fa-angle-right"></i></a>
-                             </li>
-                         </ul>
-                     </nav>
+                     <div class="checkout_btn mt-3 text-right">
+                         <a href="checkout.php" class="btn">PROCEED TO CHECKOUT</a>
+                     </div>
                  </div>
              </div>
          </div>
      </div>
  </section>
- <section class="unique_feature">
-     <div class="container">
-         <div class="unique_feature_start text-center">
-             <div class="top_heading">
-                 <h1>Our EasyPack Unique Feature</h1>
-             </div>
-             <div class="row">
-                 <div class="col-md-4">
-                     <figure>
-                         <img src="images/uni1.png" class="img-fluid" alt="">
-                     </figure>
-                 </div>
-                 <div class="col-md-4">
-                     <figure>
-                         <img src="images/uni1.png" class="img-fluid" alt="">
-                     </figure>
-                 </div>
-                 <div class="col-md-4">
-                     <figure>
-                         <img src="images/uni1.png" class="img-fluid" alt="">
-                     </figure>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
+ <!-- Cart End Here -->
+ <!-- Qualities Included Here -->
+ <?php include 'inc/easypack.php' ?>;
+ <!-- Qualities Included End Here -->
  <!-- **********************Profile section End  Here *********************** -->
  <!-- Head include --> <?php include 'inc/footer.php'; ?>
  <!-- Head include -->

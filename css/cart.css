@@ -1,18 +1,21 @@
-.cart_section .
+header {
+    position: unset;
+}
+
 /* Order Table Start Here */
 .orders_start_here .shadowed_box {
     padding: 0px 0px 6px;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .top_heading {
+section.cart_section .cart_start_here .complete_orders_start .top_heading {
     padding: 33px 32px 23px;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr {
     background: #D19E43;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
     color: #000000;
     font-size: 16px;
     font-weight: 500;
@@ -21,7 +24,7 @@
     vertical-align: middle;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
     text-align: center;
     font-size: 14px;
     color: #2A263D;
@@ -32,57 +35,78 @@
     cursor: pointer;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span {
-    color: #00BC26;
-    background-image: url(../images/check.png);
-    background-repeat: no-repeat;
-    background-size: 12px;
-    background-position-y: center;
-    background-position-x: right;
-    display: block;
-}
 
 /* Table inner width */
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_1 {
-    width: 20%;
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_1 {
+    width: 8%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_2 {
-    width: 15%;
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_2 {
+    width: 37%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_3 {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_3 {
     width: 17%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_4 {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_4 {
     width: 20%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th.no_5 {
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_5 {
     width: 14%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.payment {
-    background-position-x: right 18px !important;
-    background-position: center right 25%;
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11%;
 }
 
-.profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
-    color: #2692FF;
-    background-image: unset;
-    text-decoration: underline;
-    font-weight: 800;
-    font-size: 12px;
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name figure {
+    margin-bottom: 0;
+    padding: 6px 11px;
+    border: 1px solid #70707061;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name figure img {
+    max-width: 26px;
+    max-height: 42px;
+}
+
+section.cart_section {
+    padding: 83px 0px 43px;
+}
+
+section.cart_section .complete_cart .top_heading h2 {
+    text-align: center;
+    font-size: 47px;
+    font-weight: 600;
+}
+
+section.cart_section .complete_cart .top_heading {
+    padding-bottom: 29px;
+}
+
+section.cart_section .complete_cart .complete_orders_start table {
+    margin-bottom: 0px;
+    border-left: 1px solid #70707054;
+    border-radius: 1px solid #70707054;
+}
+
+section.cart_section .complete_cart .cart_start_here .price_totals .grand_totaols {
+    padding: 12px 3% 12px;
+    border-top: 1px solid #70707054;
 }
 
 /* Table Responsiveness */
 @media (max-width: 1200px) {
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
         font-size: 14px;
     }
 
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
         font-size: 13px;
     }
 }
@@ -98,30 +122,304 @@
         min-width: 668px;
     }
 
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
         font-size: 12px;
     }
 
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
         font-size: 11px;
     }
 }
 
 @media (max-width: 576px) {
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table thead tr th {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
         font-size: 10px;
     }
 
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
         font-size: 9px;
     }
 
 
-    .profile_tab_data .orders_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
         font-size: 9px;
     }
 
     .order_table_start_here table.table {
         min-width: 539px;
     }
+}
+
+header {
+    position: unset;
+}
+
+/* Order Table Start Here */
+.orders_start_here .shadowed_box {
+    padding: 0px 0px 6px;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .top_heading {
+    padding: 33px 32px 23px;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr {
+    background: #D19E43;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 21px 5px 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Table inner width */
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_1,
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_1 {
+    width: 8%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_2,
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_2 {
+    width: 37%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_3,
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_3 {
+    width: 17%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_4,
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_4 {
+    width: 20%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th.no_5,
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_5 {
+    width: 14%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11%;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name figure {
+    margin-bottom: 0;
+    padding: 6px 11px;
+    border: 1px solid #70707061;
+}
+
+section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td .the_product_name figure img {
+    max-width: 26px;
+    max-height: 42px;
+}
+
+section.cart_section {
+    padding: 83px 0px 117px;
+}
+
+section.cart_section .complete_cart .top_heading h2 {
+    text-align: center;
+    font-size: 47px;
+    font-weight: 600;
+}
+
+section.cart_section .complete_cart .top_heading {
+    padding-bottom: 29px;
+}
+
+section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody {
+    height: 282px !important;
+    overflow-y: scroll;
+    display: block;
+}
+
+/* width */
+section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+/* Handle */
+section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 35px;
+    transition: 0.6s all;
+}
+
+/* Handle on hover */
+section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody::-webkit-scrollbar-thumb:hover {
+    background: #D19E43;
+}
+
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+section.cart_section .complete_cart .cart_start_here .price_totals {
+    width: 57%;
+}
+
+section.cart_section .complete_cart .cart_start_here .total_and_promo {
+    display: flex;
+}
+
+section.cart_section .complete_cart .cart_start_here .total_and_promo {
+    border: 1px solid #70707054;
+}
+
+section.cart_section .complete_cart .cart_start_here .total_and_promo .promo_start {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    padding-right: 5%;
+    gap: 8px;
+    border-right: 1px solid #70707054;
+    padding: 12px 5% 12px 14px;
+    justify-content: end;
+}
+
+section.cart_section .complete_cart .cart_start_here .total_and_promo .promo_start input {
+    width: 100%;
+    display: block;
+    background: #EBEBEB;
+    height: 48px;
+    padding: 0px 19px 0px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #606060;
+    outline: none;
+    text-align: center;
+}
+
+section.cart_section .complete_cart .cart_start_here .price_totals .subtotal_totals {
+    padding: 12px 3% 12px;
+}
+
+section.cart_section .complete_cart .cart_start_here .price_totals .subtotal_totals .detail_information .the_row,
+section.cart_section .complete_cart .cart_start_here .price_totals .grand_totaols .gran_price .the_row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1px 0px;
+}
+
+section.cart_section .complete_cart .cart_start_here .price_totals .subtotal_totals .detail_information .the_row span,
+section.cart_section .complete_cart .cart_start_here .price_totals .grand_totaols .gran_price .the_row span {
+    font-size: 16px;
+    color: #3B3B3B;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+/* Table Responsiveness */
+@media (max-width: 1200px) {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 14px;
+    }
+
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .order_table_start_here {
+        overflow-x: scroll;
+        max-width: 100%;
+    }
+
+    .order_table_start_here table.table {
+        min-width: 668px;
+    }
+
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 12px;
+    }
+
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 11px;
+    }
+
+    section.cart_section .complete_cart .cart_start_here .price_totals .subtotal_totals .detail_information .the_row span,
+    section.cart_section .complete_cart .cart_start_here .price_totals .grand_totaols .gran_price .the_row span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    button.btn {
+        padding: 8px 0px;
+        font-size: 12px;
+    }
+
+    section.cart_section .complete_cart .cart_start_here .total_and_promo .promo_start input {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    section.cart_section .complete_cart .cart_start_here .total_and_promo .promo_start {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table thead tr th {
+        font-size: 10px;
+    }
+
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td {
+        font-size: 9px;
+    }
+
+
+    section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td span.details {
+        font-size: 9px;
+    }
+
+    .order_table_start_here table.table {
+        min-width: 539px;
+    }
+        section.cart_section .complete_cart .cart_start_here .total_and_promo {
+            flex-direction: column;
+        }
+    
+        section.cart_section .complete_cart .cart_start_here .total_and_promo .promo_start {
+            width: 100%;
+            border-right: 0px;
+        }
+    
+        section.cart_section .complete_cart .cart_start_here .price_totals {
+            width: 100%;
+        }
 }
