@@ -1,0 +1,51 @@
+.form_start input,
+.form_start select,
+.form_start textarea {
+    width: 100%;
+    display: block;
+    background: #EBEBEB;
+    height: 41px;
+    padding: 0px 19px 0px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #606060;
+    outline: none;
+    text-align: center;
+}
+h6.small_heading {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    position: unset;
+}
+section.shipping_calculator {
+    padding: 122px 0px 55px;
+}
+
+section.shipping_calculator .text h6.small {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+section.shipping_calculator .text h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+section.shipping_calculator .text p {
+    color: #101211;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 1200px) {
+    section.shipping_calculator .text p {
+        max-width: 80%;
+    }
+}

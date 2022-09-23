@@ -1,89 +1,197 @@
-/* Signin Css Start Here */
-figure {
-    padding: 0;
+header {
+    display: none !important;
 }
-section.nav-sec img {
-    filter: drop-shadow(2px 4px 3px black);
+
+footer {
+    display: none !important;
 }
-.nav-list ul li a {
-    font-size: 13px;
-    color: #000;
-    text-transform: uppercase;
-    margin-right: 15px;
-    text-decoration: none;
-}
-.signin {
+
+.main_img {
     height: 100vh;
+    width: 100%;
+    background-image: url(../images/auth.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.form_start input,
+.form_start select,
+.form_start textarea {
+    width: 100%;
+    display: block;
+    background: #EBEBEB;
+    height: 46px;
+    padding: 0px 19px 0px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #606060;
+    outline: none;
     text-align: center;
 }
-.signin .logoDv {
-    padding-bottom: 70px;
+
+.auth_start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-.signin .SigninBox .head {
-    padding-bottom: 25px;
+
+.auth_start .wraper {
+    width: 100%;
+    text-align: center;
 }
-.signin .SigninBox .head h4 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 0;
+
+ .wraper .top_text h2.heading {
+    color: #D29F45;
+    font-size: 59px;
+    font-weight: bold;
 }
-.signin .SigninBox .head h4 strong {
-    font-weight: 700;
+
+.auth_start .wraper .top_text h4 {
+    color: #000000;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
 }
-.signin .SigninBox .actionBtn {
-    padding-bottom: 25px;
+
+.auth_start .wraper .top_text h4 span {
+    font-weight: bold;
+    color: #D29F45;
+    font-size: 25px;
 }
-.signin .SigninBox .actionBtn p a {
-    color: #d29f45;
-    padding-left: 5px;
+
+.auth_start .wraper .top_text h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
 }
-.signin .SigninBox form {
-    padding: 0 28%;
+
+.auth_start .wraper .top_text span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
 }
-.signin .SigninBox form .form-group .form-control {
-    border-radius: 50px;
-    padding: 14px 30px;
-    border: 1px solid #00000052;
+
+.auth_start .wraper .top_text span a {
+    color: #D29F45;
+    font-weight: 800;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Custom Checkbox Start here */
+.custom_check_box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #636060;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Hide the browser's default checkbox */
+.custom_check_box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.custom_check_box .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 22px;
+    background-color: #eee;
+    border: 1px solid #636060;
+    border-radius: 4px;
     background: transparent;
 }
-.signin .SigninBox form button {
-    background: #d29f45;
-    border: 0;
-    color: #fff;
-    padding: 12px 0px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    width: 100%;
-    font-weight: 500;
-    font-size: 18px;
+
+section.checkout_section .checkout_start .save_details {
+    margin-top: 14px;
 }
-.signin .SigninBox .actionBtn2 {
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
     position: absolute;
-    bottom: unset;
-    left: 0;
-    right: 0;
-    padding-bottom: 30px;
+    display: none;
 }
-.signin .SigninBox .actionBtn2 p a {
-    color: #d29f45;
+
+/* Show the checkmark when checked */
+.custom_check_box input:checked~.checkmark:after {
+    display: block;
 }
-@media (max-width: 991px) {
-    .signin .SigninBox form {
-        padding: 0 15%;
-    }
+
+/* Style the checkmark/indicator */
+.custom_check_box .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 7px;
+    height: 13px;
+    border: solid #FDAE25;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
-@media (max-width: 575px) {
-    .signin .SigninBox .head h4 {
-        font-size: 20px;
-    }
-    .signin .SigninBox form {
-        padding: 0 0%;
-    }
-    .signin .SigninBox .actionBtn2 {
-        padding-bottom: 0px;
-    }
+
+/* Custom Check Box End Here */
+.auth_start .wraper .save_password {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    margin-top: 19px;
 }
-/* Signin Css End Here */
+
+.auth_start .wraper .save_password a {
+    color: #0E3A20;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.form_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_row .single_input {
+    width: 48.5%;
+}
+section.auth.login.forgot_password {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+.form_row .otp_input {
+    width: 15%;
+}
+section.auth.login.forgot_password.text-center .logo_img {
+    margin-bottom: 66px;
+}
+.wraper .top_text p {
+    color: #5E5E5E;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
