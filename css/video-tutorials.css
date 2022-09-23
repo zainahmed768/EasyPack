@@ -1,0 +1,71 @@
+.shop-banner .shop-banner-content-wrapper h2 {
+	font-family: "Generica";
+	font-size: 71px;
+	font-weight: 700;
+	color: #000000;
+}
+/* video sec css starts here */
+.video-box-sec {
+	padding: 0px 0px 100px 0px;
+}
+.video-box-sec .content-wrapper h2 {
+	text-align: center;
+	font-family: "Generica";
+	font-size: 60px;
+	color: #000000;
+	margin-bottom: 69px;
+}
+.video-box-sec .video-box-wrapper .video-img-wrapper {
+	position: relative;
+}
+.video-box-sec .video-box-wrapper .video-img-wrapper .video-btn-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+.video-box-sec .video-box-wrapper:hover .video-img-wrapper .video-btn-wrapper {
+	opacity: 1;
+}
+.video-box-sec .video-box-wrapper .video-img-wrapper .video-btn-wrapper button {
+	background: transparent;
+	border: 0px;
+}
+.video-box-sec .video-box-wrapper .name-date-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.video-box-sec .video-box-wrapper .name-date-wrapper h3 {
+	font-family: "Montserrat";
+	color: #5e5e5e;
+	font-size: 25px;
+	font-weight: 700;
+}
+.video-box-sec .video-box-wrapper .name-date-wrapper h6 {
+	color: #d29f45;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 400;
+}
+.video-box-sec .video-box-wrapper p {
+	color: #5e5e5e;
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+.video-box-sec .video-box-wrapper {
+	background: #ffffff;
+	border: 1px solid #707070;
+}
+.video-box-sec .video-box-wrapper .video-content-wrapper {
+	padding: 16px;
+}
+.video-box-sec .btn-wrapper {
+	text-align: center;
+	margin-top: 58px;
+}
+/* video sec css ends here */
