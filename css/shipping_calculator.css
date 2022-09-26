@@ -49,3 +49,72 @@ section.shipping_calculator .text p {
         max-width: 80%;
     }
 }
+
+section.shipping_calculator .modal-body {
+    text-align: center;
+    padding: 47px 65px;
+}
+
+section.shipping_calculator .modal-body h5 {
+    color: #101211;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+section.shipping_calculator .modal-body .shipping_from_to {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    margin: 46px auto 22px;
+    position: relative;
+    padding-left: 8px;
+}
+
+section.shipping_calculator .modal-body .shipping_from_to div::before {
+    content: '';
+    display: block;
+    font-size: 58px;
+    height: 15px;
+    width: 15px;
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    margin-left: 22px;
+    margin-bottom: 7px;
+}
+
+section.shipping_calculator .modal-body .shipping_from_to::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 64%;
+    background-image: url(../images/dashed.png);
+    margin: 6px 16%;
+    background-size: 210px;
+}
+
+section.shipping_calculator .modal-body .shipping_from_to div span {
+    color: #606060;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+}
+
+section.shipping_calculator .modal-body .shipping_from_to div h6 {
+    color: #606060;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+section.shipping_calculator .modal-body h3 {
+    color: #D29F45;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    cursor: pointer;
+}

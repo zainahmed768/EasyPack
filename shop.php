@@ -35,7 +35,6 @@
  <!-- shop banner End here -->
  <!-- ***************Shop section*********** -->
  <section class="shop-sec pb-5">
-
      <div class="container">
          <div class="row">
              <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
