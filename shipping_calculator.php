@@ -42,31 +42,20 @@
                  <div class="modal-dialog" role="document">
                      <div class="modal-content">
                          <div class="modal-body">
-                             <div class="shipping_details">
-                                 <h3>Shipping Charges</h3>
-                             </div>
-                             <div class="the_range">
-                                 <div class="row">
-                                     <div class="col-md-12">
-                                         <div class="wrapper filter_range">
-
-                                             <div class="container" style="position: relative;">
-                                                 <div class="slider-track" style="background: linear-gradient(to right, rgb(218, 218, 229) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%, rgb(218, 218, 229) 100%);"></div>
-                                                 <input type="range" min="0" max="10000000" value="0" id="slider-1" oninput="slideOne()">
-                                                 <input type="range" min="0" max="10000000" value="10000000" id="slider-2" oninput="slideTwo()">
-                                             </div>
-                                             <div class="values">
-                                                 <span>Price: $</span>
-                                                 <span id="range1">0</span>
-                                                 <span> ‐ </span>
-                                                 <span id="range2">10000000</span>
-                                             </div>
-                                             <!-- <div class="price-tag">
-                                        <p>Price: $ 200</p>
-                                    </div> -->
-                                         </div>
+                             <div class="wrapper">
+                                 <h5>Shipping Charges</h5>
+                                 <div class="shipping_from_to">
+                                     <div class="shipping_from">
+                                         <span>From</span>
+                                         <h6>28946</h6>
+                                     </div>
+                                     <div class="shipping_to">
+                                         <span>To</span>
+                                         <h6>216546</h6>
                                      </div>
                                  </div>
+                                 <h3>$52.00</h3>
+                                 <button class="btn" data-dismiss="modal">OKAY</button>
                              </div>
                          </div>
                      </div>
