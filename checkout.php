@@ -33,7 +33,8 @@
                                                          <small>This is Your default</small>
                                                      </div>
                                                      <div class="single_line">
-                                                         <span class="default">10515 Fox Ave Fairdale, Kentucky(KY), 40118</span>
+                                                         <span class="default">10515 Fox Ave Fairdale, Kentucky(KY),
+                                                             40118</span>
                                                      </div>
                                                  </div>
                                              </div>
@@ -57,7 +58,8 @@
                                                          <span class="default pl-2">Home</span>
                                                      </div>
                                                      <div class="single_line">
-                                                         <span class="default">10515 Fox Ave Fairdale, Kentucky(KY), 40118</span>
+                                                         <span class="default">10515 Fox Ave Fairdale, Kentucky(KY),
+                                                             40118</span>
                                                      </div>
                                                  </div>
                                              </div>
@@ -68,7 +70,8 @@
                                      </label>
                                  </div>
                                  <div class="add_new">
-                                     <button class="btn" data-toggle="modal" data-target="#adress_modal">ADD NEW</button>
+                                     <button class="btn" data-toggle="modal" data-target="#adress_modal">ADD
+                                         NEW</button>
                                  </div>
                              </div>
                          </div>
@@ -106,8 +109,7 @@
                              </div>
                          </div>
                          <div class="save_details">
-                             <label class="custom_check_box">Save Shipping Details
-                                 <input type="checkbox" checked="checked">
+                             <label class="custom_check_box">Save Shipping Details <input type="checkbox" checked="checked">
                                  <span class="checkmark"></span>
                              </label>
                          </div>
@@ -115,7 +117,8 @@
                              <div class="top_heading">
                                  <h6 class="small_heading">Payment Details</h6>
                                  <div class="add_new">
-                                     <button class="btn" data-toggle="modal" data-target="#add_card_modal">ADD NEW</button>
+                                     <button class="btn" data-toggle="modal" data-target="#add_card_modal">ADD
+                                         NEW</button>
                                  </div>
                              </div>
                              <div class="saved_payemtns">
@@ -146,12 +149,10 @@
                                                      </div>
                                                  </span>
                                              </label>
-
                                              <label class="container second-card">
                                                  <input type="radio" name="payment-radio">
                                                  <span class="checkmark">
                                                      <div class="card-details">
-
                                                          <div class="visa-card">
                                                              <div class="img-box">
                                                                  <figure><img src="images/visa.png" alt="No Image Found">
@@ -263,18 +264,17 @@
                                  <span>Credit Earned For this order. $15.00</span>
                              </div>
                          </div>
-
                      </div>
                  </div>
              </div>
              <div class="the_confir_order">
                  <div class="save_details">
-                     <label class="custom_check_box">Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                         <input type="checkbox" checked="checked">
+                     <label class="custom_check_box">Proident, sunt in culpa qui officia deserunt mollit anim id est
+                         laborum. <input type="checkbox" checked="checked">
                          <span class="checkmark"></span>
                      </label>
                  </div>
-                 <button class="btn">Confirm Order</button>
+                 <button class="btn" data-toggle="modal" data-target="#thankyou_modal">Confirm Order</button>
              </div>
              <div class="add_new_adress_form">
                  <div class="modal fade" id="adress_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -295,14 +295,12 @@
                                              </div>
                                              <div class="form_row">
                                                  <div class="input_box">
-
                                                      <label for="">Suite, Apartment, etc</label>
                                                      <input type="text" name="" class="d-block w-100" id="">
                                                  </div>
                                              </div>
                                              <div class="form_row">
                                                  <div class="input_box">
-
                                                      <label for="">City</label>
                                                      <input type="text" name="" class="d-block w-100" id="">
                                                  </div>
@@ -406,6 +404,25 @@
                                              </div>
                                          </div>
                                      </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="add_new_adress_form thankyou_modal">
+                 <div class="modal fade" id="thankyou_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal-dialog" role="document">
+                         <div class="modal-content">
+                             <div class="modal-body">
+                                 <div class="thankyou_modal">
+                                     <h2>Thank You</h2>
+                                     <h5>For Shoping</h5>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                     </p>
+                                     <a href="./index.php" class="btn">CONTINUE SHOPPING</a>
                                  </div>
                              </div>
                          </div>

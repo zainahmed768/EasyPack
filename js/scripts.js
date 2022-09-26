@@ -1,5 +1,16 @@
+$(".increment_quantity").click(function () {
+    var counter = parseInt($(this).parent().siblings(".quantity").val());
+    counter++;
+    $(this).parent().siblings(".quantity").val(counter);
+    // $("#theCount").text(counter);
+});
+$(".decrement_quantity").click(function () {
+    var counter = parseInt($(this).parent().siblings(".quantity").val());
+    counter--;
+    $(this).parent().siblings(".quantity").val(counter);
+    // $("#theCount").text(counter);
+});
 // ********* PROFILE SCRIPT START  *********** \\
-
 // Copy Link To Clip Board
 
 $(".copy_link").click(function () {

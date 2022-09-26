@@ -762,3 +762,34 @@ section.checkout_section .checkout_start {
     min-width: 42px;
     border: 1px solid transparent;
 }
+.add_new_adress_form.thankyou_modal .thankyou_modal {
+    text-align: center;
+}
+
+.add_new_adress_form.thankyou_modal .thankyou_modal h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #D6A857;
+}
+
+.add_new_adress_form.thankyou_modal .thankyou_modal h5 {
+    color: #D6A857;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.add_new_adress_form.thankyou_modal .thankyou_modal p {
+    margin-top: 34px;
+    color: #5E5E5E;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.add_new_adress_form.thankyou_modal .thankyou_modal a.btn {
+    margin-top: 17px;
+    padding: 14px 35px;
+}
+
+.add_new_adress_form.thankyou_modal .modal-body {
+    padding: 47px 42px;
+}
