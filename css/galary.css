@@ -1,0 +1,12 @@
+.shop-sec .text-wrapper {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.shop-sec .text-wrapper h2 {
+	font-family: "Generica";
+	font-size: 60px;
+	color: #000000;
+}
+.shop-sec {
+	padding: 147px 0px 20px 0px !important;
+}

@@ -1,0 +1,25 @@
+.factory-view .video-wrapper {
+	padding: 0px 0px 40px 0px;
+}
+.factory-view .video-wrapper figure {
+	margin: 0px;
+}
+.factory-view .video-thumbnail-wrapper {
+	position: relative;
+}
+.factory-view .video-thumbnail-wrapper img.img-fluid {
+	height: 473px;
+	object-fit: cover;
+	width: 100%;
+	filter: brightness(0.5);
+}
+.factory-view .video-thumbnail-wrapper .video-btn-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.factory-view .video-thumbnail-wrapper .video-btn-wrapper button {
+	background: transparent;
+	border: 0px;
+}

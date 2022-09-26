@@ -684,7 +684,6 @@
 
      </div>
  </section>
-
  <!-- *******************End of shop Section*********** -->
 
  <!-- easypack starts here -->
