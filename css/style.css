@@ -56,6 +56,34 @@ a {
 	font-family: var(--font-third);
 }
 /* *********************** Begin of header section***************** */
+.nav-sec .nav-list .profile-wrapper {
+	display: flex;
+	align-items: center;
+}
+.nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
+	border: 3px solid #d29f45;
+	height: 48px;
+	width: 48px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.nav-sec .nav-list .profile-wrapper .profile-img-wrapper figure {
+	margin: 0px;
+}
+.nav-sec .nav-list .profile-wrapper .profile-content-wrapper h4 {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 500;
+	color: #000000;
+	margin: 0px;
+}
+.nav-sec .nav-list .profile-wrapper .profile-content-wrapper a {
+	color: #d29f45;
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: "Segoe UI Bold";
+}
 header {
 	position: absolute;
 	z-index: 1;
@@ -78,7 +106,7 @@ header .mobile-header {
 	transform: translateX(100%);
 }
 header .nav-sec .img-fluid {
-	width: 80%;
+	/* width: 80%; */
 }
 header .mobile-header.show {
 	transform: translateX(0%);
@@ -112,6 +140,32 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 .nav-list .fa-search {
 	margin-left: 26px;
 }
+header .nav-sec .dropdown-menu {
+	border: 2px solid #cd8a2f;
+	border-radius: 0px;
+	padding: 10px;
+}
+header .nav-sec .dropdown-menu a.dropdown-item {
+	color: #000000;
+	font-family: "Montserrat";
+	font-size: 13px;
+	border-bottom: 1px solid #c4c4c4;
+	line-height: 2;
+	padding: 4px 7px;
+	font-weight: 600;
+}
+header .nav-sec .dropdown-menu a.dropdown-item:last-child {
+	border: 0px;
+}
+header .nav-sec .dropdown-menu a.dropdown-item:active {
+	background: transparent;
+}
+header .nav-sec .dropdown-toggle::after {
+	display: none;
+}
+header li.dropdown:hover .dropdown-menu {
+	display: block;
+}
 /* *********************** end of of header section***************** */
 /* ********Begin of navbar********** */
 .nav-list ul {
@@ -119,10 +173,11 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 	list-style: none;
 	padding: 0;
 	justify-content: space-evenly;
+	align-items: center;
 }
 .nav-list ul li a {
 	font-size: 14px;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	margin-right: 15px;
 	text-decoration: none;
@@ -130,7 +185,10 @@ header .mobile-header ul.mobile-nav li.nav-item a {
 	font-family: "Montserrat";
 	margin: 0px;
 }
-.nav-list ul li a active {
+.nav-sec .nav-list .profile-wrapper .profile-content-wrapper {
+	margin-left: 8px;
+}
+.nav-list ul li a.active {
 	color: #d29f45;
 }
 section.nav-sec {

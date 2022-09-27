@@ -5,8 +5,8 @@
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
 
- <!-- **********************Banner section*********************** -->
- <!-- ************************End of bannersection*************************** -->
+ <!-- *********************Banner section********************** -->
+ <!-- ***********************End of bannersection************************** -->
  <!-- shop banner starts here -->
  <section class="shop-banner">
      <div class="container">
@@ -34,7 +34,7 @@
      </div>
  </section>
  <!-- shop banner End here -->
- <!-- ***************Shop section*********** -->
+ <!-- **************Shop section********** -->
  <!-- Customization Start Here -->
  <section class="customization_section">
      <div class="container">

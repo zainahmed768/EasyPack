@@ -3,20 +3,38 @@
         <section class="nav-sec">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <a href="index.php"><img class="img-fluid" src="images/logo.png" alt=""></a>
+                    <div class="col-md-2">
+                        <a href="index.php"><img class="img-fluid" src="images/logo1.png" alt=""></a>
                     </div>
                     <div class="col-md-7">
                         <div class="nav-list">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
-
-                                <li><a href="shop.php">Shop</a></li>
-                                <li><a href="">Customization</a></li>
-                                <li><a href="">SOCIAL</a></li>
-                                <li><a href="user-guide.php">About US </a></li>
-                                <li><a href="#">CUSTOMER CARE</a></li>
-
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Galary.php">Our Gallery</a>
+                                        <a class="dropdown-item" href="customize.php">Customize for Free</a>
+                                        <a class="dropdown-item" href="impact.php">Accessories</a>
+                                    </div>
+                                </li>
+                                <li><a href="customization.php">Customization</a></li>
+                                <li><a href="social.php">SOCIAL</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        About US
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Our-Story.php">Our Story</a>
+                                        <a class="dropdown-item" href="our-mission.php">Our Mission</a>
+                                        <a class="dropdown-item" href="impact.php">Making an impact</a>
+                                        <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a>
+                                    </div>
+                                </li>
+                                <li><a href="user-guide.php"></a></li>
+                                <li><a href="contact.php">CONTACT US</a></li>
                             </ul>
                             <div class="canvas-icon text-white text-right">
                                 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -24,13 +42,41 @@
                         </div>
 
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="nav-list">
                             <ul>
 
-                                <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                                 <li><a href="signin.php"><i class="fa fa-user" aria-hidden="true"></i> </a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li> -->
+                                <li>
+                                    <a href="shipping_calculator.php">
+                                        <img src="images/shipingcal.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/search.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cart.php">
+                                        <img src="images/cart-img.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="profile-wrapper">
+                                        <div class="profile-img-wrapper">
+                                            <figure>
+                                                <img src="images/profile-img.png" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="profile-content-wrapper">
+                                            <h4>JOHN DOE</h4>
+                                            <a href="profile1.php">Profile</a>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="canvas-icon text-white text-right">
                                 <i class="fa fa-bars" aria-hidden="true"></i>

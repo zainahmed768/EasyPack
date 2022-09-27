@@ -117,6 +117,20 @@
 
         <!-- Js SHeet -->
         <script>
+            $('.accessories-slider-wrapper').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+            });
+            $('.acc').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+            });
             $('.review-sec .slider-row').slick({
                 infinite: true,
                 slidesToShow: 3,
