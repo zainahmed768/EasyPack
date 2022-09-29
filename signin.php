@@ -26,7 +26,7 @@
                                     <span>Not a Member ? <a href="signup.php">Register</a></span>
                                 </div>
                                 <div class="form_start mt-5">
-                                    <form action="">
+                                    <form action="index.php">
                                         <div class="form_row mt-3">
                                             <input type="email" name="" id="" placeholder="Email">
                                         </div>
@@ -41,7 +41,7 @@
                                                 <input type="checkbox" checked="checked">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <a href="">Forgot Password ?</a>
+                                            <a href="forgot_password.php">Forgot Password ?</a>
                                         </div>
                                     </form>
                                 </div>

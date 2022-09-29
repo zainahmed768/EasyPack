@@ -166,6 +166,10 @@ header .nav-sec .dropdown-toggle::after {
 header li.dropdown:hover .dropdown-menu {
 	display: block;
 }
+header .nav-sec .dropdown-menu a.dropdown-item.active {
+	background: #d29f45;
+	color: #fff;
+}
 /* *********************** end of of header section***************** */
 /* ********Begin of navbar********** */
 .nav-list ul {
@@ -628,6 +632,10 @@ section.pics-sec {
 	text-align: center;
 	padding-top: 40px;
 }
+.product-sec .btn-wrapper {
+	text-align: center;
+	padding: 50px 0px;
+}
 .product-sec .content-wrapper h3 {
 	color: #000000;
 	font-family: "Generica";
@@ -847,6 +855,36 @@ section.contact-sec {
 footer .footer-widget-5 h4 {
 	text-align: inherit;
 }
+footer .container {
+	width: 1300px;
+}
+footer .footer-head ul {
+	padding: 0px;
+}
+footer .footer-head h4 {
+	text-align: start;
+	font-family: "Montserrat";
+	font-size: 16px;
+	font-weight: 600;
+}
+footer .social-wrapper a {
+	display: flex;
+	align-items: center;
+}
+footer .social-wrapper a span {
+	line-height: 1.5;
+	font-family: "Montserrat";
+	font-size: 13px;
+	color: #000000;
+	font-weight: 400;
+}
+footer .social-wrapper li {
+	margin-bottom: 21px;
+}
+footer .social-wrapper li a i {
+	color: #d29f45;
+	margin-right: 11px;
+}
 .footer-head h4 {
 	font-size: 15px;
 	color: #6b6b6b;
@@ -872,16 +910,16 @@ footer .footer-widget-5 h4 {
 	padding: 0;
 }
 .footer-icons ul li a {
-	background-color: #dadada;
+	background-color: TRANSPARENT;
 	margin-right: 14px;
 	padding: 4px 10px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #d29f45;
 	font-size: 22px;
 	height: 80px 1i;
 }
 .for-news p {
-	font-size: 13px;
+	font-size: 12px;
 	color: #313131;
 	font-family: "Montserrat";
 	font-weight: 400;
@@ -914,7 +952,20 @@ footer svg.bi.bi-arrow-right {
 	width: 18px;
 }
 footer {
-	padding: 60px 0px 0px 0px;
+	padding: 60px 0px 60px 0px;
+}
+.footer-head ul li a:hover {
+	text-decoration: none;
+}
+footer .footer-widget-1-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+footer .footer-menu-1 ul li a,
+footer .footer-menu-2 ul li a {
+	line-height: 2;
 }
 footer .copyright {
 	border-top: 1px solid #dbdbdb;

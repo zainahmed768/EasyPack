@@ -17,7 +17,7 @@
                             et dolore magna aliqua. </p>
                     </div>
                     <div class="form_start mt-5 px-5">
-                        <form action="">
+                        <form action="CreateNewPassword.php">
                             <div class="form_row mt-3">
                                 <div class="otp_input">
                                     <input type="text" maxlength="1">
