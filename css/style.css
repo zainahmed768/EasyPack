@@ -632,6 +632,9 @@ section.pics-sec {
 	text-align: center;
 	padding-top: 40px;
 }
+.product-sec a {
+	text-decoration: none;
+}
 .product-sec .btn-wrapper {
 	text-align: center;
 	padding: 50px 0px;

@@ -1,6 +1,23 @@
 <!-- Footer -->
 <?php include 'inc/head.php' ?>
 <!-- Footer -->
+<style>
+    header .nav-list ul li a {
+        color: #fff;
+    }
+
+    header .nav-list img {
+        filter: invert(1);
+    }
+
+    .nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
+        filter: none;
+    }
+
+    .nav-sec .nav-list .profile-wrapper .profile-content-wrapper h4 {
+        color: #ffffff;
+    }
+</style>
 <!-- Use it like any other HTML element -->
 
 <!-- **********************Banner section*********************** -->
@@ -67,32 +84,36 @@
         </div>
         <div class="row pt-5">
             <div class="col-lg-3">
-                <div class="product-card-wrapper">
-                    <div class="product-img-wrapper">
-                        <figure>
-                            <img src="images/shop7.png" class="img-fluid" alt="">
-                        </figure>
+                <a href="product-detail.php">
+                    <div class="product-card-wrapper">
+                        <div class="product-img-wrapper">
+                            <figure>
+                                <img src="images/shop7.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                        <div class="product-content-wrapper">
+                            <h4>$139</h4>
+                            <h6>Easypack Suitcase</h6>
+                            <h3>DELSEY Paris Helium</h3>
+                        </div>
                     </div>
-                    <div class="product-content-wrapper">
-                        <h4>$139</h4>
-                        <h6>Easypack Suitcase</h6>
-                        <h3>DELSEY Paris Helium</h3>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-3">
-                <div class="product-card-wrapper">
-                    <div class="product-img-wrapper">
-                        <figure>
-                            <img src="images/shop12.png" class="img-fluid" alt="">
-                        </figure>
+                <a href="product-detail2.php">
+                    <div class="product-card-wrapper">
+                        <div class="product-img-wrapper">
+                            <figure>
+                                <img src="images/shop12.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                        <div class="product-content-wrapper">
+                            <h4>$139</h4>
+                            <h6>Easypack Suitcase</h6>
+                            <h3>DELSEY Paris Helium</h3>
+                        </div>
                     </div>
-                    <div class="product-content-wrapper">
-                        <h4>$139</h4>
-                        <h6>Easypack Suitcase</h6>
-                        <h3>DELSEY Paris Helium</h3>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-3">
                 <div class="product-card-wrapper">
@@ -182,7 +203,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="btn-wrapper">
-                    <a href="#" class="btn">SHOP NOW</a>
+                    <a href="shop.php" class="btn">SHOP NOW</a>
                 </div>
                 <div class="content-wrapper">
                     <h3>Make It Your Way</h3>

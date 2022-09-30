@@ -106,7 +106,7 @@
                          </div>
                      </div>
                      <div class="cart-btn-wrapper">
-                         <button class="btn">Add to cart</button>
+                         <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
                          <button class="btn">Add to wishlist</button>
                      </div>
                  </div>

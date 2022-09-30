@@ -510,32 +510,36 @@
                  </div> -->
                  <div class="row">
                      <div class="col-lg-4">
-                         <div class="product-card-wrapper">
-                             <div class="product-img-wrapper">
-                                 <figure>
-                                     <img src="images/pro1.png" class="img-fluid" alt="">
-                                 </figure>
+                         <a href="product-detail.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/pro1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
                              </div>
-                             <div class="product-content-wrapper">
-                                 <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
-                                 <h3>DELSEY Paris Helium</h3>
-                             </div>
-                         </div>
+                         </a>
                      </div>
                      <div class="col-lg-4">
-                         <div class="product-card-wrapper">
-                             <div class="product-img-wrapper">
-                                 <figure>
-                                     <img src="images/pro2.png" class="img-fluid" alt="">
-                                 </figure>
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/pro2.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
                              </div>
-                             <div class="product-content-wrapper">
-                                 <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
-                                 <h3>DELSEY Paris Helium</h3>
-                             </div>
-                         </div>
+                         </a>
                      </div>
                      <div class="col-lg-4">
                          <div class="product-card-wrapper">

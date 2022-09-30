@@ -13,9 +13,7 @@
 
     <!-- Slick SLider -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Slick SLider -->
 
     <!-- Bootstrap CDN -->
@@ -37,5 +35,5 @@
 
 </head>
 <!-- Header -->
-<?php include 'inc/header.php'?>
+<?php include 'inc/header.php' ?>
 <!-- Header -->

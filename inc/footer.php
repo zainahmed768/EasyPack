@@ -132,6 +132,14 @@
 
     <!-- Js SHeet -->
     <script>
+        // logo change to dark theme starts here
+        let currentUrl = window.location.href.split("/");
+        console.log("currentUrl", currentUrl);
+
+        if (currentUrl[4] == "index.php") {
+            $('header .logo img').attr('src', 'images/logo.png');
+        }
+        // logo change to dark theme ends here
         $('.accessories-slider-wrapper').slick({
             infinite: true,
             slidesToShow: 5,
@@ -227,9 +235,6 @@
                 }
             ]
         });
-
-
-
         // ************************************************************************************************************
 
         // active class 
