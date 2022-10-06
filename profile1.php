@@ -522,7 +522,7 @@
                                                                      </div>
                                                                      <div class="product_price completed">
                                                                          <span>$158.07</span>
-                                                                         <span class="review">Submit Review</span>
+                                                                         <span onclick="location.href='SubmitRreview.php'" class="review">Submit Review</span>
                                                                      </div>
                                                                  </div>
                                                                  <div class="single_order">

@@ -263,7 +263,7 @@
                      </div>
                  </div>
                  <div class="load-more-wrapper">
-                     <button class="load">LOAD MORE</button>
+                     <button onclick="location.href='SubmitRreview.php'" class="load">LOAD MORE</button>
                  </div>
              </div>
          </div>
