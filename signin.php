@@ -21,7 +21,7 @@
                             <div class="wraper">
                                 <div class="top_text">
                                     <h2 class="heading">login</h2>
-                                    <h4 class="mt-5">Welcome Back to <span>EasyPacks</span></h4>
+                                    <h4 class="mt-5">Welcome Back to <span>EasyPacks Luggage</span></h4>
                                     <h5>The Best place to enhance your look </h5>
                                     <span>Not a Member ? <a href="signup.php">Register</a></span>
                                 </div>
@@ -37,7 +37,7 @@
                                             <button class="btn center d-block w-100" type="submit"> LOGIN</button>
                                         </div>
                                         <div class="save_password">
-                                            <label class="custom_check_box">Remember
+                                            <label class="custom_check_box"> Remember Me
                                                 <input type="checkbox" checked="checked">
                                                 <span class="checkmark"></span>
                                             </label>

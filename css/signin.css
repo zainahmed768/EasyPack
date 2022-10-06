@@ -1,197 +1,202 @@
 header {
-    display: none !important;
+	display: none !important;
 }
 
 footer {
-    display: none !important;
+	display: none !important;
 }
 
 .main_img {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../images/auth.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/auth.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .form_start input,
 .form_start select,
 .form_start textarea {
-    width: 100%;
-    display: block;
-    background: #EBEBEB;
-    height: 46px;
-    padding: 0px 19px 0px;
-    font-size: 11px;
-    font-weight: 600;
-    border: 0px;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    color: #606060;
-    outline: none;
-    text-align: center;
+	width: 100%;
+	display: block;
+	background: #ebebeb;
+	height: 46px;
+	padding: 0px 19px 0px;
+	font-size: 11px;
+	font-weight: 600;
+	border: 0px;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	color: #606060;
+	outline: none;
+	text-align: center;
 }
 
 .auth_start {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
 .auth_start .wraper {
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
- .wraper .top_text h2.heading {
-    color: #D29F45;
-    font-size: 59px;
-    font-weight: bold;
+.wraper .top_text h2.heading {
+	color: #d29f45;
+	font-size: 59px;
+	font-weight: bold;
 }
 
 .auth_start .wraper .top_text h4 {
-    color: #000000;
-    font-size: 25px;
-    font-family: "Montserrat", sans-serif;
+	color: #000000;
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .auth_start .wraper .top_text h4 span {
-    font-weight: bold;
-    color: #D29F45;
-    font-size: 25px;
+	font-weight: bold;
+	color: #d29f45;
+	font-size: 25px;
 }
 
 .auth_start .wraper .top_text h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+	color: #000000;
 }
 
 .auth_start .wraper .top_text span {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #000000;
-    font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 400;
 }
-
+.auth .form_start .btn {
+	text-transform: uppercase;
+}
 .auth_start .wraper .top_text span a {
-    color: #D29F45;
-    font-weight: 800;
-    font-size: 17px;
-    font-family: "Montserrat", sans-serif;
+	color: #d29f45;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
 }
-
+.auth_start .form_start .btn {
+	text-transform: uppercase;
+}
 /* Custom Checkbox Start here */
 .custom_check_box {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    color: #636060;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	color: #636060;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 15px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
 }
 
 /* Hide the browser's default checkbox */
 .custom_check_box input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
 }
 
 /* Create a custom checkbox */
 .custom_check_box .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 21px;
-    width: 22px;
-    background-color: #eee;
-    border: 1px solid #636060;
-    border-radius: 4px;
-    background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 19px;
+	width: 19px;
+	background-color: #eee;
+	border: 1px solid #636060;
+	border-radius: 0px;
+	background: transparent;
 }
 
 section.checkout_section .checkout_start .save_details {
-    margin-top: 14px;
+	margin-top: 14px;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+	content: "";
+	position: absolute;
+	display: none;
 }
 
 /* Show the checkmark when checked */
-.custom_check_box input:checked~.checkmark:after {
-    display: block;
+.custom_check_box input:checked ~ .checkmark:after {
+	display: block;
 }
 
 /* Style the checkmark/indicator */
 .custom_check_box .checkmark:after {
-    left: 6px;
-    top: 1px;
-    width: 7px;
-    height: 13px;
-    border: solid #FDAE25;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+	left: 5px;
+	top: 1px;
+	width: 7px;
+	height: 13px;
+	border: solid #fdae25;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 /* Custom Check Box End Here */
 .auth_start .wraper .save_password {
-    display: flex;
-    justify-content: space-between;
-    align-items: self-start;
-    margin-top: 19px;
+	display: flex;
+	justify-content: space-between;
+	align-items: self-start;
+	margin-top: 19px;
 }
 
 .auth_start .wraper .save_password a {
-    color: #0E3A20;
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+	color: #0e3a20;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
 }
 .form_row {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .form_row .single_input {
-    width: 48.5%;
+	width: 48.5%;
 }
 section.auth.login.forgot_password {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
 }
 .form_row .otp_input {
-    width: 15%;
+	width: 15%;
 }
 section.auth.login.forgot_password.text-center .logo_img {
-    margin-bottom: 66px;
+	margin-bottom: 66px;
 }
 .wraper .top_text p {
-    color: #5E5E5E;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
+	color: #5e5e5e;
+	font-size: 15px;
+	font-family: "Montserrat", sans-serif;
 }

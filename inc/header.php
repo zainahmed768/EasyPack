@@ -55,6 +55,11 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="wishlist.php">
+                                        <i class="fa fa-heart-o"></i>
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="#">
                                         <img src="images/search.png" alt="">
                                     </a>
@@ -64,6 +69,7 @@
                                         <img src="images/cart-img.png" alt="">
                                     </a>
                                 </li>
+
                                 <li>
                                     <div class="profile-wrapper">
                                         <div class="profile-img-wrapper">
