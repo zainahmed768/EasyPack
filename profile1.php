@@ -403,7 +403,7 @@
                                                              <div class="heading">
                                                                  <h6>Product Detail</h6>
                                                              </div>
-                                                             <div class="orders_list mt-4">
+                                                             <!-- <div class="orders_list mt-4">
                                                                  <div class="single_order">
                                                                      <div class="theprofile d-flex">
                                                                          <figure>
@@ -505,6 +505,88 @@
                                                                      </div>
                                                                      <div class="product_price">
                                                                          <span>$158.07</span>
+                                                                     </div>
+                                                                 </div>
+                                                             </div> -->
+                                                             <div class="orders_list mt-4">
+                                                                 <div class="single_order">
+                                                                     <div class="theprofile d-flex">
+                                                                         <figure>
+                                                                             <img src="images/small_bag.png" class="img-fluid" alt="">
+                                                                         </figure>
+                                                                         <div class="about_product pl-4">
+                                                                             <span class="order_name">DELSEY Paris
+                                                                                 Helium</span>
+                                                                             <span class="order_number">Quantity: 1</span>
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="product_price completed">
+                                                                         <span>$158.07</span>
+                                                                         <span class="review">Submit Review</span>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="single_order">
+                                                                     <div class="theprofile d-flex">
+                                                                         <figure>
+                                                                             <img src="images/small_bag.png" class="img-fluid" alt="">
+                                                                         </figure>
+                                                                         <div class="about_product pl-4">
+                                                                             <span class="order_name">DELSEY Paris
+                                                                                 Helium</span>
+                                                                             <span class="order_number">Quantity: 1</span>
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="product_price completed">
+                                                                         <span>$158.07</span>
+                                                                         <span class="review">Submit Review</span>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="single_order">
+                                                                     <div class="theprofile d-flex">
+                                                                         <figure>
+                                                                             <img src="images/small_bag.png" class="img-fluid" alt="">
+                                                                         </figure>
+                                                                         <div class="about_product pl-4">
+                                                                             <span class="order_name">DELSEY Paris
+                                                                                 Helium</span>
+                                                                             <span class="order_number">Quantity: 1</span>
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="product_price completed">
+                                                                         <span>$158.07</span>
+                                                                         <span class="review">Submit Review</span>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="single_order">
+                                                                     <div class="theprofile d-flex">
+                                                                         <figure>
+                                                                             <img src="images/small_bag.png" class="img-fluid" alt="">
+                                                                         </figure>
+                                                                         <div class="about_product pl-4">
+                                                                             <span class="order_name">DELSEY Paris
+                                                                                 Helium</span>
+                                                                             <span class="order_number">Quantity: 1</span>
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="product_price completed">
+                                                                         <span>$158.07</span>
+                                                                         <span class="review">Submit Review</span>
+                                                                     </div>
+                                                                 </div>
+                                                                 <div class="single_order">
+                                                                     <div class="theprofile d-flex">
+                                                                         <figure>
+                                                                             <img src="images/small_bag.png" class="img-fluid" alt="">
+                                                                         </figure>
+                                                                         <div class="about_product pl-4">
+                                                                             <span class="order_name">DELSEY Paris
+                                                                                 Helium</span>
+                                                                             <span class="order_number">Quantity: 1</span>
+                                                                         </div>
+                                                                     </div>
+                                                                     <div class="product_price completed">
+                                                                         <span>$158.07</span>
+                                                                         <span class="review">Submit Review</span>
                                                                      </div>
                                                                  </div>
                                                              </div>

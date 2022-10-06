@@ -337,7 +337,7 @@
                              <div class="modal-body">
                                  <div class="new_address_start">
                                      <div class="top_heading text-center">
-                                         <h6 class="small_heading">Enter Your New Address</h6>
+                                         <h6 class="small_heading">Enter Your New Card</h6>
                                      </div>
                                      <form action="">
                                          <div class="form_start">
@@ -400,7 +400,7 @@
                                                  </div>
                                              </div>
                                              <div class="form_row">
-                                                 <button class="btn d-block w-100" type="submit">Add Address</button>
+                                                 <button class="btn d-block w-100" type="submit">Add Card</button>
                                              </div>
                                          </div>
                                      </form>

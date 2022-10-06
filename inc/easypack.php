@@ -8,6 +8,9 @@
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4">
                 <div class="img-wrapper">

@@ -325,10 +325,12 @@ form .payment-plan input:checked + label:after,
 	margin-top: 35px;
 }
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper .btn {
-	font-family: "Segoe UI";
-	font-size: 14px;
+	/* font-family: "Segoe UI"; */
+	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 13px 53px;
 }
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper .btn:hover {
 	background-color: #fff;
@@ -402,6 +404,11 @@ form .payment-plan input:checked + label:after,
 	.name-date-wrapper {
 	display: flex;
 }
+.review-wrapper .single-review-wrapper .text-wrapper p {
+	color: #525252;
+	font-weight: 500;
+	font-size: 13px;
+}
 .review-wrapper
 	.single-review-wrapper
 	.review-content-wrapper
@@ -457,7 +464,7 @@ form .payment-plan input:checked + label:after,
 	background: transparent;
 	border: 0px;
 	color: #d29f45;
-	font-family: "Segoe UI";
+	/* font-family: "Segoe UI"; */
 	font-size: 14px;
 	font-weight: 700;
 }

@@ -70,7 +70,7 @@ header.active {
 	color: #000000;
 	font-weight: 400;
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 52px;
 }
 .privacy-head h4 {
 	font-size: 20px;
@@ -89,7 +89,7 @@ header.active {
 	font-size: 14px;
 	color: #5e5e5e;
 	font-family: "Montserrat";
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 50px;
 }
 .privacy-stuff h3 {
@@ -97,7 +97,7 @@ header.active {
 	color: #5e5e5e;
 	font-family: "Montserrat";
 	font-weight: 700;
-	padding-top: 40px;
+	padding-top: 52px;
 	padding-bottom: 35px;
 }
 section.privacy-sec {

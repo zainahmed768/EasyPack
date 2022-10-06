@@ -128,11 +128,17 @@ header.active {
 	font-size: 20px;
 	color: #000000;
 	font-family: "Montserrat";
-	font-weight: 700;
+	font-weight: 400;
 	text-transform: capitalize;
 	margin: 0;
-	padding: 20px 0px;
+	padding: 20px 20px;
 	border-top: 1px solid #c6c6c6;
+}
+.sample-color .radio-color-btn {
+	padding: 0px 18px 30px;
+}
+.shop-sec a {
+	text-decoration: none;
 }
 /* This line can be removed it was just for display on CodePen: */
 .slider-labels {
@@ -312,7 +318,7 @@ span#slider-range-value2 {
 	font-size: 19px;
 	color: #000000;
 	font-family: "Montserrat";
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -321,7 +327,7 @@ span#slider-range-value2 {
 	font-size: 19px;
 	color: #000000;
 	font-family: "Montserrat";
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0;
 	padding: 30px 0px;
 }
@@ -341,9 +347,18 @@ span#slider-range-value2 {
 section.shop-sec {
 	padding-top: 60px;
 }
+.shop-sec .shop-bar .shop-price {
+	padding: 0px 18px;
+}
+.shop-bar .side-bar-size .sample-color h5 {
+	padding: 12px 18px;
+}
+.shop-bar .side-bar-size .sample-color .radio-color-btn {
+	padding: 14px 18px 0px;
+}
 .shop-bar {
 	background-color: #eeeeee;
-	padding: 14px;
+	padding: 14px 0px;
 }
 .side-bar-color .color-variation .label_container span.checkmark .label {
 	width: 39px;
@@ -358,6 +373,13 @@ section.shop-sec {
 }
 .side-bar-material h3 {
 	border-top: 1px solid #c6c6c6;
+	padding: 22px 18px;
+}
+.side-bar-material .material-list {
+	padding: 0px 18px 28px;
+}
+.side-bar-material .material-list .mat-flex:last-child {
+	border-bottom: 0px;
 }
 .side-bar-size .colors {
 	margin-bottom: 30px;
@@ -440,5 +462,11 @@ section.shop-sec {
 	font-size: 17px;
 	font-weight: 400;
 	padding: 19px 0px;
+	letter-spacing: 1px;
+}
+.shop-banner .shop-banner-content-wrapper .btn {
+	padding: 12px 60px;
+	letter-spacing: 2px;
+	font-size: 13px;
 }
 /* shop banner ends here */

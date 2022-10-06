@@ -3,6 +3,11 @@
  <!-- Header Include -->
 
  <link rel="stylesheet" href="css/shop.css">
+ <style>
+     .product-card-wrapper {
+         border: 1px solid #707070;
+     }
+ </style>
 
  <!-- **********************Banner section*********************** -->
  <!-- ************************End of bannersection*************************** -->

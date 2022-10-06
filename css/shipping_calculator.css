@@ -41,8 +41,14 @@ section.shipping_calculator .text h1 {
 
 section.shipping_calculator .text p {
 	color: #101211;
-	font-size: 18px;
+	font-size: 17px;
+	font-weight: 500;
 	font-family: "Montserrat", sans-serif;
+	letter-spacing: 1px;
+}
+
+.calculator_start button.btn {
+	text-transform: uppercase;
 }
 
 @media (min-width: 1200px) {
@@ -99,6 +105,7 @@ section.shipping_calculator .modal-body .shipping_from_to div span {
 	font-weight: 600;
 	font-size: 11px;
 	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
 }
 
 section.shipping_calculator .modal-body .shipping_from_to div h6 {

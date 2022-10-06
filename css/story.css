@@ -1,16 +1,15 @@
 .factory-view h2 {
 	font-family: "Generica";
 	font-size: 60px;
-	font-weight: 700;
+	font-weight: 400;
 	color: #000000;
-	margin-bottom: 43px;
+	margin-bottom: 60px;
 }
-
 .factory-view span {
 	color: #5e5e5e;
 	font-family: "Montserrat";
 	font-size: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 	display: block;
 }
 .factory-view h4 {
@@ -33,6 +32,10 @@
 	height: 300px;
 	width: 100%;
 	object-fit: cover;
+	transition: all 0.4s ease-in-out;
+}
+.gallery-sec .img-wrapper img:hover {
+	filter: brightness(0.5);
 }
 .gallery-sec {
 	padding: 100px 0px;

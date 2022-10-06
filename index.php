@@ -81,6 +81,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
         <div class="row pt-5">
             <div class="col-lg-3">
                 <a href="product-detail.php">
@@ -199,6 +201,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="btn-wrapper">
@@ -226,22 +230,28 @@
                     <div class="coutomizz-list-wrapper">
                         <ul>
                             <li>
-                                Select the size
+                                <span>
+                                    Select the size
+                                </span>
                             </li>
                             <li>
-                                Select quanitity
+                                <span>Select quanitity</span>
                             </li>
                             <li>
-                                Select Hard-Body color
+                                <span>Select Hard-Body color</span>
                             </li>
                             <li>
-                                Select Soft-Cover color
+                                <span>Select Soft-Cover color</span>
                             </li>
                             <li>
-                                Select the Trim color
+                                <span>
+                                    Select the Trim color
+                                </span>
                             </li>
                             <li>
-                                Accessorize it
+                                <span>
+                                    Accessorize it
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -304,7 +314,7 @@
                         </div>
                     </div>
                     <div class="look-wrapper">
-                        <div class="heading-wrapper">
+                        <div class="heading-wrapper LookInside">
                             <h6>Look Inside</h6>
                         </div>
                         <div class="magnifer-wrapper">
@@ -313,7 +323,7 @@
                             <button class="plus"><i class="fa fa-search-plus" aria-hidden="true"></i>
                             </button>
                         </div>
-                        <div class="heading-wrapper">
+                        <div class="heading-wrapper Clickimage">
                             <h6>Click image to rotate</h6>
                         </div>
                     </div>

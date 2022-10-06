@@ -9,6 +9,14 @@
      .shop-banner .shop-banner-content-wrapper h2 {
          font-size: 91px;
      }
+
+     .factory-view p {
+         color: #5e5e5e;
+         font-family: "Montserrat";
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 1.3;
+     }
  </style>
 
  <!-- shop banner starts here -->

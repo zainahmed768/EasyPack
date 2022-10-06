@@ -395,7 +395,7 @@ section.cart_section
 	tbody
 	tr
 	td.no_3 {
-	width: 17%;
+	width: 10%;
 }
 
 section.cart_section
@@ -448,7 +448,21 @@ section.cart_section
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 11%;
+	gap: 0%;
+}
+
+section.cart_section
+	.complete_cart
+	.cart_start_here
+	.price_totals
+	.grand_totaols
+	.gran_price
+	.the_row
+	span {
+	font-size: 22px !important;
+	font-family: "Montserrat" !important;
+	color: #3b3b3b !important;
+	font-weight: 700 !important;
 }
 
 section.cart_section
@@ -464,6 +478,19 @@ section.cart_section
 	margin-bottom: 0;
 	padding: 6px 11px;
 	border: 1px solid #70707061;
+	margin-left: -32px;
+}
+
+section.cart_section
+	.cart_start_here
+	.complete_orders_start
+	.order_table_start_here
+	table
+	tbody
+	tr
+	td
+	span {
+	margin-left: 27px;
 }
 
 section.cart_section
@@ -815,4 +842,18 @@ section.cart_section
 	section.cart_section .complete_cart .cart_start_here .price_totals {
 		width: 100%;
 	}
+}
+section.cart_section
+	.cart_start_here
+	.complete_orders_start
+	.order_table_start_here
+	table
+	tbody
+	tr
+	td.no_6
+	button {
+	background: transparent;
+	border-radius: 50%;
+	border: 2px solid #d82d2d;
+	color: #d82d2d;
 }

@@ -16,7 +16,7 @@
                  </div>
                  <div class="col-md-5">
                      <div class="calculator_start">
-                         <h6 class="small_heading">Enter Your New Address</h6>
+                         <h6 class="small_heading text-center">Enter Detail to find our shipping charges</h6>
                          <form action="">
                              <div class="form_start mt-4">
                                  <div class="form_row mt-3">

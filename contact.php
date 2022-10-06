@@ -8,8 +8,8 @@
  <section class="contact-form">
      <div class="container">
          <div class="row">
-             <div class="col-lg-2"></div>
-             <div class="col-lg-8">
+             <div class="col-lg-3"></div>
+             <div class="col-lg-6">
                  <div class="contact-form-wrapper">
                      <div class="form-heading-wrapper">
                          <h2>Contact Us</h2>
@@ -43,7 +43,7 @@
                      </form>
                  </div>
              </div>
-             <div class="col-lg-2"></div>
+             <div class="col-lg-3"></div>
          </div>
      </div>
  </section>

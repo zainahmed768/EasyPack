@@ -19,6 +19,7 @@
                                      <th class="no_3">Quantity</th>
                                      <th class="no_4">Subtotal</th>
                                      <th class="no_5">Total Amount</th>
+                                     <th class="no_5">Remove</th>
                                  </tr>
                              </thead>
                              <tbody>
@@ -35,6 +36,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -49,6 +51,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -63,6 +66,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -77,6 +81,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -91,6 +96,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -105,6 +111,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -119,6 +126,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -133,6 +141,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -147,6 +156,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -161,6 +171,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                                  <tr>
                                      <td class="no_1">01</td>
@@ -175,6 +186,7 @@
                                      <td class="no_3"><span>X2</td>
                                      <td class="no_4">$ 250.00</td>
                                      <td class="no_5">$$ 500.00</td>
+                                     <td class="no_6"><button><i class="fa fa-close"></i></button></td>
                                  </tr>
                              </tbody>
                          </table>

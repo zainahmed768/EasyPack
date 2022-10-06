@@ -47,20 +47,27 @@
                             <ul>
                                 <li>
                                     <a href="javascript:void(0)">
-                                        <i class="fa fa-map-marker"></i>
+                                        <ruby>
+                                            <i class="fa fa-map-marker"></i>
+                                        </ruby>
+
                                         <span>64 North Oak Dr.
                                             Teaneck, NJ 07666</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="tel:3169457549">
-                                        <i class="fa fa-envelope"></i>
+                                        <ruby>
+                                            <i class="fa fa-envelope"></i>
+                                        </ruby>
+
                                         <span>(316) 945-7549</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="mailto:Info@Easypack.com">
-                                        <i class="fa fa-phone"></i>
+                                        <ruby><i class="fa fa-phone"></i></ruby>
+
                                         <span>Info@Easypack.com</span>
                                     </a>
                                 </li>

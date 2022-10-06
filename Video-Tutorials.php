@@ -4,7 +4,11 @@
 
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/video-tutorials.css">
-
+ <style>
+     .shop-banner .shop-banner-content-wrapper .btn {
+         border-color: transparent;
+     }
+ </style>
  <!-- shop banner starts here -->
  <section class="shop-banner">
      <div class="container">

@@ -68,4 +68,8 @@
 	text-align: center;
 	margin-top: 58px;
 }
+.video-box-sec .btn {
+	padding: 11px 69px;
+	background: #d8ae65;
+}
 /* video sec css ends here */
