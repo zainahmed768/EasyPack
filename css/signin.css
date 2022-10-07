@@ -73,12 +73,11 @@ footer {
 	font-size: 22px;
 	color: #000000;
 }
-
 .auth_start .wraper .top_text span {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	color: #000000;
-	font-weight: 400;
+	font-weight: 500;
 }
 .auth .form_start .btn {
 	text-transform: uppercase;
@@ -107,7 +106,7 @@ footer {
 	user-select: none;
 	font-size: 15px;
 	font-family: "Montserrat", sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 /* Hide the browser's default checkbox */
@@ -122,10 +121,10 @@ footer {
 /* Create a custom checkbox */
 .custom_check_box .checkmark {
 	position: absolute;
-	top: 0;
+	top: 4px;
 	left: 0;
-	height: 19px;
-	width: 19px;
+	height: 16px;
+	width: 16px;
 	background-color: #eee;
 	border: 1px solid #636060;
 	border-radius: 0px;
@@ -150,12 +149,12 @@ section.checkout_section .checkout_start .save_details {
 
 /* Style the checkmark/indicator */
 .custom_check_box .checkmark:after {
-	left: 5px;
-	top: 1px;
-	width: 7px;
-	height: 13px;
+	left: 4px;
+	top: 0px;
+	width: 6px;
+	height: 11px;
 	border: solid #fdae25;
-	border-width: 0 3px 3px 0;
+	border-width: 0px 2px 2px 0;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);

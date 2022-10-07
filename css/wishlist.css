@@ -1,18 +1,41 @@
-section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td button.btn {
-    font-size: 12px;
-    padding: 14px 31px;
+section.cart_section
+	.cart_start_here
+	.complete_orders_start
+	.order_table_start_here
+	table
+	tbody
+	tr
+	td
+	button.btn {
+	font-size: 12px;
+	padding: 14px 31px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
-section.cart_section .cart_start_here .complete_orders_start .order_table_start_here table tbody tr td.no_5{
-    padding-left: 15px;
+section.cart_section
+	.cart_start_here
+	.complete_orders_start
+	.order_table_start_here
+	table
+	tbody
+	tr
+	td.no_5 {
+	padding-left: 15px;
 }
 section.cart_section {
-    padding: 75px 0px 165px;
+	padding: 75px 0px 165px;
 }
 
-section.cart_section .complete_cart .cart_start_here .complete_orders_start .order_table_start_here table tbody {
-    height: 375px !important;
+section.cart_section
+	.complete_cart
+	.cart_start_here
+	.complete_orders_start
+	.order_table_start_here
+	table
+	tbody {
+	height: 375px !important;
 }
 
 section.cart_section .complete_cart .complete_orders_start table {
-    border-bottom: 1px solid #70707054;
+	border-bottom: 1px solid #70707054;
 }

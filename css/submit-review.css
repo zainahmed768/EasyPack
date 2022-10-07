@@ -53,10 +53,9 @@
 	list-style: none;
 	display: flex;
 }
-
 .product-detail-sec .rating-wrapper ul li i {
-	font-size: 28px;
-	margin: 0px 7px 0px 1px;
+	font-size: 36px;
+	margin: 0px 12px 0px 1px;
 	color: #df9c00;
 }
 .product-detail-sec .btn-wrapper button.btn {

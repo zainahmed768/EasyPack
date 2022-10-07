@@ -16,7 +16,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. </p>
                     </div>
-                    <div class="form_start mt-5 px-5">
+                    <div class="form_start mt-2 px-5">
                         <form action="CreateNewPassword.php">
                             <div class="form_row mt-3">
                                 <div class="otp_input">

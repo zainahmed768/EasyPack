@@ -33,7 +33,7 @@
 }
 .single-accessories-wrapper .single-pro-content-wrapper ul li i {
 	color: #fe9d2b;
-	margin: 0px 3px 0px 0px;
+	margin: 0px 7px 0px 0px;
 }
 .single-accessories-wrapper .single-pro-content-wrapper ul li i.fa.fa-star-o {
 	color: #c7c7c7;
@@ -69,4 +69,26 @@
 .slick-next:before {
 	color: #000;
 	opacity: 1;
+}
+.Accessories-sec .slick-prev:before {
+	content: "\f104";
+	font-family: "FontAwesome";
+	color: #a5a3a3;
+	font-size: 37px;
+	font-weight: 200;
+}
+
+.Accessories-sec .slick-next:before {
+	content: "\f105";
+	font-family: "FontAwesome";
+	color: #a5a3a3;
+	font-size: 37px;
+	font-weight: 200;
+}
+.Accessories-sec .slick-prev {
+	left: -40px;
+}
+
+.Accessories-sec .slick-next {
+	right: -40px;
 }

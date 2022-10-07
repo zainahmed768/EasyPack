@@ -17,7 +17,7 @@
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="Galary.php">Our Gallery</a>
                                         <a class="dropdown-item" href="customize.php">Customize for Free</a>
-                                        <a class="dropdown-item" href="impact.php">Accessories</a>
+                                        <a class="dropdown-item" href="our-accessories.php">Accessories</a>
                                     </div>
                                 </li>
                                 <li><a href="customization.php">Customization</a></li>

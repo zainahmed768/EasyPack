@@ -29,7 +29,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/social-img.png" class="img-fluid" alt="">
+                         <img src="images/accessiories.png" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>

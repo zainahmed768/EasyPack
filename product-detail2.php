@@ -92,9 +92,9 @@
                      <div class="form">
                          <section class="plan cf">
                              <h2>Size:</h2>
-                             <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">21’’ (53 cms) Carry On – Case</label>
-                             <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">24’’ (61 cms) Mid- Size Case</label>
-                             <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) Large-Size Case</label>
+                             <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">21’’ (53 cms) <br> Carry On – Case</label>
+                             <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">24’’ (61 cms) <br> Mid- Size Case</label>
+                             <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) <br> Large-Size Case</label>
                          </section>
                      </div>
                      <div class="availability-wrapper">

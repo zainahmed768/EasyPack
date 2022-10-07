@@ -89,7 +89,7 @@
                                          <label class="label_container">
                                              <input type="radio" checked="checked" name="radio">
                                              <span class="checkmark">
-                                                 <div class="label" style="background-color: #d29f45;">
+                                                 <div class="label" style="background-color: #d29f45;  border: 2px solid #d29f45;">
                                                      <span>55cm</span>
                                                  </div>
                                              </span>
@@ -524,7 +524,7 @@
                                  </div>
                                  <div class="product-content-wrapper">
                                      <h4>$139</h4>
-                                     <h6>Easypack Suitcase</h6>
+                                     <h6>luggage</h6>
                                      <h3>DELSEY Paris Helium</h3>
                                  </div>
                              </div>
@@ -540,7 +540,7 @@
                                  </div>
                                  <div class="product-content-wrapper">
                                      <h4>$139</h4>
-                                     <h6>Easypack Suitcase</h6>
+                                     <h6>luggage</h6>
                                      <h3>DELSEY Paris Helium</h3>
                                  </div>
                              </div>
@@ -555,7 +555,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -569,7 +569,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -583,7 +583,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -597,7 +597,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -611,7 +611,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -625,7 +625,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -639,7 +639,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -653,7 +653,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -667,7 +667,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>
@@ -681,7 +681,7 @@
                              </div>
                              <div class="product-content-wrapper">
                                  <h4>$139</h4>
-                                 <h6>Easypack Suitcase</h6>
+                                 <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
                          </div>

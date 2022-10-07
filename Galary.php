@@ -4,6 +4,13 @@
 
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/galary.css">
+ <style>
+     .product-card-wrapper {
+         box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.22);
+         -webkit-box-shadow: 0px 5px 16px 0px rgb(0 0 0 / 22%);
+         -moz-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.22);
+     }
+ </style>
  <!-- ***************Shop section*********** -->
  <section class="shop-sec pb-5">
      <div class="container">

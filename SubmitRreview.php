@@ -3,6 +3,33 @@
  <!-- Header Include -->
  <link rel="stylesheet" href="css/product-detail.css">
  <link rel="stylesheet" href="css/submit-review.css">
+ <style>
+     .product-detail-sec .product-img-wrapper {
+         background: #fff;
+         border: 1px solid #707070;
+         text-align: center;
+         padding: 50px 0px;
+         margin-bottom: 12px;
+         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+     }
+
+     .product-detail-sec .btn-wrapper button.btn {
+         text-transform: uppercase;
+         padding: 10px 80px;
+         margin-bottom: 36px;
+         margin-top: 19px;
+     }
+
+     .product-detail-sec .product-list-img-wrapper ul li .product-list-wrapper {
+         width: 173px;
+         background: #fff;
+         border: 1px solid #707070;
+         text-align: center;
+         padding: 11px 0px;
+         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+         margin: 0px 10px 0px 0px;
+     }
+ </style>
  <!-- product detail starts here -->
  <section class="product-detail-sec">
      <div class="container">
@@ -10,7 +37,7 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
-                         <img src="images/product-detail2.png" class="img-fluid" alt="">
+                         <img src="images/product-img.png" class="img-fluid" alt="">
                      </figure>
                  </div>
                  <div class="product-list-img-wrapper">
@@ -18,21 +45,21 @@
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
@@ -75,7 +102,7 @@
                              </div>
                          </div>
                          <div class="area-wrapper">
-                             <textarea name="" class="form-control" placeholder="Submit Your review" id="" cols="30" rows="10"></textarea>
+                             <textarea name="" class="form-control" placeholder="Submit Your review" id="" cols="30" rows="7"></textarea>
                          </div>
                          <div class="rating-wrapper">
                              <p>
@@ -89,7 +116,9 @@
                                      <i class="fa fa-star"></i>
                                  </li>
                                  <li>
-                                     <i class="fa fa-star-half"></i>
+                                     <!-- <i class="fa fa-star-half"></i> -->
+                                     <img src="images/star.png" class="img-fluid" style="height: 34px;
+    margin: 0px 10px 0px 2px;" alt="">
                                  </li>
                                  <li>
                                      <i class="fa fa-star-o"></i>
@@ -106,7 +135,7 @@
                  </div>
              </div>
          </div>
-         <div class="row">
+         <!-- <div class="row">
              <div class="col-lg-6"></div>
              <div class="col-lg-6">
                  <div class="review-wrapper">
@@ -260,7 +289,7 @@
                      <button class="load">LOAD MORE</button>
                  </div>
              </div>
-         </div>
+         </div> -->
      </div>
  </section>
  <!-- product detail ends here -->

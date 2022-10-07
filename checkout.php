@@ -121,9 +121,13 @@
                                          NEW</button>
                                  </div>
                              </div>
+
                              <div class="saved_payemtns">
+                                 <div class="SavedPayments">
+                                     <h6>Use Saved Payments</h6>
+                                 </div>
                                  <div class="single_payment">
-                                     <div class="payment-details">
+                                     <div class="payment-details pt-0">
                                          <div class="saved-payment-method">
                                              <!-- Saved payments Method -->
                                              <label class="container">

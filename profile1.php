@@ -259,7 +259,7 @@
                                          </div>
                                          <div class="new_address_section hide">
                                              <div class="top_heading">
-                                                 <h4 class="main_heading">Edit Personal Information</h4>
+                                                 <h4 class="main_heading">Add New Address</h4>
                                              </div>
                                              <div class="edit_form">
                                                  <form method="post">

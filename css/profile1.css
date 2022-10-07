@@ -570,7 +570,7 @@ section.profile_section
 }
 
 .address_complete_section .all_adresses .single_address .address_start {
-	border: 2px solid #707070;
+	border: 1px solid #707070;
 	width: 100%;
 	padding: 15px 2% 14px 4%;
 	position: relative;
@@ -728,7 +728,7 @@ section.profile_section
 }
 
 .cutom_radio_btn[type="radio"]:checked + label .address_start {
-	border: 2px solid #f35f63;
+	border: 1px solid #f35f63;
 }
 
 .address_complete_section .all_adresses .add_new_address button.btn {
@@ -983,7 +983,7 @@ section.profile_section
 	color: #2692ff;
 	background-image: unset;
 	text-decoration: underline;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
 }

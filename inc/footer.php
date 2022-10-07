@@ -141,9 +141,11 @@
     <script>
         // logo change to dark theme starts here
         let currentUrl = window.location.href.split("/");
-        console.log("currentUrl", currentUrl);
+        // console.log("currentUrl", currentUrl);
 
-        if (currentUrl[4] == "index.php") {
+        if (currentUrl[4] == "") {
+            $('header .logo img').attr('src', 'images/logo.png');
+        } else if (currentUrl[4] == "index.php") {
             $('header .logo img').attr('src', 'images/logo.png');
         }
         // logo change to dark theme ends here

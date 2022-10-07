@@ -16,10 +16,11 @@
 	text-align: center;
 }
 h6.small_heading {
-	color: #000;
+	color: #262626;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
 }
 header {
 	position: unset;

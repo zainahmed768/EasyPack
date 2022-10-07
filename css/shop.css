@@ -111,21 +111,21 @@ header.active {
 }
 .color-variation .label_container span.checkmark .label {
 	width: 60px;
-	height: 35px;
+	height: 45px;
 	border-radius: unset;
 	margin-right: 10px;
-	border: 1px solid #c6c6c6;
+	border: 2px solid #c6c6c6;
 	color: #000000;
 	font-weight: 400;
 	padding: 3px;
-	font-size: 14px;
+	font-size: 16px;
 	display: flex;
 	justify-content: center;
 	font-family: "Montserrat";
 	align-items: center;
 }
 .sample-color h5 {
-	font-size: 20px;
+	font-size: 18px;
 	color: #000000;
 	font-family: "Montserrat";
 	font-weight: 400;
@@ -315,7 +315,7 @@ span#slider-range-value2 {
 	padding: 10px 20px;
 }
 .shop-price h3 {
-	font-size: 19px;
+	font-size: 18px;
 	color: #000000;
 	font-family: "Montserrat";
 	font-weight: 400;
@@ -351,7 +351,7 @@ section.shop-sec {
 	padding: 0px 18px;
 }
 .shop-bar .side-bar-size .sample-color h5 {
-	padding: 12px 18px;
+	padding: 25px 18px 0px 18px;
 }
 .shop-bar .side-bar-size .sample-color .radio-color-btn {
 	padding: 14px 18px 0px;
@@ -465,8 +465,8 @@ section.shop-sec {
 	letter-spacing: 1px;
 }
 .shop-banner .shop-banner-content-wrapper .btn {
-	padding: 12px 60px;
+	padding: 11px 69px;
 	letter-spacing: 2px;
-	font-size: 13px;
+	font-size: 12px;
 }
 /* shop banner ends here */
