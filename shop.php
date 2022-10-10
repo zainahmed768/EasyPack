@@ -57,10 +57,12 @@
                              </div>
                          </div>
                          <div class="row slider-labels">
-                             <div class="col-xs-6 caption">
+                             <div class="col-xs-6 caption d-flex align-items-center">
+                                 <ruby>$</ruby>
                                  <span id="slider-range-value1"></span>
                              </div>
-                             <div class="col-xs-6 text-right caption">
+                             <div class="col-xs-6 text-right caption d-flex align-items-center">
+                                 <ruby>- $</ruby>
                                  <span id="slider-range-value2"></span>
                              </div>
                          </div>

@@ -113,7 +113,7 @@ header.active {
 	width: 60px;
 	height: 45px;
 	border-radius: unset;
-	margin-right: 10px;
+	margin-right: 4px;
 	border: 2px solid #c6c6c6;
 	color: #000000;
 	font-weight: 400;
@@ -152,12 +152,13 @@ span#slider-range-value1 {
 	border: 1px solid #c6c6c6;
 	padding: 10px;
 	display: block;
+	font-family: "Montserrat";
 }
-
 span#slider-range-value2 {
 	border: 1px solid #c6c6c6;
 	padding: 10px;
 	display: block;
+	font-family: "Montserrat";
 }
 
 /* Functional styling;
@@ -465,8 +466,14 @@ section.shop-sec {
 	letter-spacing: 1px;
 }
 .shop-banner .shop-banner-content-wrapper .btn {
-	padding: 11px 69px;
+	padding: 11px 54px;
 	letter-spacing: 2px;
 	font-size: 12px;
+}
+.shop-bar .caption ruby {
+	margin: 0px 12px 0px 0px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 19px;
 }
 /* shop banner ends here */

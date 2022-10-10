@@ -92,3 +92,8 @@
 .Accessories-sec .slick-next {
 	right: -40px;
 }
+.Accessories-sec .btn-wrapper .btn {
+	padding: 11px 59px;
+	text-transform: uppercase;
+	background: #d8ae65;
+}

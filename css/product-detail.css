@@ -408,6 +408,7 @@ form .payment-plan input:checked + label:after,
 	color: #525252;
 	font-weight: 500;
 	font-size: 13px;
+	margin-bottom: 0px;
 }
 .review-wrapper
 	.single-review-wrapper

@@ -321,7 +321,7 @@
             var moneyFormat = wNumb({
                 decimals: 0,
                 thousand: ',',
-                prefix: '$'
+                // prefix: '$'
             });
             noUiSlider.create(rangeSlider, {
                 start: [500000, 1000000],

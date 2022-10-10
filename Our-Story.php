@@ -77,7 +77,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/story1.png" class="img-fluid" alt="">
+                         <img src="images/fac2.png" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>
@@ -102,7 +102,7 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="content-wrapper">
-                     <h2>Galary</h2>
+                     <h2>Gallery</h2>
                  </div>
              </div>
          </div>
