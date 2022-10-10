@@ -102,7 +102,7 @@
                              </div>
                          </div>
                          <div class="area-wrapper">
-                             <textarea name="" class="form-control" placeholder="Submit Your review" id="" cols="30" rows="7"></textarea>
+                             <textarea name="" class="form-control" placeholder="Submit Your review" id="" cols="30" rows="5"></textarea>
                          </div>
                          <div class="rating-wrapper">
                              <p>
