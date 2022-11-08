@@ -1,0 +1,45 @@
+header {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.accordion {
+  padding: 70px 0px;
+}
+ 
+ summary {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  background: #eceff1;
+  padding: 1rem 2rem;
+ }
+ 
+ details {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 1rem;
+ }
+ 
+ details p {
+  margin: 1rem auto;
+  translate: 2rem 0;
+  font-family: 'FontAwesome';
+}
+ 
+summary > * {
+  display: inline;
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+ 
+ .privacy-head h2 {
+  font-size: 60px;
+  font-family: 'Montserrat';
+}
+
+.privacy-head {
+  padding-top: 60px;
+}

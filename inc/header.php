@@ -16,7 +16,7 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="Galary.php">Our Gallery</a>
-                                        <a class="dropdown-item" href="customize.php">Customize for Free</a>
+                                        <!-- <a class="dropdown-item" href="customize.php">Customize for Free</a> -->
                                         <a class="dropdown-item" href="our-accessories.php">Accessories</a>
                                     </div>
                                 </li>
@@ -27,14 +27,28 @@
                                         About US
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="impact.php">Making an impact</a>
                                         <a class="dropdown-item" href="Our-Story.php">Our Story</a>
-                                        <a class="dropdown-item" href="our-mission.php">Our Mission</a>
-                                        <a class="dropdown-item" href="impact.php">Making an impact</a>
+                                        <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
+                                        
                                         <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a>
                                     </div>
                                 </li>
                                 <li><a href="user-guide.php"></a></li>
-                                <li><a href="contact.php">CONTACT US</a></li>
+                                <!-- <li><a href="contact.php">Customer Care</a></li> -->
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Customer Care
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="contact.php">Contact Us</a>
+                                        <a class="dropdown-item" href="faq.php">Faq</a>
+                                        <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
+                                        
+                                        <!-- <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a> -->
+                                    </div>
+                                </li>
                             </ul>
                             <div class="canvas-icon text-white text-right">
                                 <i class="fa fa-bars" aria-hidden="true"></i>

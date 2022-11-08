@@ -37,6 +37,7 @@
                             <li><a href="terms.php">Terms and Condition</a></li>
                             <li><a href="Shipping.php">Shipping</a></li>
                             <li><a href="return.php">Return</a></li>
+                            <li><a href="Warranty.php">Warrenty & Repair</a></li>
                         </ul>
                     </div>
                 </div>

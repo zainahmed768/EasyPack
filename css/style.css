@@ -57,8 +57,9 @@ a {
 }
 /* *********************** Begin of header section***************** */
 .nav-sec .nav-list .profile-wrapper {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
 }
 .nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
 	border: 3px solid #d29f45;
