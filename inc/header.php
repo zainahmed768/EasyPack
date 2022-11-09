@@ -34,7 +34,7 @@
                                         <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a>
                                     </div>
                                 </li>
-                                <li><a href="user-guide.php"></a></li>
+                                <!-- <li><a href="user-guide.php"></a></li> -->
                                 <!-- <li><a href="contact.php">Customer Care</a></li> -->
 
                                 <li class="nav-item dropdown">

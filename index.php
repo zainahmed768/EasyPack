@@ -2,9 +2,10 @@
 <?php include 'inc/head.php' ?>
 <!-- Footer -->
 <style>
-    header .nav-list ul li a {
-        color: #fff;
-    }
+header .nav-list ul li a {
+    color: #fff;
+    padding: 0 6px;
+}
 
     header .nav-list img {
         filter: invert(1);
