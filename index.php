@@ -58,7 +58,7 @@
 <div class="car-caption-flex">
     <div class="car-caption">
         <!-- <h3 class="animate__animated animate__bounce">Best of our Products</h3> -->
-        <h2 class="wow animate__animated animate__fadeInRight">EasyPack Luggage</h2>
+        <!-- <h2 class="wow animate__animated animate__fadeInRight">EasyPack Luggage</h2> -->
         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p> -->
         <!-- <img class="img-fluid" src="images/vv.png" alt=""> -->
 
@@ -76,8 +76,9 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-12">
                 <div class="content-wrapper">
-                    <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
-                        Customize it at No Additional Cost.</h2>
+                    <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
+                        Customize it at No Additional Cost.</h2> -->
+                       <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
                 </div>
             </div>
         </div>

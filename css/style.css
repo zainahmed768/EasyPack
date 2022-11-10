@@ -383,20 +383,20 @@ section.collection-sec .row {
 
 /* ***********Begin of Customize Section*************** */
 .custom-sec .custom-heading h2 {
-	font-family: "Generica";
-	font-size: 35px;
+    font-family: "Generica";
+    font-size: 24px;
 }
 .custom-sec .coutomizz-list-wrapper ul {
 	padding-left: 21px;
 	margin-bottom: 33px;
 }
 .custom-sec .coutomizz-list-wrapper ul li {
-	color: #fff;
-	font-family: "Montserrat";
-	font-size: 18px;
-	font-weight: 400;
-	padding: 4px 0px;
-	line-height: 1.8;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    padding: 1px 0px;
+    line-height: 1.8;
 }
 .custom-sec .coutomizz-list-wrapper ul li span {
 	margin-left: 22px;
@@ -536,9 +536,9 @@ section.collection-sec .row {
 	font-weight: 400;
 	margin: 0;
 }
-.for-back {
+/* .for-back {
 	background-color: #000000;
-}
+} */
 section.custom-sec .col-md-6 {
 	padding: 0;
 }
@@ -546,9 +546,9 @@ section.custom-sec {
 	padding: 0px 0px 0px 0px;
 }
 .custom-sec .btn-wrapper .btn {
-	padding: 13px 39px;
-	font-size: 13px;
-	letter-spacing: 2px;
+    padding: 13px 32px;
+    font-size: 10px;
+    letter-spacing: 2px;
 }
 .sample-color h5 {
 	font-size: 20px;
@@ -568,9 +568,15 @@ section.custom-sec {
 	display: none;
 }
 .custom-all {
-	position: relative;
-	left: 117px;
-	padding-top: 137px;
+    position: relative;
+    left: 0;
+    /* right: 60px; */
+    padding-top: 0px !important;
+    padding-top: 0;
+    background-color: #000000;
+    padding: 50px 80px;
+    top: 110px;
+    left: 187px;
 }
 .head {
 	padding-top: 50px;
