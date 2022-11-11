@@ -187,14 +187,14 @@ header .nav-sec .dropdown-menu a.dropdown-item.active {
     align-items: center;
 }
 .nav-list ul li a {
-    font-size: 13px;
+    font-size: 11px;
     color: #000;
     text-transform: uppercase;
     margin-right: 15px;
     text-decoration: none;
     font-weight: 500;
     font-family: "Montserrat";
-    margin: 0px;
+    /* margin: 0px; */
 }
 .nav-sec .nav-list .profile-wrapper .profile-content-wrapper {
 	margin-left: 8px;
@@ -385,6 +385,7 @@ section.collection-sec .row {
 .custom-sec .custom-heading h2 {
     font-family: "Generica";
     font-size: 24px;
+    color: #d29f45;
 }
 .custom-sec .coutomizz-list-wrapper ul {
 	padding-left: 21px;
@@ -1267,3 +1268,7 @@ footer .content-wrapper p {
 	}
 }
 /* ************************End of Responsive****************** */
+.nav-link {
+    display: block;
+    padding: 0 !important;
+}
