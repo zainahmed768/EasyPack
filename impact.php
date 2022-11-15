@@ -6,9 +6,9 @@
  <link rel="stylesheet" href="css/story.css">
  <link rel="stylesheet" href="css/impact.css">
  <style>
-     .shop-banner .shop-banner-content-wrapper h2 {
-         font-size: 61px;
-     }
+   .shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 52px;
+}
 
      .factory-view p {
          color: #5e5e5e;

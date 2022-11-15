@@ -453,10 +453,10 @@ section.shop-sec {
 	font-size: 23px;
 }
 .shop-banner .shop-banner-content-wrapper h2 {
-	font-family: "Generica";
-	font-size: 96px;
-	font-weight: 700;
-	color: #000000;
+    font-family: "Generica";
+    font-size: 67px;
+    font-weight: 700;
+    color: #000000;
 }
 .shop-banner .shop-banner-content-wrapper p {
 	color: #000000;
@@ -475,5 +475,8 @@ section.shop-sec {
 	font-family: "Montserrat";
 	font-weight: 400;
 	font-size: 19px;
+}
+.shop-banner-content-wrapper h2 span {
+    color: #d29f45;
 }
 /* shop banner ends here */

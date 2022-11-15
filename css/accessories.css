@@ -39,11 +39,12 @@
 	color: #c7c7c7;
 }
 .Accessories-sec .content-wrapper h2 {
-	font-family: "Generica";
-	text-align: center;
-	margin-bottom: 43px;
-	color: #000000;
-	font-size: 60px;
+    font-family: "Generica";
+    text-align: center;
+    margin-bottom: 43px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 60px;
 }
 .single-accessories-wrapper .single-img-wrapper {
 	position: relative;

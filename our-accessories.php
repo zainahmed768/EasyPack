@@ -6,9 +6,9 @@
  <link rel="stylesheet" href="css/story.css">
  <link rel="stylesheet" href="css/accessories.css">
  <style>
-     .shop-banner .shop-banner-content-wrapper h2 {
-         font-size: 68px;
-     }
+   .shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 60px;
+}
  </style>
  <!-- shop banner starts here -->
  <section class="shop-banner">

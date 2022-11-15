@@ -117,13 +117,13 @@
                  </div>
              </div>
          </div>
-         <div class="row">
+         <!-- <div class="row">
              <div class="col-lg-12">
                  <div class="btn-wrapper">
                      <a href="#" class="btn">View All</a>
                  </div>
              </div>
-         </div>
+         </div> -->
      </div>
  </section>
  <!-- video box sec End here -->

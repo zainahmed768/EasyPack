@@ -5,9 +5,12 @@
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
  <style>
-     .shop-banner .shop-banner-content-wrapper h2 {
-         font-size: 67px;
-     }
+   .shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 52px;
+}
+.shop-banner-content-wrapper h2 span {
+    color: #d29f45;
+}
  </style>
 
  <!-- *********************Banner section********************** -->
@@ -20,7 +23,7 @@
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                         Customize Your <br>Easypack Luggage
+                         Customize Your <br><span>Easypack Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -44,8 +47,8 @@
  <section class="customization_section">
      <div class="container">
          <div class="top_heading text-center">
-             <h2>Customize your <span>EasyPack Laggage</span><br>
-                 At No Additional Cost</h2>
+             <h2>Customize your <span>EasyPack Luggage</span><br>
+             For Free</h2>
          </div>
          <div class="customization_start_here">
              <div class="row">
