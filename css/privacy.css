@@ -66,11 +66,13 @@ header.active {
 
 /* *********BEgin of Privacy section******* */
 .privacy-head h2 {
-	font-size: 60px;
-	color: #000000;
-	font-weight: 400;
-	margin: 0;
-	margin-bottom: 52px;
+    font-size: 47px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Generica';
+    margin: 0;
+    margin-bottom: 52px;
+    font-weight: 700;
 }
 .privacy-head h4 {
 	font-size: 20px;
