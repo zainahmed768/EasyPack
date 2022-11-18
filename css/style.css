@@ -577,7 +577,7 @@ section.custom-sec {
     background-color: #000000;
     padding: 50px 80px;
     top: 110px;
-    left: 187px;
+    left: 0;
 }
 .head {
 	padding-top: 50px;
@@ -1129,6 +1129,9 @@ footer .content-wrapper p {
 .copy-right .row {
 	display: flex;
 	align-items: center;
+}
+section.custom-sec .col-md-5 {
+    padding: 0;
 }
 /* *************End of Copy Right******************** */
 

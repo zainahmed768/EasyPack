@@ -223,7 +223,7 @@ header .nav-list ul li a {
 <section class="custom-sec">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-6 col-lg-6 for-back">
+            <div class="col-md-5 col-sm-5 col-sm-5 col-xs-5 col-lg-5 for-back">
                 <div class="custom-all">
                     <div class="custom-heading">
                         <h2>When you Customize Your <br>
@@ -263,7 +263,7 @@ header .nav-list ul li a {
 
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-sm-6 col-xs-6 col-lg-6">
+            <div class="col-md-7 col-sm-7 col-sm-7 col-xs-7 col-lg-7">
                 <!-- <div class="custom-case">
                     <div class="custom-text">
                         <h5>Look inside</h5>
