@@ -544,7 +544,8 @@ section.custom-sec .col-md-6 {
 	padding: 0;
 }
 section.custom-sec {
-	padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: #f7f7f7;
 }
 .custom-sec .btn-wrapper .btn {
     padding: 13px 32px;
