@@ -45,7 +45,9 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="contact.php">Contact Us</a>
-                                        <a class="dropdown-item" href="faq.php">Faq</a>
+                                    <a class="dropdown-item" href="Shipping.php">Shipping</a>
+                                    <a class="dropdown-item" href="Warranty.php">Warranty and Repairs</a>
+                                        <a class="dropdown-item" href="faq.php">Faq's</a>
                                         <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
                                         
                                         <!-- <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a> -->
