@@ -37,7 +37,9 @@ summary > * {
  
 .privacy-head h2 {
   font-size: 52px;
-  font-family: 'Segoe UI Bold';
+  /* font-family: 'Segoe UI Bold'; */
+  font-weight: 700;
+  color: #000000;
 }
 
 .privacy-head {
