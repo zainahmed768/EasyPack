@@ -36,12 +36,26 @@ summary > * {
 }
  
 .privacy-head h2 {
-  font-size: 52px;
-  /* font-family: 'Segoe UI Bold'; */
-  font-weight: 700;
-  color: #000000;
+  font-size: 47px;
+    color: #000;
+    font-family: "Generica";
+    font-weight: 700;
 }
 
 .privacy-head {
   padding-top: 60px;
+}
+
+.all-faq p {
+    color: #5e5e5e;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.all-faq h3 {
+ color: #5e5e5e;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
 }
