@@ -9,7 +9,7 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
-                         <img src="images/acs9.jpg" class="img-fluid" alt="">
+                         <img src="images/product-img.png" class="img-fluid" alt="">
                      </figure>
                  </div>
                  <div class="product-list-img-wrapper">
@@ -17,21 +17,21 @@
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs9.jpg" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs9.jpg" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs9.jpg" class="img-fluid" alt="">
+                                     <img src="images/product-img2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
@@ -43,7 +43,7 @@
                  <div class="product-detail-wrapper">
                      <div class="name-price-wrapper">
                          <div class="name-wrapper">
-                             <h5>Nutrients and Additives</h5>
+                             <!-- <h5>Nutrients and Additives</h5> -->
                              <h3>DELSEY Paris Helium</h3>
                          </div>
                          <div class="price-wrapper">
@@ -58,6 +58,21 @@
                              </p>
                          </div>
                      </div>
+                       <div class="color-wrapper color-acc">
+                             <div class="heading-wrapper">
+                                 <h6>Color:</h6>
+                             </div>
+                             <div class="radio-coolor-wrapper">
+                                 <input type="radio" name="color" id="black" />
+                                 <label for="black"><span class="black"></span></label>
+                                 <input type="radio" name="color" id="red" value="red" />
+                                 <label for="red"><span class="red"></span></label>
+                                 <input type="radio" name="color" id="blue" />
+                                 <label for="blue"><span class="blue"></span></label>
+                                 <input type="radio" name="color" id="white" />
+                                 <label for="white"><span class="white"></span></label>
+                             </div>
+                         </div>
                      <div class="quality-color-wrapper">
                          <div class="quality-wrapper">
                              <div class="heading-wrapper">
@@ -73,7 +88,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="color-wrapper">
+                         <!-- <div class="color-wrapper">
                              <div class="heading-wrapper">
                                  <h6>Color:</h6>
                              </div>
@@ -87,31 +102,32 @@
                                  <input type="radio" name="color" id="white" />
                                  <label for="white"><span class="white"></span></label>
                              </div>
-                         </div>
+                         </div> -->
                      </div>
-                     <div class="form">
+                     <!-- <div class="form">
                          <section class="plan cf">
                              <h2>Size:</h2>
                              <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">21’’ (53 cms) <br> Carry On – Case</label>
                              <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">24’’ (61 cms) <br> Mid- Size Case</label>
                              <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) <br> Large-Size Case</label>
                          </section>
-                     </div>
-                     <div class="availability-wrapper">
+                     </div> -->
+                     <!-- <div class="availability-wrapper">
                          <div class="heading-wrapper">
                              <h6>Availability:</h6>
                          </div>
                          <div class="size-wrapper">
                              <h4>M</h4>
                          </div>
-                     </div>
+                     </div> -->
                      <div class="cart-btn-wrapper">
-                         <button class="btn">Add to cart</button>
+                         <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
                          <button class="btn">Add to wishlist</button>
                      </div>
                  </div>
              </div>
          </div>
+         
          <div class="row">
              <div class="col-lg-6"></div>
              <div class="col-lg-6">
@@ -263,7 +279,7 @@
                      </div>
                  </div>
                  <div class="load-more-wrapper">
-                     <button class="load">LOAD MORE</button>
+                     <button onclick="location.href='SubmitRreview.php'" class="load">LOAD MORE</button>
                  </div>
              </div>
          </div>

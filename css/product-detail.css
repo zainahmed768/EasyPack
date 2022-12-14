@@ -473,3 +473,7 @@ form .payment-plan input:checked + label:after,
 .product-detail-sec .load-more-wrapper {
 	margin-top: 33px;
 }
+
+.color-acc{
+	margin-left: 0px !important;
+}

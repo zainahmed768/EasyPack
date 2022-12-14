@@ -184,7 +184,7 @@ header .nav-sec .dropdown-menu a.dropdown-item.active {
     list-style: none;
     padding: 0px;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 .nav-list ul li a {
     font-size: 11px;

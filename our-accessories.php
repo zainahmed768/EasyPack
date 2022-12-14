@@ -50,6 +50,7 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="accessories-slider-wrapper">
+                     <a href="product-detail2.php">
                      <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
@@ -80,6 +81,7 @@
                              </div>
                          </div>
                      </div>
+                     </a>
                      <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
@@ -543,7 +545,8 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="accessories-slider-wrapper">
-                     <div class="single-accessories-wrapper">
+                     <a href="">
+                        <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
                                  <img src="images/acs11.jpg" alt="">
@@ -576,6 +579,7 @@
                              </div>
                          </div>
                      </div>
+                     </a>
                      <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
