@@ -23,7 +23,7 @@
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p>
-                     <a href="#" class="btn">SHOP NOW</a>
+                     <a href="shop.php" class="btn">SHOP NOW</a>
                  </div>
              </div>
              <div class="col-lg-6">
@@ -919,7 +919,7 @@
          <div class="row py-5">
              <div class="col-lg-12">
                  <div class="btn-wrapper text-center">
-                     <a href="#" class="btn">View All</a>
+                     <a href="shop.php" class="btn">View All</a>
                  </div>
              </div>
          </div>
