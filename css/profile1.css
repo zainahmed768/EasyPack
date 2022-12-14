@@ -1490,3 +1490,6 @@ section.unique_feature .unique_feature_start.text-center figure {
 		background-position: center left 4px;
 	}
 }
+header section.nav-sec .nav-list ul li a {
+    margin-right: 15px !important;
+}
