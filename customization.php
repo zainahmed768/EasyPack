@@ -34,7 +34,7 @@
              <div class="col-lg-5">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/Easypack-pic.jpg" class="img-fluid" alt="">
+                         <img src="images/accessiories.png" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>
@@ -320,7 +320,7 @@
                          </div>
                          <div class="final_customized_bag">
                              <figure>
-                                 <img src="images/customized.png" alt="">
+                                 <img src="images/Easypack-pic.jpg" alt="">
                              </figure>
                              <div class="ep_input">
                                  <label for="">EP</label>
