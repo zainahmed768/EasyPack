@@ -30,7 +30,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/shop-banner-img.png" class="img-fluid" alt="">
+                         <img src="images/shop-ban.webp" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>
