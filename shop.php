@@ -7,6 +7,10 @@
      .product-card-wrapper {
          border: 1px solid #707070;
      }
+
+     .shop-banner {
+         padding: 208px 0px 100px 0px;
+     }
  </style>
 
  <!-- **********************Banner section*********************** -->
@@ -19,7 +23,7 @@
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                      <span>   EasyPack <br> Luggage</span>
+                         <span> EasyPack <br> Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -30,7 +34,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/shop-ban.webp" class="img-fluid" alt="">
+                         <img src="images/shop-ban1.png" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>

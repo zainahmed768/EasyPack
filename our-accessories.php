@@ -9,6 +9,14 @@
      .shop-banner .shop-banner-content-wrapper h2 {
          font-size: 52px;
      }
+
+     .product-card-wrapper .product-img-wrapper img {
+         margin: 0 auto;
+     }
+
+     .shop-banner {
+         padding: 208px 0px 47px 0px;
+     }
  </style>
  <!-- shop banner starts here -->
  <section class="shop-banner">
@@ -212,87 +220,80 @@
  <!-- ***************Shop section*********** -->
  <section class="shop-sec pb-5">
      <div class="container">
-         <div class="row acc">
-             <div class="col-lg-3">
-                 <a href="product-detail2.php">
-                     <div class="product-card-wrapper">
-                         <div class="product-img-wrapper">
-                             <figure>
-                                 <img src="images/acs1.jpg" class="img-fluid" alt="">
-                             </figure>
-                         </div>
-                         <div class="product-content-wrapper">
-                             <h4>$139</h4>
-                             <h6>Easypack Suitcase</h6>
-                             <h3>DELSEY Paris Helium</h3>
-                         </div>
+         <div class="row ">
+             <div class="col-lg-2"></div>
+             <div class="col-lg-8">
+                 <div class="row acc">
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
-                 </a>
-             </div>
-             <div class="col-lg-3">
-                 <a href="product-detail2.php">
-                     <div class="product-card-wrapper">
-                         <div class="product-img-wrapper">
-                             <figure>
-                                 <img src="images/acs2.jpg" class="img-fluid" alt="">
-                             </figure>
-                         </div>
-                         <div class="product-content-wrapper">
-                             <h4>$139</h4>
-                             <h6>Easypack Suitcase</h6>
-                             <h3>DELSEY Paris Helium</h3>
-                         </div>
+
+                     <div class="col-lg-4">
+                         <a href="#">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.jpg" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
-                 </a>
-             </div>
-             <div class="col-lg-3">
-                 <a href="product-detail2.php">
-                     <div class="product-card-wrapper">
-                         <div class="product-img-wrapper">
-                             <figure>
-                                 <img src="images/acs3.jpg" class="img-fluid" alt="">
-                             </figure>
-                         </div>
-                         <div class="product-content-wrapper">
-                             <h4>$139</h4>
-                             <h6>Easypack Suitcase</h6>
-                             <h3>DELSEY Paris Helium</h3>
-                         </div>
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
-                 </a>
-             </div>
-             <div class="col-lg-3">
-                 <a href="product-detail2.php">
-                     <div class="product-card-wrapper">
-                         <div class="product-img-wrapper">
-                             <figure>
-                                 <img src="images/acs8.jpg" class="img-fluid" alt="">
-                             </figure>
-                         </div>
-                         <div class="product-content-wrapper">
-                             <h4>$139</h4>
-                             <h6>Easypack Suitcase</h6>
-                             <h3>DELSEY Paris Helium</h3>
-                         </div>
+
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.jpg" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
-                 </a>
+                 </div>
              </div>
-             <div class="col-lg-3">
-                 <a href="product-detail2.php">
-                     <div class="product-card-wrapper">
-                         <div class="product-img-wrapper">
-                             <figure>
-                                 <img src="images/acs10.jpg" class="img-fluid" alt="">
-                             </figure>
-                         </div>
-                         <div class="product-content-wrapper">
-                             <h4>$139</h4>
-                             <h6>Easypack Suitcase</h6>
-                             <h3>DELSEY Paris Helium</h3>
-                         </div>
-                     </div>
-                 </a>
-             </div>
+             <div class="col-lg-2"></div>
+
              <!-- <div class="col-lg-3">
                  <div class="product-card-wrapper">
                      <div class="product-img-wrapper">

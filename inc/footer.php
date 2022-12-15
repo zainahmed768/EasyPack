@@ -159,7 +159,7 @@
         });
         $('.acc').slick({
             infinite: true,
-            slidesToShow: 4,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: true,
             dots: false,
