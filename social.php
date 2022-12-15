@@ -22,7 +22,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/social-img.png" class="img-fluid" alt="">
+                         <img src="images/social-ban.webp" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>

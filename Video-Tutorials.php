@@ -28,7 +28,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/video-bg.png" class="img-fluid" alt="">
+                         <img src="images/video-ban.webp" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>

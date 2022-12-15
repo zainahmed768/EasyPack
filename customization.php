@@ -34,7 +34,7 @@
              <div class="col-lg-5">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/accessiories.png" class="img-fluid" alt="">
+                         <img src="images/cust-ban.png" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>
