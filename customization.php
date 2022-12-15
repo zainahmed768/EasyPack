@@ -320,7 +320,7 @@
                          </div>
                          <div class="final_customized_bag">
                              <figure>
-                                 <img src="images/Easypack-pic.jpg" alt="">
+                                 <img src="images/easypic2.png" alt="">
                              </figure>
                              <div class="ep_input">
                                  <label for="">EP</label>
