@@ -164,6 +164,13 @@
             arrows: true,
             dots: false,
         });
+
+        $('.product-list-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false,
+        });
         $('.review-sec .slider-row').slick({
             infinite: true,
             slidesToShow: 3,

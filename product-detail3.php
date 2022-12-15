@@ -2,7 +2,19 @@
  <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
  <link rel="stylesheet" href="css/product-detail.css">
+ <style>
+     .product-detail-sec .product-list-img-wrapper ul li .product-list-wrapper img {
+         margin: 0px auto;
+     }
 
+     .product-detail-sec .product-list-img-wrapper ul {
+         width: 100% !important;
+     }
+
+     .product-list-slider .slick-track {
+         width: 100% !important;
+     }
+ </style>
  <!-- product detail starts here -->
  <section class="product-detail-sec">
      <div class="container">
@@ -10,29 +22,36 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
-                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                         <img src="images/acs5.jpg" class="img-fluid" alt="">
                      </figure>
                  </div>
-                 <div class="product-list-img-wrapper">
+                 <div class="product-list-img-wrapper  product-list-slider">
                      <ul>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs2.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs4.jpg" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs9.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs6.jpg" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs10.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs7.jpg" class="img-fluid" alt="">
+                                 </figure>
+                             </div>
+                         </li>
+                         <li>
+                             <div class="product-list-wrapper">
+                                 <figure>
+                                     <img src="images/acs8.jpg" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
@@ -74,30 +93,25 @@
                                  </div>
                              </div>
                          </div>
-                         <!-- <div class="color-wrapper">
+                         <div class="color-wrapper">
                              <div class="heading-wrapper">
                                  <h6>Color:</h6>
                              </div>
                              <div class="radio-coolor-wrapper">
+                                 <input type="radio" name="color" id="white" />
+                                 <label for="white"><span class="white"></span></label>
                                  <input type="radio" name="color" id="black" />
                                  <label for="black"><span class="black"></span></label>
                                  <input type="radio" name="color" id="red" value="red" />
                                  <label for="red"><span class="red"></span></label>
                                  <input type="radio" name="color" id="blue" />
                                  <label for="blue"><span class="blue"></span></label>
-                                 <input type="radio" name="color" id="white" />
-                                 <label for="white"><span class="white"></span></label>
+                                 <input type="radio" name="color" id="grey" />
+                                 <label for="blue"><span class="grey"></span></label>
                              </div>
-                         </div> -->
+                         </div>
                      </div>
-                     <!-- <div class="form">
-                         <section class="plan cf">
-                             <h2>Size:</h2>
-                             <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">21’’ (53 cms) <br> Carry On – Case</label>
-                             <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">24’’ (61 cms) <br> Mid- Size Case</label>
-                             <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) <br> Large-Size Case</label>
-                         </section>
-                     </div>
+
                      <div class="availability-wrapper">
                          <div class="heading-wrapper">
                              <h6>Availability:</h6>
@@ -105,7 +119,7 @@
                          <div class="size-wrapper">
                              <h4>M</h4>
                          </div>
-                     </div> -->
+                     </div>
                      <div class="cart-btn-wrapper">
                          <button class="btn">Add to cart</button>
                          <button class="btn">Add to wishlist</button>
