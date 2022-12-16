@@ -37,7 +37,6 @@
                              </div>
                          </li>
                      </ul>
-
                  </div>
              </div>
              <div class="col-lg-6">

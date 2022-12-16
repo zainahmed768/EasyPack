@@ -6,6 +6,11 @@
  <link rel="stylesheet" href="css/story.css">
  <link rel="stylesheet" href="css/accessories.css">
  <style>
+     section.shop-sec .slick-next {
+         right: -25px;
+         z-index: 1;
+     }
+
      .shop-banner .shop-banner-content-wrapper h2 {
          font-size: 52px;
      }
