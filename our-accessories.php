@@ -229,7 +229,7 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
-                                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
                                      </figure>
                                  </div>
                                  <div class="product-content-wrapper">
@@ -246,7 +246,7 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
-                                         <img src="images/acs3.jpg" class="img-fluid" alt="">
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
                                      </figure>
                                  </div>
                                  <div class="product-content-wrapper">
@@ -262,7 +262,7 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
-                                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
                                      </figure>
                                  </div>
                                  <div class="product-content-wrapper">
@@ -279,7 +279,7 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
-                                         <img src="images/acs3.jpg" class="img-fluid" alt="">
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
                                      </figure>
                                  </div>
                                  <div class="product-content-wrapper">

@@ -10,7 +10,7 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
-                         <img src="images/acs1.jpg" class="img-fluid" alt="">
+                         <img src="images/acs1.png" class="img-fluid" alt="">
                      </figure>
                  </div>
                  <div class="product-list-img-wrapper">
@@ -18,21 +18,21 @@
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs2.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs9.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs9.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/acs10.jpg" class="img-fluid" alt="">
+                                     <img src="images/acs10.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
