@@ -4,161 +4,161 @@
 @import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 /* *********************** Begin of header section***************** */
 header {
-	/* position: fixed;
+  /* position: fixed;
 	z-index: 1;
 	width: 100%; */
 }
 header.active {
-	background-color: #333132;
+  background-color: #333132;
 }
 /* *********************** end of of header section***************** */
 
 /* ********Begin of banner-section */
 .car-caption-flex {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 153px;
-	bottom: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 153px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .car-caption h3 {
-	font-size: 23px;
-	color: #ffffff;
-	font-family: "Montserrat";
-	letter-spacing: 1px;
-	margin: 0;
-	text-transform: uppercase;
-	font-weight: 200;
+  font-size: 23px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 .car-caption h2 {
-	font-size: 81px;
-	color: #ffffff;
-	font-weight: 800;
-	margin: 0;
+  font-size: 81px;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 0;
 }
 .car-caption p {
-	font-size: 18px;
-	color: #ffffff;
-	font-weight: 400;
-	letter-spacing: 1px;
-	margin: 0;
-	line-height: 24px;
-	padding-bottom: 50px;
-	text-align: left;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  line-height: 24px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 .car-caption {
-	text-align: left;
-	margin: 0;
+  text-align: left;
+  margin: 0;
 }
 .car-caption-flex a {
-	font-size: 14px !important;
-	background: #d29f45 !important;
-	padding: 10px 50px !important;
-	color: #ffffff !important;
+  font-size: 14px !important;
+  background: #d29f45 !important;
+  padding: 10px 50px !important;
+  color: #ffffff !important;
 }
 /* ***************End of banner section******* */
 
 /* *********Begin of shop section******** */
 .shop-text h3 {
-	font-size: 25px;
-	color: #5e5e5e;
-	font-family: "Montserrat";
-	font-weight: 700;
+  font-size: 25px;
+  color: #5e5e5e;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 .shop-text h4 {
-	font-size: 12px;
-	color: #5e5e5e;
-	font-family: "Montserrat";
-	font-weight: 700;
+  font-size: 12px;
+  color: #5e5e5e;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 .shop-text h2 {
-	font-size: 15px;
-	color: #5e5e5e;
-	font-family: "Montserrat";
-	font-weight: 700;
-	text-transform: uppercase;
-	margin: 0;
+  font-size: 15px;
+  color: #5e5e5e;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
 }
 .pro-stars ul {
-	display: flex;
-	list-style: none;
-	padding: 0;
-	justify-content: center;
-	margin-bottom: 30px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .pro-stars ul li a {
-	color: #d29f45;
-	margin-right: 8px;
+  color: #d29f45;
+  margin-right: 8px;
 }
 .shop-text {
-	text-align: center;
+  text-align: center;
 }
 .shop-img img {
-	width: 90%;
-	border: 1px solid #c6c6c6;
+  width: 90%;
+  border: 1px solid #c6c6c6;
 }
 
 /* **********End of shop section************* */
 
 /* **************side bar css************** */
 .mat-flex {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 .color-variation .label_container span.checkmark .label {
-	width: 60px;
-	height: 45px;
-	border-radius: unset;
-	margin-right: 4px;
-	border: 2px solid #c6c6c6;
-	color: #000000;
-	font-weight: 400;
-	padding: 3px;
-	font-size: 16px;
-	display: flex;
-	justify-content: center;
-	font-family: "Montserrat";
-	align-items: center;
+  width: 60px;
+  height: 45px;
+  border-radius: unset;
+  margin-right: 4px;
+  border: 2px solid #c6c6c6;
+  color: #000000;
+  font-weight: 400;
+  padding: 3px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  align-items: center;
 }
 .sample-color h5 {
-	font-size: 18px;
-	color: #000000;
-	font-family: "Montserrat";
-	font-weight: 400;
-	text-transform: capitalize;
-	margin: 0;
-	padding: 20px 20px;
-	border-top: 1px solid #c6c6c6;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 20px 20px;
+  border-top: 1px solid #c6c6c6;
 }
 .sample-color .radio-color-btn {
-	padding: 0px 18px 30px;
+  padding: 0px 18px 30px;
 }
 .shop-sec a {
-	text-decoration: none;
+  text-decoration: none;
 }
 /* This line can be removed it was just for display on CodePen: */
 .slider-labels {
-	margin-top: 10px;
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 30px;
-	margin-bottom: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 span#slider-range-value1 {
-	border: 1px solid #c6c6c6;
-	padding: 10px;
-	display: block;
-	font-family: "Montserrat";
+  border: 1px solid #c6c6c6;
+  padding: 10px;
+  display: block;
+  font-family: "Montserrat";
 }
 span#slider-range-value2 {
-	border: 1px solid #c6c6c6;
-	padding: 10px;
-	display: block;
-	font-family: "Montserrat";
+  border: 1px solid #c6c6c6;
+  padding: 10px;
+  display: block;
+  font-family: "Montserrat";
 }
 
 /* Functional styling;
@@ -167,56 +167,56 @@ span#slider-range-value2 {
    */
 .noUi-target,
 .noUi-target * {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-ms-touch-action: none;
-	touch-action: none;
-	-ms-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .noUi-target {
-	position: relative;
-	direction: ltr;
+  position: relative;
+  direction: ltr;
 }
 
 .noUi-base {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	z-index: 1;
-	/* Fix 401 */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  /* Fix 401 */
 }
 
 .noUi-origin {
-	position: absolute;
-	right: 0;
-	top: 0;
-	left: 0;
-	bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .noUi-handle {
-	position: relative;
-	z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .noUi-stacking .noUi-handle {
-	/* This class is applied to the lower origin when
+  /* This class is applied to the lower origin when
      its values is > 50%. */
-	z-index: 10;
+  z-index: 10;
 }
 
 .noUi-state-tap .noUi-origin {
-	-webkit-transition: left 0.3s, top 0.3s;
-	transition: left 0.3s, top 0.3s;
+  -webkit-transition: left 0.3s, top 0.3s;
+  transition: left 0.3s, top 0.3s;
 }
 
 .noUi-state-drag * {
-	cursor: inherit !important;
+  cursor: inherit !important;
 }
 
 /* Painting and performance;
@@ -224,43 +224,43 @@ span#slider-range-value2 {
    */
 .noUi-base,
 .noUi-handle {
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* Slider size and handle placement;
    */
 .noUi-horizontal {
-	height: 4px;
+  height: 4px;
 }
 
 .noUi-horizontal .noUi-handle {
-	width: 18px;
-	height: 18px;
-	border-radius: 50%;
-	left: -7px;
-	top: -7px;
-	background-color: #d29f45;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -7px;
+  background-color: #d29f45;
 }
 
 /* Styling;
    */
 .noUi-background {
-	background: #d6d7d9;
+  background: #d6d7d9;
 }
 
 .noUi-connect {
-	background: #000000;
-	-webkit-transition: background 450ms;
-	transition: background 450ms;
+  background: #000000;
+  -webkit-transition: background 450ms;
+  transition: background 450ms;
 }
 
 .noUi-origin {
-	border-radius: 2px;
+  border-radius: 2px;
 }
 
 .noUi-target {
-	border-radius: 2px;
+  border-radius: 2px;
 }
 
 .noUi-target.noUi-connect {
@@ -269,214 +269,214 @@ span#slider-range-value2 {
 /* Handles and cursors;
    */
 .noUi-draggable {
-	cursor: w-resize;
+  cursor: w-resize;
 }
 
 .noUi-vertical .noUi-draggable {
-	cursor: n-resize;
+  cursor: n-resize;
 }
 
 .noUi-handle {
-	cursor: default;
-	-webkit-box-sizing: content-box !important;
-	-moz-box-sizing: content-box !important;
-	box-sizing: content-box !important;
+  cursor: default;
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
 }
 
 .noUi-handle:active {
-	border: 8px solid #345dbb;
-	border: 8px solid rgba(53, 93, 187, 0.38);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	left: -14px;
-	top: -14px;
+  border: 8px solid #345dbb;
+  border: 8px solid rgba(53, 93, 187, 0.38);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
 }
 
 /* Disabled state;
    */
 [disabled].noUi-connect,
 [disabled] .noUi-connect {
-	background: #b8b8b8;
+  background: #b8b8b8;
 }
 
 [disabled].noUi-origin,
 [disabled] .noUi-handle {
-	cursor: not-allowed;
+  cursor: not-allowed;
 }
 .shop-bar-head h2 {
-	font-size: 23px;
-	color: #000000;
-	font-family: "Montserrat";
-	font-weight: 700;
-	text-transform: uppercase;
-	margin: 0;
+  font-size: 23px;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
 }
 .shop-bar-head {
-	background-color: #d29f45;
-	padding: 10px 20px;
+  background-color: #d29f45;
+  padding: 10px 20px;
 }
 .shop-price h3 {
-	font-size: 18px;
-	color: #000000;
-	font-family: "Montserrat";
-	font-weight: 400;
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 20px;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .side-bar-material h3 {
-	font-size: 19px;
-	color: #000000;
-	font-family: "Montserrat";
-	font-weight: 400;
-	margin: 0;
-	padding: 30px 0px;
+  font-size: 19px;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin: 0;
+  padding: 30px 0px;
 }
 .mat-flex li {
-	font-size: 17px;
-	color: #666666;
-	/* font-family: 'Montserrat'; */
-	font-weight: 500;
-	line-height: 51px;
+  font-size: 17px;
+  color: #666666;
+  /* font-family: 'Montserrat'; */
+  font-weight: 500;
+  line-height: 51px;
 }
 .mat-flex {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
-	border-bottom: 1px solid #c6c6c6;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  border-bottom: 1px solid #c6c6c6;
 }
 section.shop-sec {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 .shop-sec .shop-bar .shop-price {
-	padding: 0px 18px;
+  padding: 0px 18px;
 }
 .shop-bar .side-bar-size .sample-color h5 {
-	padding: 25px 18px 0px 18px;
+  padding: 25px 18px 0px 18px;
 }
 .shop-bar .side-bar-size .sample-color .radio-color-btn {
-	padding: 14px 18px 0px;
+  padding: 14px 18px 0px;
 }
 .shop-bar {
-	background-color: #eeeeee;
-	padding: 14px 0px;
+  background-color: #eeeeee;
+  padding: 14px 0px;
 }
 .side-bar-color .color-variation .label_container span.checkmark .label {
-	width: 39px;
-	height: 35px;
-	border-radius: unset;
-	margin-right: 10px;
-	border: 1px solid #c6c6c6;
-	color: #000000;
-	font-weight: 700;
-	padding: 3px;
-	font-size: 14px;
+  width: 39px;
+  height: 35px;
+  border-radius: unset;
+  margin-right: 10px;
+  border: 1px solid #c6c6c6;
+  color: #000000;
+  font-weight: 700;
+  padding: 3px;
+  font-size: 14px;
 }
 .side-bar-material h3 {
-	border-top: 1px solid #c6c6c6;
-	padding: 22px 18px;
+  border-top: 1px solid #c6c6c6;
+  padding: 22px 18px;
 }
 .side-bar-material .material-list {
-	padding: 0px 18px 28px;
+  padding: 0px 18px 28px;
 }
 .side-bar-material .material-list .mat-flex:last-child {
-	border-bottom: 0px;
+  border-bottom: 0px;
 }
 .side-bar-size .colors {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* *******************End of side bar css******* */
 
 /* ************************Responsive****************** */
 @media (max-width: 1100px) {
-	.side-bar-color .color-variation .label_container span.checkmark .label {
-		width: 32px;
-		height: 35px;
-		border-radius: unset;
-		margin-right: 10px;
-		border: 1px solid #c6c6c6;
-		color: #000000;
-		font-weight: 700;
-		padding: 3px;
-		font-size: 14px;
-	}
+  .side-bar-color .color-variation .label_container span.checkmark .label {
+    width: 32px;
+    height: 35px;
+    border-radius: unset;
+    margin-right: 10px;
+    border: 1px solid #c6c6c6;
+    color: #000000;
+    font-weight: 700;
+    padding: 3px;
+    font-size: 14px;
+  }
 }
 @media (max-width: 768px) {
-	.car-caption-flex {
-		left: 50px;
-		bottom: 500px;
-	}
-	.car-caption h2 {
-		font-size: 40px;
-	}
-	.shop-bar-head h2 {
-		font-size: 19px;
-	}
+  .car-caption-flex {
+    left: 50px;
+    bottom: 500px;
+  }
+  .car-caption h2 {
+    font-size: 40px;
+  }
+  .shop-bar-head h2 {
+    font-size: 19px;
+  }
 }
 @media (max-width: 480px) {
-	.car-caption h2 {
-		font-size: 18px;
-	}
-	.car-caption-flex {
-		left: 18px;
-		bottom: 370px;
-	}
-	.car-caption p {
-		font-size: 9px;
+  .car-caption h2 {
+    font-size: 18px;
+  }
+  .car-caption-flex {
+    left: 18px;
+    bottom: 370px;
+  }
+  .car-caption p {
+    font-size: 9px;
 
-		padding-bottom: 0px;
-		text-align: left;
-	}
-	.car-caption h3 {
-		font-size: 8px;
-	}
-	.car-caption-flex a {
-		font-size: 12px !important;
-		padding: 4px 21px !important;
-	}
-	.car-caption p {
-		font-size: 7px;
-		line-height: 10px;
-		padding-bottom: 8px;
-	}
+    padding-bottom: 0px;
+    text-align: left;
+  }
+  .car-caption h3 {
+    font-size: 8px;
+  }
+  .car-caption-flex a {
+    font-size: 12px !important;
+    padding: 4px 21px !important;
+  }
+  .car-caption p {
+    font-size: 7px;
+    line-height: 10px;
+    padding-bottom: 8px;
+  }
 }
 
 /* shop banner starts here */
 .shop-banner {
-    padding: 120px 0px 100px 0px;
+  padding: 235px 0px 100px 0px;
 }
 .shop-banner .shop-banner-content-wrapper h6 {
-	color: #000000;
-	font-weight: 400;
-	font-family: "Montserrat";
-	font-size: 23px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 23px;
 }
 .shop-banner .shop-banner-content-wrapper h2 {
-    font-family: "Generica";
-    font-size: 52px;
-    font-weight: 700;
-    color: #000000;
+  font-family: "Generica";
+  font-size: 52px;
+  font-weight: 700;
+  color: #000000;
 }
 .shop-banner .shop-banner-content-wrapper p {
-	color: #000000;
-	font-size: 17px;
-	font-weight: 400;
-	padding: 19px 0px;
-	letter-spacing: 1px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 19px 0px;
+  letter-spacing: 1px;
 }
 .shop-banner .shop-banner-content-wrapper .btn {
-	padding: 11px 54px;
-	letter-spacing: 2px;
-	font-size: 12px;
+  padding: 11px 54px;
+  letter-spacing: 2px;
+  font-size: 12px;
 }
 .shop-bar .caption ruby {
-	margin: 0px 12px 0px 0px;
-	font-family: "Montserrat";
-	font-weight: 400;
-	font-size: 19px;
+  margin: 0px 12px 0px 0px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 19px;
 }
 .shop-banner-content-wrapper h2 span {
-    color: #d29f45;
+  color: #d29f45;
 }
 /* shop banner ends here */

@@ -42,7 +42,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/acc-ban1.png" class="img-fluid" alt="">
+                         <!-- <img src="images/acc-ban1.png" class="img-fluid" alt=""> -->
                      </figure>
                  </div>
              </div>

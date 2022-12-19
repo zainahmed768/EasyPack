@@ -37,7 +37,7 @@
              <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/impact-ban.webp" class="img-fluid" alt="">
+                         <!-- <img src="images/impact-ban.webp" class="img-fluid" alt=""> -->
                      </figure>
                  </div>
              </div>
