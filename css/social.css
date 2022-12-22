@@ -10,13 +10,16 @@
 	margin: 13px 0px;
 	text-align: center;
 }
+header {
+	position: unset;
+}
 .follow-sec .heading-wrapper h2 {
-    text-align: center;
-    font-family: "Generica";
-    font-size: 60px;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 30px;
+	text-align: center;
+	font-family: "Generica";
+	font-size: 60px;
+	font-weight: 700;
+	color: #000000;
+	margin-bottom: 30px;
 }
 .follow-sec {
 	padding: 50px 0px;

@@ -1,20 +1,23 @@
+header {
+	position: unset;
+}
 .shop-banner .shop-banner-content-wrapper h2 {
-    font-family: "Generica";
-    font-size: 52px;
-    font-weight: 700;
-    color: #000000;
+	font-family: "Generica";
+	font-size: 52px;
+	font-weight: 700;
+	color: #000000;
 }
 /* video sec css starts here */
 .video-box-sec {
 	padding: 0px 0px 100px 0px;
 }
 .video-box-sec .content-wrapper h2 {
-    text-align: center;
-    font-family: "Generica";
-    font-size: 47px;
-    color: #000000;
-    margin-bottom: 69px;
-    font-weight: 700;
+	text-align: center;
+	font-family: "Generica";
+	font-size: 47px;
+	color: #000000;
+	margin-bottom: 69px;
+	font-weight: 700;
 }
 .video-box-sec .video-box-wrapper .video-img-wrapper {
 	position: relative;

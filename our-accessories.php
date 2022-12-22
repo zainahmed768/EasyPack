@@ -27,7 +27,8 @@
  <section class="shop-banner">
      <div class="container">
          <div class="row">
-             <div class="col-lg-6 align-self-center">
+             <div class="col-lg-3"></div>
+             <div class="col-lg-6 text-center align-self-center">
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
@@ -39,13 +40,14 @@
                      <a href="shop.php" class="btn">SHOP NOW</a>
                  </div>
              </div>
-             <div class="col-lg-6">
+             <div class="col-lg-3"></div>
+             <!-- <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <!-- <img src="images/acc-ban1.png" class="img-fluid" alt=""> -->
+                         <img src="images/acc-ban1.png" class="img-fluid" alt="">
                      </figure>
                  </div>
-             </div>
+             </div> -->
          </div>
      </div>
  </section>

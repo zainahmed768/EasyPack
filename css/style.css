@@ -57,9 +57,9 @@ a {
 }
 /* *********************** Begin of header section***************** */
 .nav-sec .nav-list .profile-wrapper {
-    display: flex;
-    align-items: center;
-    padding-left: 3px;
+	display: flex;
+	align-items: center;
+	padding-left: 3px;
 }
 .nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
 	border: 3px solid #d29f45;
@@ -72,11 +72,11 @@ a {
 	margin: 0px;
 }
 .nav-sec .nav-list .profile-wrapper .profile-content-wrapper h4 {
-    font-family: "Montserrat";
-    font-size: 12px;
-    font-weight: 500;
-    color: #000000;
-    margin: 0px;
+	font-family: "Montserrat";
+	font-size: 12px;
+	font-weight: 500;
+	color: #000000;
+	margin: 0px;
 }
 .nav-sec .nav-list .profile-wrapper .profile-content-wrapper a {
 	color: #d29f45;
@@ -108,7 +108,7 @@ header .mobile-header {
 	transform: translateX(100%);
 }
 header .nav-sec .img-fluid {
-	/* width: 80%; */
+	width: 80%;
 }
 header .mobile-header.show {
 	transform: translateX(0%);
@@ -180,21 +180,21 @@ header .nav-sec .dropdown-menu a.dropdown-item.active {
 /* *********************** end of of header section***************** */
 /* ********Begin of navbar********** */
 .nav-list ul {
-    display: flex;
-    list-style: none;
-    padding: 0px;
-    justify-content: center;
-    align-items: baseline;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	justify-content: center;
+	align-items: baseline;
 }
 .nav-list ul li a {
-    font-size: 11px;
-    color: #000;
-    text-transform: uppercase;
-    margin-right: 15px;
-    text-decoration: none;
-    font-weight: 500;
-    font-family: "Montserrat";
-    /* margin: 0px; */
+	font-size: 11px;
+	color: #000;
+	text-transform: uppercase;
+	margin-right: 15px;
+	text-decoration: none;
+	font-weight: 500;
+	font-family: "Montserrat";
+	/* margin: 0px; */
 }
 .nav-sec .nav-list .profile-wrapper .profile-content-wrapper {
 	margin-left: 8px;
@@ -383,21 +383,21 @@ section.collection-sec .row {
 
 /* ***********Begin of Customize Section*************** */
 .custom-sec .custom-heading h2 {
-    font-family: "Generica";
-    font-size: 24px;
-    color: #d29f45;
+	font-family: "Generica";
+	font-size: 24px;
+	color: #d29f45;
 }
 .custom-sec .coutomizz-list-wrapper ul {
 	padding-left: 21px;
 	margin-bottom: 33px;
 }
 .custom-sec .coutomizz-list-wrapper ul li {
-    color: #fff;
-    font-family: "Montserrat";
-    font-size: 12px;
-    font-weight: 400;
-    padding: 1px 0px;
-    line-height: 1.8;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 12px;
+	font-weight: 400;
+	padding: 1px 0px;
+	line-height: 1.8;
 }
 .custom-sec .coutomizz-list-wrapper ul li span {
 	margin-left: 22px;
@@ -544,13 +544,13 @@ section.custom-sec .col-md-6 {
 	padding: 0;
 }
 section.custom-sec {
-    padding: 0px 0px 0px 0px;
-    background: #f7f7f7;
+	padding: 0px 0px 0px 0px;
+	background: #f7f7f7;
 }
 .custom-sec .btn-wrapper .btn {
-    padding: 13px 32px;
-    font-size: 10px;
-    letter-spacing: 2px;
+	padding: 13px 32px;
+	font-size: 10px;
+	letter-spacing: 2px;
 }
 .sample-color h5 {
 	font-size: 20px;
@@ -570,15 +570,15 @@ section.custom-sec {
 	display: none;
 }
 .custom-all {
-    position: relative;
-    left: 0;
-    /* right: 60px; */
-    padding-top: 0px !important;
-    padding-top: 0;
-    background-color: #000000;
-    padding: 50px 80px;
-    top: 110px;
-    left: 0;
+	position: relative;
+	left: 0;
+	/* right: 60px; */
+	padding-top: 0px !important;
+	padding-top: 0;
+	background-color: #000000;
+	padding: 50px 80px;
+	top: 110px;
+	left: 0;
 }
 .head {
 	padding-top: 50px;
@@ -620,10 +620,10 @@ section.pics-sec {
 	margin: 0px 75px;
 }
 .product-sec .content-wrapper h2 {
-    color: #000000;
-    font-weight: 700;
-    font-size: 47px;
-    text-align: center;
+	color: #000000;
+	font-weight: 700;
+	font-size: 47px;
+	text-align: center;
 }
 .product-sec .content-wrapper h2 span {
 	color: #d29f45;
@@ -715,11 +715,11 @@ section.pics-sec {
 	max-width: 80%;
 }
 .easypack-sec .content-wrapper h2 {
-    font-family: "Generica";
-    font-weight: 700;
-    color: #000000;
-    font-size: 47px;
-    text-align: center;
+	font-family: "Generica";
+	font-weight: 700;
+	color: #000000;
+	font-size: 47px;
+	text-align: center;
 }
 .contact-sec input#exampleInputEmail1::placeholder {
 	color: #606060;
@@ -859,11 +859,11 @@ section.contact-sec {
 /* **********************End of Begin of Contact******************* */
 /* reviews starts here */
 .review-sec .content-wrapper h2 {
-    text-align: center;
-    font-family: "Generica";
-    font-size: 47px;
-    color: #000;
-    font-weight: 700;
+	text-align: center;
+	font-family: "Generica";
+	font-size: 47px;
+	color: #000;
+	font-weight: 700;
 }
 .review-sec .slider-row {
 	padding-top: 46px;
@@ -1132,7 +1132,7 @@ footer .content-wrapper p {
 	align-items: center;
 }
 section.custom-sec .col-md-5 {
-    padding: 0;
+	padding: 0;
 }
 /* *************End of Copy Right******************** */
 
@@ -1274,6 +1274,6 @@ section.custom-sec .col-md-5 {
 }
 /* ************************End of Responsive****************** */
 .nav-link {
-    display: block;
-    padding: 0 !important;
+	display: block;
+	padding: 0 !important;
 }

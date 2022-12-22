@@ -5,12 +5,13 @@
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
  <style>
-   .shop-banner .shop-banner-content-wrapper h2 {
-    font-size: 52px;
-}
-.shop-banner-content-wrapper h2 span {
-    color: #d29f45;
-}
+     .shop-banner .shop-banner-content-wrapper h2 {
+         font-size: 52px;
+     }
+
+     .shop-banner-content-wrapper h2 span {
+         color: #d29f45;
+     }
  </style>
 
  <!-- *********************Banner section********************** -->
@@ -19,7 +20,9 @@
  <section class="shop-banner">
      <div class="container">
          <div class="row">
-             <div class="col-lg-7 align-self-center">
+             <div class="col-lg-3"></div>
+
+             <div class="col-lg-6 text-center align-self-center">
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
@@ -31,13 +34,14 @@
                      <a href="#" class="btn">SHOP NOW</a>
                  </div>
              </div>
-             <div class="col-lg-5">
+             <div class="col-lg-3"></div>
+             <!-- <div class="col-lg-5">
                  <div class="img-wrapper">
                      <figure>
-                         <!-- <img src="images/cust-ban.png" class="img-fluid" alt=""> -->
+                         <img src="images/cust-ban.png" class="img-fluid" alt="">
                      </figure>
                  </div>
-             </div>
+             </div> -->
          </div>
      </div>
  </section>
@@ -48,7 +52,7 @@
      <div class="container">
          <div class="top_heading text-center">
              <h2>Customize your <span>EasyPack Luggage</span><br>
-             For Free</h2>
+                 For Free</h2>
          </div>
          <div class="customization_start_here">
              <div class="row">
