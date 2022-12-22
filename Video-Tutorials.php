@@ -6,7 +6,7 @@
  <link rel="stylesheet" href="css/video-tutorials.css">
  <style>
      .shop-banner .shop-banner-content-wrapper .btn {
-         border-color: transparent;
+         border-color: #060606;
      }
  </style>
  <!-- shop banner starts here -->

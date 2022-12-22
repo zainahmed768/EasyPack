@@ -43,6 +43,9 @@ p {
 	font-family: "Segoe UI Bold";
 	letter-spacing: 3px;
 }
+.btn:hover {
+	color: #000;
+}
 h1,
 h2,
 h3,
