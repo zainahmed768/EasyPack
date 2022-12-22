@@ -4,7 +4,11 @@
 
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
-
+ <style>
+     .shop-banner .shop-banner-content-wrapper .btn:hover {
+         color: #000;
+     }
+ </style>
  <!-- *********************Banner section********************** -->
  <!-- ***********************End of bannersection************************** -->
  <!-- shop banner starts here -->
@@ -17,7 +21,7 @@
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                         EasyPack <br> Luggage
+                         EasyPack <br> <span style="color: #d29f45;">Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
