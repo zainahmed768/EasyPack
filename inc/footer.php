@@ -19,7 +19,7 @@
                     <div class="footer-head footer-menu-1">
                         <h4>Menu </h4>
                         <ul>
-                            <li><a href="feature.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="shop.php">Shop</a></li>
                             <li><a href="customization.php">Customization</a></li>
                             <li><a href="social.php">Social</a></li>
@@ -291,14 +291,14 @@
         // <!-- ******Zoom in Zoom Out*****
 
         // <!-- Over Scroll Header color change -->
-        $(window).on("scroll", function() {
-            if ($(window).scrollTop() > 70) {
-                $("header").addClass("active");
-            } else {
-                //remove the background property so it comes transparent again (defined in your css)
-                $("header").removeClass("active");
-            }
-        });
+        // $(window).on("scroll", function() {
+        //     if ($(window).scrollTop() > 70) {
+        //         $("header").addClass("active");
+        //     } else {
+        //         //remove the background property so it comes transparent again (defined in your css)
+        //         $("header").removeClass("active");
+        //     }
+        // });
         // <!-- Over Scroll Header color change -->
 
 

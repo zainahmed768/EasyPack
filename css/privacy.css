@@ -3,11 +3,11 @@
 @import url("http://fonts.cdnfonts.com/css/generica-2");
 @import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
 /* *********************** Begin of header section***************** */
-header {
+/* header {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-}
+} */
 header.active {
 	background-color: #333132;
 }
@@ -66,13 +66,13 @@ header.active {
 
 /* *********BEgin of Privacy section******* */
 .privacy-head h2 {
-    font-size: 47px;
-    color: #000000;
-    font-weight: 400;
-    font-family: 'Generica';
-    margin: 0;
-    margin-bottom: 52px;
-    font-weight: 700;
+	font-size: 47px;
+	color: #000000;
+	font-weight: 400;
+	font-family: "Generica";
+	margin: 0;
+	margin-bottom: 52px;
+	font-weight: 700;
 }
 .privacy-head h4 {
 	font-size: 20px;

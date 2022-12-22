@@ -21,7 +21,7 @@
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                         EasyPack <br> <span style="color: #d29f45;">Luggage</span>
+                         <span style="color: #d29f45;"> EasyPack <br>Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
