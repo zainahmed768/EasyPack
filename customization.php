@@ -12,7 +12,7 @@
  <!-- *********************Banner section********************** -->
  <!-- ***********************End of bannersection************************** -->
  <!-- shop banner starts here -->
- <section class="shop-banner">
+ <!-- <section class="shop-banner">
      <div class="container">
          <div class="row">
              <div class="col-lg-3"></div>
@@ -30,21 +30,15 @@
                  </div>
              </div>
              <div class="col-lg-3"></div>
-             <!-- <div class="col-lg-6">
-                 <div class="img-wrapper">
-                     <figure>
-                         <img src="images/shop-banner-img.png" class="img-fluid" alt="">
-                     </figure>
-                 </div>
-             </div> -->
+        
          </div>
      </div>
- </section>
+ </section> -->
  <!-- shop banner End here -->
  <!-- **************Shop section********** -->
  <!-- Customization Start Here -->
  <section class="customization_section">
-     <div class="container">
+     <div class="container pt-5">
          <div class="top_heading text-center">
              <h2>Customize your <span>EasyPack Laggage</span><br>
                  At No Additional Cost</h2>

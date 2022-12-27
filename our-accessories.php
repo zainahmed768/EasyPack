@@ -34,10 +34,10 @@
                      <h2>
                          Our Accessories
                      </h2>
-                     <p>
+                     <!-- <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                     </p>
-                     <a href="shop.php" class="btn">SHOP NOW</a>
+                     </p> -->
+                     <a href="shop.php" class="btn mt-4">SHOP NOW</a>
                  </div>
              </div>
              <div class="col-lg-3"></div>
