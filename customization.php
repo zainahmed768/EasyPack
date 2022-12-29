@@ -65,7 +65,7 @@
                          </div>
                          <div class="accesories">
                              <div class="select_btn">
-                                 <button class="btn">SELECT YOUR ACCESSORIES</button>
+                                 <button onclick="window.location.href='our-accessories.php'" class="btn">SELECT YOUR ACCESSORIES</button>
                              </div>
                              <div class="accesorries_list">
                                  <div class="single_accesory">

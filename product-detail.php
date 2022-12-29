@@ -107,7 +107,7 @@
                      </div>
                      <div class="cart-btn-wrapper">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
-                         <button class="btn">Add to wishlist</button>
+                         <button onclick="location.href='wishlist.php'" class="btn">Add to wishlist</button>
                      </div>
                  </div>
              </div>

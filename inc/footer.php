@@ -23,7 +23,7 @@
                             <li><a href="shop.php">Shop</a></li>
                             <li><a href="customization.php">Customization</a></li>
                             <li><a href="social.php">Social</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <!-- <li><a href="#">About Us</a></li> -->
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>

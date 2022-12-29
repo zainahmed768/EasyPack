@@ -623,10 +623,11 @@ section.pics-sec {
 	margin: 0px 75px;
 }
 .product-sec .content-wrapper h2 {
-	color: #000000;
-	font-weight: 700;
-	font-size: 47px;
-	text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 47px;
+    text-align: center;
+    font-family: "Generica";
 }
 .product-sec .content-wrapper h2 span {
 	color: #d29f45;
@@ -693,7 +694,7 @@ section.pics-sec {
 	color: #000000;
 	font-family: "Generica";
 	font-weight: 700;
-	font-size: 55px;
+	font-size: 47px;
 	text-align: center;
 	margin-top: 44px;
 }

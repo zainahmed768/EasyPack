@@ -2,10 +2,10 @@
 <?php include 'inc/head.php' ?>
 <!-- Footer -->
 <style>
-header .nav-list ul li a {
-    color: #fff;
-    padding: 0 6px;
-}
+    header .nav-list ul li a {
+        color: #fff;
+        padding: 0 6px;
+    }
 
     header .nav-list img {
         filter: invert(1);
@@ -79,7 +79,8 @@ header .nav-list ul li a {
                 <div class="content-wrapper">
                     <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
                         Customize it at No Additional Cost.</h2> -->
-                       <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
+                    <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
+                    <h2>Our Gallery</h2>
                 </div>
             </div>
         </div>
@@ -211,7 +212,8 @@ header .nav-list ul li a {
                     <a href="shop.php" class="btn">SHOP NOW</a>
                 </div>
                 <div class="content-wrapper">
-                    <h3>Make It Your Way</h3>
+                    <!-- <h3>Make It Your Way</h3> -->
+                    <h3>Accessories</h3>
                 </div>
             </div>
         </div>
@@ -258,7 +260,7 @@ header .nav-list ul li a {
                         </ul>
                     </div>
                     <div class="btn-wrapper">
-                        <a href="#" class="btn">CUSTOMIZE NOW</a>
+                        <a href="customization.php" class="btn">CUSTOMIZE NOW</a>
                     </div>
 
                 </div>
