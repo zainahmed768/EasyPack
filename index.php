@@ -79,8 +79,8 @@
                 <div class="content-wrapper">
                     <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
                         Customize it at No Additional Cost.</h2> -->
-                    <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
-                    <h2>Our Gallery</h2>
+                    <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
+                    <!-- <h2>Our Gallery</h2> -->
                 </div>
             </div>
         </div>
@@ -212,8 +212,8 @@
                     <a href="shop.php" class="btn">SHOP NOW</a>
                 </div>
                 <div class="content-wrapper">
-                    <!-- <h3>Make It Your Way</h3> -->
-                    <h3>Accessories</h3>
+                    <h3>Make It Your Way</h3>
+                    <!-- <h3>Accessories</h3> -->
                 </div>
             </div>
         </div>

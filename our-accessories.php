@@ -20,7 +20,7 @@
      }
 
      .shop-banner {
-         padding: 208px 0px 47px 0px;
+         padding: 175px 0px 47px 0px;
      }
  </style>
  <!-- shop banner starts here -->

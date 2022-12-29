@@ -194,7 +194,7 @@
          <div class="row pt-5">
              <div class="col-lg-12">
                  <div class="btn-wrapper text-center">
-                     <a href="#" class="btn">OR CUSTOMIZE</a>
+                     <a href="customization.php" class="btn">OR CUSTOMIZE</a>
                  </div>
              </div>
          </div>
