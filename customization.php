@@ -115,7 +115,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -138,7 +138,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -161,7 +161,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
