@@ -16,7 +16,7 @@
      <div class="container">
          <div class="row">
              <div class="col-lg-12">
-                 <div class="text-wrapper">
+                 <div class="text-wrapper mt-2 pt-1">
                      <h2>Our Most Popular Collection</h2>
                  </div>
              </div>

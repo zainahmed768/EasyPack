@@ -625,7 +625,7 @@ section.pics-sec {
 .product-sec .content-wrapper h2 {
     color: #000000;
     font-weight: 700;
-    font-size: 47px;
+    font-size: 52px;
     text-align: center;
     font-family: "Generica";
 }
@@ -691,12 +691,12 @@ section.pics-sec {
 	font-size: 13px;
 }
 .product-sec .content-wrapper h3 {
-	color: #000000;
-	font-family: "Generica";
-	font-weight: 700;
-	font-size: 47px;
-	text-align: center;
-	margin-top: 44px;
+    color: #000000;
+    font-family: "Generica";
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 44px;
 }
 .product-card-wrapper .product-img-wrapper img {
 	height: 308px;
@@ -722,7 +722,7 @@ section.pics-sec {
 	font-family: "Generica";
 	font-weight: 700;
 	color: #000000;
-	font-size: 47px;
+	font-size: 52px;
 	text-align: center;
 }
 .contact-sec input#exampleInputEmail1::placeholder {
@@ -863,11 +863,11 @@ section.contact-sec {
 /* **********************End of Begin of Contact******************* */
 /* reviews starts here */
 .review-sec .content-wrapper h2 {
-	text-align: center;
-	font-family: "Generica";
-	font-size: 47px;
-	color: #000;
-	font-weight: 700;
+    text-align: center;
+    font-family: "Generica";
+    font-size: 52px;
+    color: #000;
+    font-weight: 700;
 }
 .review-sec .slider-row {
 	padding-top: 46px;

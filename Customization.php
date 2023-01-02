@@ -4,18 +4,24 @@
 
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
-
+ <style>
+     .shop-banner .shop-banner-content-wrapper .btn:hover {
+         color: #000;
+     }
+ </style>
  <!-- *********************Banner section********************** -->
  <!-- ***********************End of bannersection************************** -->
  <!-- shop banner starts here -->
- <section class="shop-banner">
+ <!-- <section class="shop-banner">
      <div class="container">
          <div class="row">
-             <div class="col-lg-6 align-self-center">
+             <div class="col-lg-3"></div>
+
+             <div class="col-lg-6 text-center align-self-center">
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                         EasyPack <br> Luggage
+                         <span style="color: #d29f45;"> EasyPack <br>Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -23,21 +29,16 @@
                      <a href="#" class="btn">SHOP NOW</a>
                  </div>
              </div>
-             <div class="col-lg-6">
-                 <div class="img-wrapper">
-                     <figure>
-                         <img src="images/shop-banner-img.png" class="img-fluid" alt="">
-                     </figure>
-                 </div>
-             </div>
+             <div class="col-lg-3"></div>
+        
          </div>
      </div>
- </section>
+ </section> -->
  <!-- shop banner End here -->
  <!-- **************Shop section********** -->
  <!-- Customization Start Here -->
  <section class="customization_section">
-     <div class="container">
+     <div class="container pt-5">
          <div class="top_heading text-center">
              <h2>Customize your <span>EasyPack Laggage</span><br>
                  At No Additional Cost</h2>
@@ -64,7 +65,7 @@
                          </div>
                          <div class="accesories">
                              <div class="select_btn">
-                                 <button class="btn">SELECT YOUR ACCESSORIES</button>
+                                 <button onclick="window.location.href='our-accessories.php'" class="btn">SELECT YOUR ACCESSORIES</button>
                              </div>
                              <div class="accesorries_list">
                                  <div class="single_accesory">
@@ -114,7 +115,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -137,7 +138,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -160,7 +161,7 @@
                                          <div class="desc">
                                              <span class="price">$139</span>
                                              <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="">See Specification</a>
+                                             <a href="product-detail.php">See Specification</a>
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">

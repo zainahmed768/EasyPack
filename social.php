@@ -60,27 +60,27 @@
                                  <img src="images/twitter.png" class="img-fluid" alt="">
                              </a>
                          </li>
-                         <li>
+                         <!-- <li>
                              <a href="#">
                                  <img src="images/pintrest.png" class="img-fluid" alt="">
                              </a>
-                         </li>
-                         <li>
+                         </li> -->
+                         <!-- <li>
                              <a href="#">
                                  <img src="images/tiktok.png" class="img-fluid" alt="">
                              </a>
-                         </li>
+                         </li> -->
                          <li>
                              <a href="#">
                                  <img src="images/youtube.png" class="img-fluid" alt="">
                              </a>
                          </li>
-                         <li>
+                         <!-- <li>
                              <a href="#">
                                  <img src="images/messanger.png" class="img-fluid" alt="">
                              </a>
-                         </li>
-                         <li>
+                         </li> -->
+                         <!-- <li>
                              <a href="#">
                                  <img src="images/whatsapp.png" class="img-fluid" alt="">
                              </a>
@@ -94,7 +94,7 @@
                              <a href="#">
                                  <img src="images/hash.png" class="img-fluid" alt="">
                              </a>
-                         </li>
+                         </li> -->
                      </ul>
                  </div>
              </div>

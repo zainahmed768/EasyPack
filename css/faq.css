@@ -7,39 +7,39 @@ header {
 .accordion {
   padding: 70px 0px;
 }
- 
- summary {
+
+summary {
   display: block;
   margin: 0 auto;
   cursor: pointer;
   background: #eceff1;
   padding: 1rem 2rem;
- }
- 
- details {
+}
+
+details {
   display: block;
   margin: 0 auto;
   width: 100%;
   margin-bottom: 1rem;
- }
- 
- details p {
+}
+
+details p {
   margin: 1rem auto;
   translate: 2rem 0;
   font-family: 'FontAwesome';
 }
- 
-summary > * {
+
+summary>* {
   display: inline;
   font-size: 15px;
   font-family: 'Montserrat';
 }
- 
+
 .privacy-head h2 {
-  font-size: 47px;
-    color: #000;
-    font-family: "Generica";
-    font-weight: 700;
+  font-size: 52px;
+  color: #000;
+  font-family: "Generica";
+  font-weight: 700;
 }
 
 .privacy-head {
@@ -47,15 +47,15 @@ summary > * {
 }
 
 .all-faq p {
-    color: #5e5e5e;
-    font-family: "Montserrat";
-    font-size: 15px;
-    font-weight: 400;
+  color: #5e5e5e;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .all-faq h3 {
- color: #5e5e5e;
-    font-family: "Montserrat";
-    font-size: 15px;
-    font-weight: 400;
+  color: #5e5e5e;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
 }
