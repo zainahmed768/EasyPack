@@ -1,42 +1,42 @@
 .follow-sec .social-icons-wrapper ul {
-	padding: 0px;
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .follow-sec .social-icons-wrapper ul li {
-    flex: 0 0 25%;
-    margin: 13px 0px;
-    text-align: center;
+  flex: 0 0 25%;
+  margin: 13px 0px;
+  text-align: center;
 }
 header {
-	position: unset;
+  position: unset;
 }
 .follow-sec .heading-wrapper h2 {
-	text-align: center;
-	font-family: "Generica";
-	font-size: 52px;
-	font-weight: 700;
-	color: #000000;
-	margin-bottom: 30px;
+  text-align: center;
+  font-family: "Generica";
+  font-size: 52px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
 }
 .follow-sec {
-	padding: 50px 0px;
+  padding: 50px 0px;
 }
 
 .follow-sec .tags-wrapper ul {
-	display: flex;
-	list-style: none;
-	justify-content: space-around;
-	padding: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0px;
 }
 .follow-sec .tags-wrapper ul li button {
-	background: #d4d4d4;
-	border: 0px;
-	padding: 7px 18px;
-	color: #5e5e5e;
-	font-size: 14px;
-	font-family: "Montserrat";
-	font-weight: 700;
+  background: #d4d4d4;
+  border: 0px;
+  padding: 7px 18px;
+  color: #5e5e5e;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
