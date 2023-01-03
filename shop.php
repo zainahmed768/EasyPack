@@ -9,7 +9,7 @@
      }
 
      .shop-banner {
-         padding: 208px 0px 100px 0px;
+         padding: 187px 0px 100px 0px;
      }
  </style>
 
