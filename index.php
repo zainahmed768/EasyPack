@@ -79,8 +79,11 @@
                 <div class="content-wrapper">
                     <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
                         Customize it at No Additional Cost.</h2> -->
-                    <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
+                    <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
                     <!-- <h2>Our Gallery</h2> -->
+                    <h2>Check out our <span>EasyPack Luggage</span> Ready Collection</h2>
+                    <h2>or</h2>
+                    <h2><span>Customize it for Free</span></h2>
                 </div>
             </div>
         </div>

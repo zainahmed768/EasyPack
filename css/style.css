@@ -385,22 +385,27 @@ section.collection-sec .row {
 /* **************End of Collection section********** */
 
 /* ***********Begin of Customize Section*************** */
-.custom-sec .custom-heading h2 {
+/* .custom-sec .custom-heading h2 {
 	font-family: "Generica";
 	font-size: 24px;
 	color: #d29f45;
+} */
+.custom-sec .custom-heading h2 {
+	font-family: "Generica";
+	font-size: 24px;
+	color: #ffffff;
 }
 .custom-sec .coutomizz-list-wrapper ul {
 	padding-left: 21px;
 	margin-bottom: 33px;
 }
 .custom-sec .coutomizz-list-wrapper ul li {
-	color: #fff;
-	font-family: "Montserrat";
-	font-size: 12px;
-	font-weight: 400;
-	padding: 1px 0px;
-	line-height: 1.8;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1px 0px;
+    line-height: 1.8;
 }
 .custom-sec .coutomizz-list-wrapper ul li span {
 	margin-left: 22px;
@@ -625,7 +630,7 @@ section.pics-sec {
 .product-sec .content-wrapper h2 {
     color: #000000;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 42px;
     text-align: center;
     font-family: "Generica";
 }
