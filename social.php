@@ -10,7 +10,7 @@
              <div class="col-lg-3"></div>
              <div class="col-lg-6 text-center align-self-center">
                  <div class="shop-banner-content-wrapper">
-                     <h6>BEST OF OUR PRODUCTS</h6>
+                     <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
                      <h2>
                          Social
                      </h2>
@@ -60,6 +60,8 @@
                                  <img src="images/twitter.png" class="img-fluid" alt="">
                              </a>
                          </li>
+</ul>
+<ul>
                          <!-- <li>
                              <a href="#">
                                  <img src="images/pintrest.png" class="img-fluid" alt="">
@@ -85,7 +87,7 @@
                                  <img src="images/whatsapp.png" class="img-fluid" alt="">
                              </a>
                          </li>
-                         <li>
+                         <!-- <li>
                              <a href="#">
                                  <img src="images/at.png" class="img-fluid" alt="">
                              </a>
@@ -94,7 +96,7 @@
                              <a href="#">
                                  <img src="images/hash.png" class="img-fluid" alt="">
                              </a>
-                         </li>
+                         </li> -->
                      </ul>
                  </div>
              </div>

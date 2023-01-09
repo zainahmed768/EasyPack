@@ -75,9 +75,9 @@
                          </div>
                          <div class="color-wrapper">
                              <div class="heading-wrapper">
-                                 <h6>Color:</h6>
+                                 <!-- <h6>Color:</h6> -->
                              </div>
-                             <div class="radio-coolor-wrapper">
+                             <!-- <div class="radio-coolor-wrapper">
                                  <input type="radio" name="color" id="black" />
                                  <label for="black"><span class="black"></span></label>
                                  <input type="radio" name="color" id="red" value="red" />
@@ -86,7 +86,7 @@
                                  <label for="blue"><span class="blue"></span></label>
                                  <input type="radio" name="color" id="white" />
                                  <label for="white"><span class="white"></span></label>
-                             </div>
+                             </div> -->
                          </div>
                      </div>
                      <div class="form">
@@ -97,14 +97,14 @@
                              <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) <br> Large-Size Case</label>
                          </section>
                      </div>
-                     <div class="availability-wrapper">
+                     <!-- <div class="availability-wrapper">
                          <div class="heading-wrapper">
                              <h6>Availability:</h6>
                          </div>
                          <div class="size-wrapper">
                              <h4>M</h4>
                          </div>
-                     </div>
+                     </div> -->
                      <div class="cart-btn-wrapper">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
                          <button onclick="location.href='wishlist.php'" class="btn">Add to wishlist</button>

@@ -162,7 +162,7 @@ section.customization_section
 }
 .luggage_description .the_heading h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 21px;
+  font-size: 32px;
   color: #262626;
   text-transform: uppercase;
   font-weight: 600;
@@ -425,11 +425,11 @@ section.customization_section
   .single_color
   label
   span {
-  display: block;
-  height: 22px;
-  width: 22px;
-  cursor: pointer;
-  border: 2px solid transparent;
+    display: block;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    border: 2px solid #000000 !important;
 }
 section.customization_section
   .customization_start_here

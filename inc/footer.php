@@ -9,9 +9,10 @@
                             </figure>
                         </div>
                         <div class="logo-content-wrapper">
-                            <p>
+                            <!-- <p>
                                 2022 by Easy Pack. All rights reserved.
-                            </p>
+                            </p> -->
+                            <p>2022 by EasyPack Luggage. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +82,8 @@
                         <h4>NEWSLETTER</h4>
                     </div>
                     <div class="for-news">
-                        <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adip.</p> -->
+                        <p>Subscribe us to get updates</p>
                         <div class="form-news">
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subscribe for newsletter">

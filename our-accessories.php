@@ -24,13 +24,13 @@
      }
  </style>
  <!-- shop banner starts here -->
- <section class="shop-banner">
+ <section class="shop-banner only-for-shop-page">
      <div class="container">
          <div class="row">
              <div class="col-lg-3"></div>
              <div class="col-lg-6 text-center align-self-center mt-2 pt-2">
                  <div class="shop-banner-content-wrapper">
-                     <h6>BEST OF OUR PRODUCTS</h6>
+                     <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
                      <h2>
                          Our Accessories
                      </h2>

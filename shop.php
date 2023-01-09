@@ -16,20 +16,20 @@
  <!-- **********************Banner section*********************** -->
  <!-- ************************End of bannersection*************************** -->
  <!-- shop banner starts here -->
- <section class="shop-banner">
+ <section class="shop-banner only-for-shop-page">
      <div class="container">
          <div class="row">
              <div class="col-lg-3"></div>
              <div class="col-lg-6 text-center align-self-center">
-                 <div class="shop-banner-content-wrapper">
+                 <div class="shop-banner-content-wrapper only-for-shop-page">
                      <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
                      <h2>
                          <span> EasyPack <br> Luggage</span>
                      </h2>
-                     <p>
+                     <!-- <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p>
-                     <a href="cart.php" class="btn">SHOP NOW</a>
+                     <a href="cart.php" class="btn">SHOP NOW</a> -->
                  </div>
              </div>
              <div class="col-lg-3"></div>
@@ -54,15 +54,15 @@
                  </div>
                  <div class="shop-bar">
                      <div class="shop-price">
-                         <h3>Price Range</h3>
+                         <!-- <h3>Price Range</h3> -->
                          <!-- Range slider  -->
 
-                         <div class="row">
+                         <!-- <div class="row">
                              <div class="col-sm-12">
                                  <div id="slider-range"></div>
                              </div>
-                         </div>
-                         <div class="row slider-labels">
+                         </div> -->
+                         <!-- <div class="row slider-labels">
                              <div class="col-xs-6 caption d-flex align-items-center">
                                  <ruby>$</ruby>
                                  <span id="slider-range-value1"></span>
@@ -71,15 +71,15 @@
                                  <ruby>- $</ruby>
                                  <span id="slider-range-value2"></span>
                              </div>
-                         </div>
-                         <div class="row">
+                         </div> -->
+                         <!-- <div class="row">
                              <div class="col-sm-12">
                                  <form>
                                      <input type="hidden" name="min-value" value="">
                                      <input type="hidden" name="max-value" value="">
                                  </form>
                              </div>
-                         </div>
+                         </div> -->
 
                          <!-- Range Slider  -->
 
@@ -135,7 +135,7 @@
                      </div>
 
                      <div class="side-bar-material">
-                         <h3>Material</h3>
+                         <!-- <h3>Material</h3> -->
                          <div class="material-list">
                              <div class="mat-flex">
                                  <li>Burlap</li>
@@ -214,7 +214,8 @@
                                          <label class="label_container">
                                              <input type="radio" checked="checked" name="radio">
                                              <span class="checkmark">
-                                                 <div class="label" style="background-color: #f9ddd6;">
+                                                 <!-- <div class="label" style="background-color: #f9ddd6;"> -->
+                                                 <div class="label" style="background-color: #ffffff;">
                                                      <span></span>
                                                  </div>
                                              </span>

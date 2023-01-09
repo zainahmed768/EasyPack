@@ -479,4 +479,7 @@ section.shop-sec {
 .shop-banner-content-wrapper h2 span {
 	color: #d29f45;
 }
+.only-for-shop-page {
+    padding-bottom: 0px !important;
+}
 /* shop banner ends here */

@@ -40,7 +40,7 @@
  <section class="customization_section">
      <div class="container pt-5">
          <div class="top_heading text-center">
-             <h2>Customize your <span>EasyPack Laggage</span><br>
+             <h2>Customize your <span>EasyPack Luggage</span><br>
                  At No Additional Cost</h2>
          </div>
          <div class="customization_start_here">
@@ -114,8 +114,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Carry On</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -137,8 +137,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Medium case</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -160,8 +160,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Large case</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -308,8 +308,9 @@
                              <h5>
                                  Do you want to PERSONALIZE your Luggage?
                              </h5>
-                             <p>For a small fee we could add your Initials embroidered on the front cover on the left
-                                 side of the top pocket.</p>
+                             <!-- <p>For a small fee we could add your Initials embroidered on the front cover on the left
+                                 side of the top pocket.</p> -->
+                                 <p>Embroidery is 2 inches high, top left corner of the cover</p>
                          </div>
                          <div class="final_customized_bag">
                              <figure>

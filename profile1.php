@@ -22,9 +22,9 @@
                                  <li class="nav-item">
                                      <a class="" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Orders</a>
                                  </li>
-                                 <li class="nav-item">
+                                 <!-- <li class="nav-item">
                                      <a class="" id="friend-tab" data-toggle="tab" href="#friend" role="tab" aria-controls="friend" aria-selected="false">Tell a Friend</a>
-                                 </li>
+                                 </li> -->
                                  <li class="nav-item">
                                      <a class="logout" onclick="window.location.href='signin.php'">Logout</a>
                                  </li>

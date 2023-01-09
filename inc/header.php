@@ -15,7 +15,8 @@
                                         Shop
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="Galary.php">Our Gallery</a>
+                                        <!-- <a class="dropdown-item" href="Galary.php">Our Gallery</a> -->
+                                        <a class="dropdown-item" href="shop.php">Luggages</a>
                                         <!-- <a class="dropdown-item" href="customize.php">Customize for Free</a> -->
                                         <a class="dropdown-item" href="our-accessories.php">Accessories</a>
                                     </div>
@@ -34,6 +35,8 @@
                                         <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
                                         
                                         <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a>
+                                        <a class="dropdown-item" href="luggage.php">Luggage Specification</a>
+
                                     </div>
                                 </li>
                                 <!-- <li><a href="user-guide.php"></a></li> -->
@@ -77,11 +80,11 @@
                                         <i class="fa fa-heart-o"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">
                                         <img src="images/search.png" alt="">
                                     </a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="cart.php">
                                         <img src="images/cart-img.png" alt="">

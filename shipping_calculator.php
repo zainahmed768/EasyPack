@@ -8,7 +8,7 @@
              <div class="row">
                  <div class="col-md-7">
                      <div class="text">
-                         <h6 class="small">BEST OF OUR PRODUCTS</h6>
+                         <!-- <h6 class="small">BEST OF OUR PRODUCTS</h6> -->
                          <h1>Shipping <br>
                              calculator</h1>
                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>

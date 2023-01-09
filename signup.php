@@ -22,7 +22,8 @@
                                 <div class="top_text">
                                     <h2 class="heading">Register</h2>
                                     <h4 class="mt-5">Welcome to <span>EasyPack luggage</span></h4>
-                                    <h5>The Best place to enhance your look </h5>
+                                    <!-- <h5>The Best place to enhance your look </h5> -->
+                                    <h5>Let's travel with less trouble</h5>
                                     <span>Not a Member ? <a href="signin.php">Login</a></span>
                                 </div>
                                 <div class="form_start mt-5">
