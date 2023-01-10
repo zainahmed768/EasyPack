@@ -40,7 +40,7 @@
  <section class="customization_section">
      <div class="container pt-5">
          <div class="top_heading text-center">
-             <h2>Customize your <span>EasyPack Laggage</span><br>
+             <h2>Customize your <span>EasyPack Luggage</span><br>
                  At No Additional Cost</h2>
          </div>
          <div class="customization_start_here">
@@ -52,7 +52,7 @@
                                  <img src="images/customize.png" class="img-fluid" alt="">
                              </figure>
                          </div>
-                         <div class="save_details">
+                         <!-- <div class="save_details">
                              <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear Cover for your Easy Pack Luggage.
                                  <input type="checkbox" checked="checked">
                                  <span class="checkmark"></span>
@@ -93,7 +93,7 @@
                                      </label>
                                  </div>
                              </div>
-                         </div>
+                         </div> -->
                      </div>
                  </div>
                  <div class="col-md-6" id="resposive_padding">
@@ -114,8 +114,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Carry On</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -137,8 +137,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Medium case</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -160,8 +160,8 @@
                                          </figure>
                                          <div class="desc">
                                              <span class="price">$139</span>
-                                             <span class="name">28” (71 cm) Large Case</span>
-                                             <a href="product-detail.php">See Specification</a>
+                                             <span class="name">28” (71 cm) Large case</span>
+                                             <!-- <a href="product-detail.php">See Specification</a> -->
                                          </div>
                                      </div>
                                      <div class="lugage_quantity">
@@ -251,9 +251,9 @@
                              </div>
                              <div class="single_step">
                                  <div class="text">
-                                     <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
-                                     <p>Select the color of your body</p>
+                                     <span class="step_no">Step 3</span>
+                                     <h4>COLOR OF THE Cover</h4>
+                                     <p>Select the color of your Cover</p>
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
@@ -284,9 +284,9 @@
                              </div>
                              <div class="single_step">
                                  <div class="text">
-                                     <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
-                                     <p>Select the color of your body</p>
+                                     <span class="step_no">Step 4</span>
+                                     <h4>COLOR OF THE Frame</h4>
+                                     <p>Select the color of your Frame</p>
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
@@ -296,33 +296,133 @@
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="trim_colors" hidden id="trim_colors_4" class="body_colors">
-                                         <label for="trim_colors_4">
-                                             <span class="white_1"></span>
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
+                                         <label for="trim_colors_1">
+                                             <span class="red"></span>
+                                         </label>
+                                     </div>
+                                     <div class="single_color">
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
+                                         <label for="trim_colors_1">
+                                             <span class="gray"></span>
                                          </label>
                                      </div>
                                  </div>
                              </div>
                          </div>
+                         <div class="left_side_start">
+                             <div class="save_details mt-3">
+                                 <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear Cover for your Easy Pack Luggage.
+                                     <input type="checkbox" checked="checked">
+                                     <span class="checkmark"></span>
+                                 </label>
+                             </div>
+                             <div class="small_images">
+                                 <figure>
+                                     <img src="images/sm_bag.png" alt="">
+                                 </figure>
+                             </div>
+                             <!-- <div class="accesories">
+                                 <div class="select_btn">
+                                     <button onclick="window.location.href='our-accessories.php'" class="btn">SELECT YOUR ACCESSORIES</button>
+                                 </div>
+                                 <div class="accesorries_list">
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
+                                         <label for="accesories_1">
+                                             <figure>
+                                                 <img src="images/acce1.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
+                                         <label for="accesories_2">
+                                             <figure>
+                                                 <img src="images/acce2.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
+                                         <label for="accesories_3">
+                                             <figure>
+                                                 <img src="images/acce3.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                 </div>
+                             </div> -->
+                         </div>
                          <div class="the_heading mt-5">
-                             <h5>
-                                 Do you want to PERSONALIZE your Luggage?
-                             </h5>
-                             <p>For a small fee we could add your Initials embroidered on the front cover on the left
-                                 side of the top pocket.</p>
+                             <label class="custom_check_box">
+                                 <h6> <b> Do you want to PERSONALIZE your Luggage?</b></h6>
+                                 <input type="checkbox" class="customize_checkbox" checked="checked">
+                                 <span class="checkmark"></span>
+                             </label>
+                             <p>Embroidery is 2 inches high, top left corner of the cover</p>
                          </div>
                          <div class="final_customized_bag">
                              <figure>
                                  <img src="images/customized.png" alt="">
                              </figure>
+                             <div class="for_the_radios">
+                                 <label for="three">
+                                     <input type="radio" class="letters_input" name="letters" value="3" checked id="three">
+                                     <span>Up to 3 letters $7.95</span>
+                                 </label>
+                                 <label for="ten">
+                                     <input type="radio" name="letters" class="letters_input" value="10" id="ten">
+                                     <span>Up to 10 letters $11.95</span>
+                                 </label>
+                             </div>
                              <div class="ep_input">
-                                 <label for="">EP</label>
-                                 <input type="text" name="" id="">
+                                 <label for="ep">EP</label>
+                                 <input type="text" maxlength="3" name="ep" class="for_text_on_beg" id="ep">
                              </div>
                              <label class="custom_check_box mt-5">I would like to add my initial embroidered for additional $19.95
                                  <input type="checkbox" checked="checked">
                                  <span class="checkmark"></span>
                              </label>
+                             <div class="d-flex  mt-5">
+                                 <a href="" class="btn">Add to Cart</a>
+                                 <a href="" class="btn ml-3">Checkout</a>
+                             </div>
+                             <div class="left_side_start">
+
+                                 <div class="accesories mt-5">
+                                    <h6><b>Below are the Suggested Accessories</b></h6>
+                                     <div class="accesorries_list">
+                                         <div class="single_accesory">
+                                             <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
+                                             <label for="accesories_1">
+                                                 <figure>
+                                                     <img src="images/acce1.png" alt="">
+                                                 </figure>
+                                             </label>
+                                         </div>
+                                         <div class="single_accesory">
+                                             <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
+                                             <label for="accesories_2">
+                                                 <figure>
+                                                     <img src="images/acce2.png" alt="">
+                                                 </figure>
+                                             </label>
+                                         </div>
+                                         <div class="single_accesory">
+                                             <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
+                                             <label for="accesories_3">
+                                                 <figure>
+                                                     <img src="images/acce3.png" alt="">
+                                                 </figure>
+                                             </label>
+                                         </div>
+                                         <div class="select_btn">
+                                         <a href='our-accessories.php' class="btn">SELECT YOUR ACCESSORIES</a>
+                                     </div>
+                                     </div>
+                                 </div>
+                             </div>
                          </div>
                      </div>
                  </div>

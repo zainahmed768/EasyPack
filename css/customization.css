@@ -902,3 +902,11 @@ section.customization_section {
 section.customization_section .customization_start_here .luggage_description .luggage_steps .single_step .colors .single_color label span.gray {
   background: gray;
 }
+.for_the_radios label {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.for_the_radios {
+  margin: 27px 0px 33px;
+}

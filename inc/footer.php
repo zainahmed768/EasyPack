@@ -2302,6 +2302,15 @@
             /** @export */
             window.wNumb = wNumb;
         }());
+
+        $(".letters_input").change(function () {
+            // console.log($(this).attr("id"));
+            $(".for_text_on_beg").attr("maxlength", $(this).val());
+            $(".for_text_on_beg").val("");
+        });
+        $( "input" ).on( "click", function() {
+            $(".final_customized_bag").toggleClass("d-none");
+        })
     </script>
 
 
