@@ -251,9 +251,9 @@
                              </div>
                              <div class="single_step">
                                  <div class="text">
-                                     <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
-                                     <p>Select the color of your body</p>
+                                     <span class="step_no">Step 3</span>
+                                     <h4>COLOR OF THE Cover</h4>
+                                     <p>Select the color of your Cover</p>
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
@@ -284,9 +284,9 @@
                              </div>
                              <div class="single_step">
                                  <div class="text">
-                                     <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
-                                     <p>Select the color of your body</p>
+                                     <span class="step_no">Step 4</span>
+                                     <h4>COLOR OF THE Frame</h4>
+                                     <p>Select the color of your Frame</p>
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
@@ -296,9 +296,15 @@
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="trim_colors" hidden id="trim_colors_4" class="body_colors">
-                                         <label for="trim_colors_4">
-                                             <span class="white_1"></span>
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
+                                         <label for="trim_colors_1">
+                                             <span class="red"></span>
+                                         </label>
+                                     </div>
+                                     <div class="single_color">
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
+                                         <label for="trim_colors_1">
+                                             <span class="gray"></span>
                                          </label>
                                      </div>
                                  </div>

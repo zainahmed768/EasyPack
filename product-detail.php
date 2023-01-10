@@ -105,16 +105,16 @@
                              <h4>M</h4>
                          </div>
                      </div> -->
-                     <div class="cart-btn-wrapper">
+                     <div class="cart-btn-wrapper for-details">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
-                         <button onclick="location.href='wishlist.php'" class="btn">Add to wishlist</button>
+                         <!-- <button onclick="location.href='wishlist.php'" class="btn">Add to wishlist</button> -->
+                         <span class="add-atowish-list" title="Add to Wishlist"><i class="fa fa-heart"></i></span>
                      </div>
                  </div>
              </div>
          </div>
-         <div class="row">
-             <div class="col-lg-6"></div>
-             <div class="col-lg-6">
+         <!-- <div class="row">
+             <div class="col-lg-6 ml-auto ms-auto">
                  <div class="review-wrapper">
                      <div class="heading-wrapper">
                          <h5>Reviews</h5>
@@ -266,7 +266,7 @@
                      <button onclick="location.href='SubmitRreview.php'" class="load">LOAD MORE</button>
                  </div>
              </div>
-         </div>
+         </div> -->
      </div>
  </section>
  <!-- product detail ends here -->

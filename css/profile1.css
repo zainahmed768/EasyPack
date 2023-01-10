@@ -1127,7 +1127,7 @@ section.unique_feature {
   padding: 61px 0px 57px;
 }
 
-section.unique_feature .unique_feature_start.text-center .top_heading h1 {
+section.unique_feature .unique_feature_start.text-center .top_heading h1,section.unique_feature .unique_feature_start.text-center .top_heading h1 span {
   font-family: var(--font-secondary);
   font-weight: 600;
   font-size: 47px;
@@ -1493,4 +1493,8 @@ section.unique_feature .unique_feature_start.text-center figure {
 header section.nav-sec .nav-list ul li a {
   margin-right: 15px !important;
   font-size: 11px;
+}
+
+section.unique_feature .unique_feature_start.text-center .top_heading h1 span {
+  color: #d8ac5f;
 }

@@ -730,6 +730,10 @@ section.pics-sec {
 	font-size: 52px;
 	text-align: center;
 }
+
+.easypack-sec .content-wrapper h2 span {
+    color: #d29f45;
+}
 .contact-sec input#exampleInputEmail1::placeholder {
 	color: #606060;
 	font-family: "Montserrat";

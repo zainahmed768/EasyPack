@@ -83,7 +83,7 @@
                     <!-- <h2>Our Gallery</h2> -->
                     <h2>Check out our <span>EasyPack Luggage</span> Ready Collection</h2>
                     <h2>or</h2>
-                    <h2><span>Customize it for Free</span></h2>
+                    <h2><span>Customize it </span> for Free</h2>
                 </div>
             </div>
         </div>

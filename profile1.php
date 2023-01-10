@@ -730,7 +730,7 @@
      <div class="container">
          <div class="unique_feature_start text-center">
              <div class="top_heading">
-                 <h1>Our EasyPack Unique Feature</h1>
+                 <h1>Our <span>EasyPack Luggage</span> Unique Feature</h1>
              </div>
              <div class="row">
                  <div class="col-md-4">

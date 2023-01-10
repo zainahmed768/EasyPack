@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <div class="content-wrapper">
                 <!-- <h2>Our EasyPack Unique Feature</h2> -->
-                <h2>Our EasyPack Luggage Unique Feature</h2>
+                <h2>Our <span>EasyPack Luggage</span> Unique Feature</h2>
                 </div>
             </div>
         </div>

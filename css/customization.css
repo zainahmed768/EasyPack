@@ -898,3 +898,7 @@ section.customization_section {
     padding: 25px;
   }
 }
+
+section.customization_section .customization_start_here .luggage_description .luggage_steps .single_step .colors .single_color label span.gray {
+  background: gray;
+}

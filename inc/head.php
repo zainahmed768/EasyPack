@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>ShelfPack</title>
+    <title>EasyPack Luggage</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -32,6 +32,7 @@
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Stylesheet -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 
 </head>
 <!-- Header -->
