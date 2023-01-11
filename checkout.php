@@ -264,9 +264,9 @@
                                      </div>
                                  </div>
                              </div>
-                             <div class="credit_earned text-center">
+                             <div class="credit_earned">
                                  <!-- <span>Credit Earned For this order. $15.00</span> -->
-                                 <label class="custom_check_box mt-5">agree to our terms & conditions.
+                                 <label class="custom_check_box mt-5">Agree to our terms & conditions.
                                  <input type="checkbox" checked="checked">
                                  <span class="checkmark"></span>
                              </label>
