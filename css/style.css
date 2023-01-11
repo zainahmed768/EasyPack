@@ -395,6 +395,9 @@ section.collection-sec .row {
 	font-size: 24px;
 	color: #ffffff;
 }
+.custom-sec .custom-heading h2 span {
+    color: #d29f45;
+}
 .custom-sec .coutomizz-list-wrapper ul {
 	padding-left: 21px;
 	margin-bottom: 33px;
@@ -834,9 +837,26 @@ section.blog-sec {
   display: block;
   width: 44px;
 } */
-.contact-icon ul li a img {
-	margin-right: 26px;
-	margin-bottom: 13px;
+.contact-icon ul li a img,.contact-icon ul li a span {
+    margin-right: 26px;
+    margin-bottom: 13px;
+    max-width: 37px;
+    border-radius: 50%;
+	display: block;
+}
+.contact-icon ul li a span {
+	background-color: #d29f45;
+	width: 37px;
+	height: 37px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+.contact-icon ul li a span i {
+	font-size: 25px;
+	color: #fff;
 }
 .contact-sec input#exampleInputEmail1 {
 	border: none;

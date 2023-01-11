@@ -337,7 +337,10 @@ form .payment-plan input:checked + label:after,
     color: red;
     cursor: pointer;
 }
-
+.product-detail-sec .product-detail-wrapper .cart-btn-wrapper.for-details span.add-atowish-list:hover i {
+	color: #000000;
+	transition: 0.6s all;
+}
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper.for-details span.add-atowish-list {display: block;}
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper .btn {
 	/* font-family: "Segoe UI"; */
@@ -493,3 +496,23 @@ form .payment-plan input:checked + label:after,
 	margin-left: 0px !important;
 }
 
+
+section.customization_section .customization_start_here .luggage_description label {
+    width: unset !important;
+    transform: unset !important;
+    border: 0px;
+}
+
+section.customization_section .customization_start_here .luggage_description label:hover span {
+    transform: unset !important;
+}
+
+section.customization_section .customization_start_here .luggage_description label input {
+    display: inline !important;
+}
+
+section.customization_section .customization_start_here .luggage_description .final_customized_bag .for_the_radios label {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}

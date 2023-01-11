@@ -1,6 +1,8 @@
  <!-- Header Include -->
  <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
+ <link rel="stylesheet" href="css/accessories.css">
+ <link rel="stylesheet" href="css/customization.css">
  <link rel="stylesheet" href="css/product-detail.css">
  <!-- product detail starts here -->
  <section class="product-detail-sec">
@@ -105,10 +107,85 @@
                              <h4>M</h4>
                          </div>
                      </div> -->
+                     <section class="customization_section py-0">
+                         <div class="customization_start_here pt-5">
+                             <div class="luggage_description">
+                                 <div class="left_side_start">
+                                     <div class="save_details mt-3">
+                                         <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear Cover for your Easy Pack Luggage.
+                                             <input type="checkbox" checked="checked">
+                                             <span class="checkmark"></span>
+                                         </label>
+                                     </div>
+                                     <div class="small_images">
+                                         <figure>
+                                             <img src="images/sm_bag.png" alt="">
+                                         </figure>
+                                     </div>
+                                     <!-- <div class="accesories">
+                                 <div class="select_btn">
+                                     <button onclick="window.location.href='our-accessories.php'" class="btn">SELECT YOUR ACCESSORIES</button>
+                                 </div>
+                                 <div class="accesorries_list">
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
+                                         <label for="accesories_1">
+                                             <figure>
+                                                 <img src="images/acce1.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
+                                         <label for="accesories_2">
+                                             <figure>
+                                                 <img src="images/acce2.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
+                                         <label for="accesories_3">
+                                             <figure>
+                                                 <img src="images/acce3.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                 </div>
+                             </div> -->
+                                 </div>
+                                 <div class="the_heading mt-5">
+                                     <label class="custom_check_box">
+                                         <h6> <b> Do you want to PERSONALIZE your Luggage?</b></h6>
+                                         <input type="checkbox" class="customize_checkbox" checked="checked">
+                                         <span class="checkmark"></span>
+                                     </label>
+                                     <p>Embroidery is 2 inches high, top left corner of the cover</p>
+                                 </div>
+                                 <div class="final_customized_bag">
+                                     <figure>
+                                         <img src="images/customized.png" alt="">
+                                     </figure>
+                                     <div class="for_the_radios">
+                                         <label for="three">
+                                             <input type="radio" class="letters_input" name="letters" value="3" checked id="three">
+                                             <span>Up to 3 letters $7.95</span>
+                                         </label>
+                                         <label for="ten">
+                                             <input type="radio" name="letters" class="letters_input" value="10" id="ten">
+                                             <span>Up to 10 letters $11.95</span>
+                                         </label>
+                                     </div>
+                                     <div class="ep_input justify-content-start">
+                                         <!-- <label for="ep">EP</label> -->
+                                         <input type="text" maxlength="3" name="ep" class="for_text_on_beg pl-2" placeholder="EP" id="ep">
+                                     </div>
+                                 </div>
+                             </div>
+                     </section>
                      <div class="cart-btn-wrapper for-details">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
-                         <!-- <button onclick="location.href='wishlist.php'" class="btn">Add to wishlist</button> -->
-                         <span class="add-atowish-list" title="Add to Wishlist"><i class="fa fa-heart"></i></span>
+                         <a href="./wishlist.php"><span class="add-atowish-list" title="Add to Wishlist"><i class="fa fa-heart"></i></span></a>
                      </div>
                  </div>
              </div>

@@ -232,7 +232,7 @@
                 <div class="custom-all">
                     <div class="custom-heading">
                         <h2>When you Customize Your <br>
-                            EasyPack Luggage You can:</h2>
+                           <span>EasyPack Luggage</span> You can:</h2>
                     </div>
                     <div class="coutomizz-list-wrapper">
                         <ul>
@@ -367,7 +367,7 @@
                 </div>
                 <div class="contact-icon">
                     <ul>
-                        <li><a href="#"><img class="img-fluid" src="images/fill4.png" alt=""> </a></li>
+                        <li><a href="#"><span><i  class="fa fa-whatsapp "></i></span> </a></li>
                         <li><a href="#"><img class="img-fluid" src="images/fill5.png" alt=""> </a></li>
                         <li><a href="#"><img class="img-fluid" src="images/fill6.png" alt=""> </a></li>
                     </ul>
