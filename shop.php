@@ -693,6 +693,9 @@
                                  <h6>luggage</h6>
                                  <h3>DELSEY Paris Helium</h3>
                              </div>
+                             <div class="out-of-stock">
+                                 <h5>OUT OF STOCK</h5>
+                             </div>
                          </div>
                      </div>
                  </div>

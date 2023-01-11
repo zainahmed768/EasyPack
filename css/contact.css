@@ -11,12 +11,15 @@
 .contact-form .contact-form-wrapper .form-heading-wrapper {
 	text-align: center;
 }
-.contact-form .contact-form-wrapper .form-heading-wrapper h2 {
+.contact-form .contact-form-wrapper .form-heading-wrapper h2,.form-heading-wrapper h1 {
     font-family: "Generica";
     font-size: 52px;
     font-weight: 700;
     color: #000000;
     margin-bottom: 38px;
+}
+.form-heading-wrapper h1 {
+	font-size: 59px;
 }
 .contact-form .contact-form-wrapper .form-heading-wrapper p {
 	color: #656565;

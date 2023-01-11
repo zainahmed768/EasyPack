@@ -1,7 +1,7 @@
  <!-- Header Include -->
  <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
-
+ <link rel="stylesheet" href="css/accessories.css">
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
  <style>
@@ -376,62 +376,166 @@
                                      <span>Up to 10 letters $11.95</span>
                                  </label>
                              </div>
-                             <div class="ep_input">
-                                 <label for="ep">EP</label>
-                                 <input type="text" maxlength="3" name="ep" class="for_text_on_beg" id="ep">
+                             <div class="ep_input justify-content-start">
+                                 <!-- <label for="ep">EP</label> -->
+                                 <input type="text" maxlength="3" name="ep" class="for_text_on_beg pl-2" placeholder="EP" id="ep">
                              </div>
-                             <label class="custom_check_box mt-5">I would like to add my initial embroidered for additional $19.95
-                                 <input type="checkbox" checked="checked">
-                                 <span class="checkmark"></span>
-                             </label>
                              <div class="d-flex  mt-5">
-                                 <a href="" class="btn">Add to Cart</a>
-                                 <a href="" class="btn ml-3">Checkout</a>
-                             </div>
-                             <div class="left_side_start">
-
-                                 <div class="accesories mt-5">
-                                    <h6><b>Below are the Suggested Accessories</b></h6>
-                                     <div class="accesorries_list">
-                                         <div class="single_accesory">
-                                             <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
-                                             <label for="accesories_1">
-                                                 <figure>
-                                                     <img src="images/acce1.png" alt="">
-                                                 </figure>
-                                             </label>
-                                         </div>
-                                         <div class="single_accesory">
-                                             <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
-                                             <label for="accesories_2">
-                                                 <figure>
-                                                     <img src="images/acce2.png" alt="">
-                                                 </figure>
-                                             </label>
-                                         </div>
-                                         <div class="single_accesory">
-                                             <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
-                                             <label for="accesories_3">
-                                                 <figure>
-                                                     <img src="images/acce3.png" alt="">
-                                                 </figure>
-                                             </label>
-                                         </div>
-                                         <div class="select_btn">
-                                         <a href='our-accessories.php' class="btn">SELECT YOUR ACCESSORIES</a>
-                                     </div>
-                                     </div>
-                                 </div>
+                                 <a href="./cart.php" class="btn">Add to Cart</a>
+                                 <a href="./checkout.php" class="btn ml-3">Checkout</a>
                              </div>
                          </div>
                      </div>
                  </div>
              </div>
-             <div class="proced_to_checkout">
-                 <div class="chck_btn">
-                     <a href="checkout.php" class="btn">CONTINUE TO CHECKOUT</a>
+         </div>
+     </div>
+ </section>
+ <section class="shop-banner only-for-shop-page pt-0">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-3"></div>
+             <div class="col-lg-6 text-center align-self-center mt-2 pt-2">
+                 <div class="shop-banner-content-wrapper">
+                     <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
+                     <h2>
+                         Our Accessories
+                     </h2>
+                     <!-- <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                     </p> -->
+                     <a href="shop.php" class="btn mt-4">SHOP NOW</a>
                  </div>
              </div>
+             <div class="col-lg-3"></div>
+             <!-- <div class="col-lg-6">
+                 <div class="img-wrapper">
+                     <figure>
+                         <img src="images/acc-ban1.png" class="img-fluid" alt="">
+                     </figure>
+                 </div>
+             </div> -->
+         </div>
+     </div>
+ </section>
+ <section class="shop-sec pb-5">
+     <div class="container">
+         <div class="row ">
+             <div class="col-lg-2"></div>
+             <div class="col-lg-8">
+                 <div class="row acc">
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+
+                     <div class="col-lg-4">
+                         <a href="#">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-2"></div>
+
+             <!-- <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii2.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii3.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii4.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div> -->
          </div>
      </div>
  </section>

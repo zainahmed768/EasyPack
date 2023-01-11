@@ -483,3 +483,26 @@ section.shop-sec {
     padding-bottom: 0px !important;
 }
 /* shop banner ends here */
+.product-card-wrapper {
+    position: relative;
+}
+
+.product-card-wrapper .out-of-stock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffffc9;
+}
+
+.product-card-wrapper .out-of-stock h5 {
+    display: block;
+    width: 100%;
+    padding: 12px 0px;
+    background: #000;
+    color: #FFF;
+}
