@@ -421,8 +421,8 @@
  <section class="shop-sec pb-5">
      <div class="container">
          <div class="row ">
-             <div class="col-lg-2"></div>
-             <div class="col-lg-8">
+             
+             <div class="col-lg-6 mx-auto">
                  <div class="row acc">
                      <div class="col-lg-4">
                          <a href="product-detail2.php">
@@ -492,7 +492,6 @@
                      </div>
                  </div>
              </div>
-             <div class="col-lg-2"></div>
 
              <!-- <div class="col-lg-3">
                  <div class="product-card-wrapper">

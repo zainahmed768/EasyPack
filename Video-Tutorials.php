@@ -16,7 +16,6 @@
              <div class="col-lg-3"></div>
              <div class="col-lg-6 text-center align-self-center">
                  <div class="shop-banner-content-wrapper">
-                     <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
                          Video Tutorials
                      </h2>
@@ -42,13 +41,13 @@
  <!-- video box sec starts here -->
  <section class="video-box-sec">
      <div class="container">
-         <div class="row">
+         <!-- <div class="row">
              <div class="col-lg-12">
                  <div class="content-wrapper">
                      <h2>Video Tutorials</h2>
                  </div>
              </div>
-         </div>
+         </div> -->
          <div class="row">
              <div class="col-lg-4">
                  <div class="video-box-wrapper">

@@ -206,7 +206,7 @@
                                          <label class="label_container">
                                              <input type="radio" checked="checked" name="radio">
                                              <span class="checkmark">
-                                                 <div class="label" style="background-color: #041e42;">
+                                                 <div class="label" style="background-color: #202A44;">
                                                      <span></span>
                                                  </div>
                                              </span>
