@@ -11,8 +11,8 @@
                             <ul>
                                 <li><a href="index.php">Home</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdown">
-                                        Shop
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown">
+                                        Shop <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <!-- <a class="dropdown-item" href="Galary.php">Our Gallery</a> -->
@@ -27,7 +27,7 @@
                                 <li><a href="social.php">SOCIAL</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        About US
+                                        About US  <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="impact.php">Making an impact</a>
@@ -44,7 +44,7 @@
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Customer Care
+                                    Customer Care  <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="contact.php">Contact Us</a>

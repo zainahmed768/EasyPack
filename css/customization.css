@@ -3,10 +3,10 @@ header {
   position: unset;
 }
 section.customization_section .top_heading h2 {
-    color: #000000;
-    font-weight: 700;
-    font-size: 52px;
-    font-family: 'Generica';
+  color: #000000;
+  font-weight: 700;
+  font-size: 52px;
+  font-family: "Generica";
 }
 section.customization_section .top_heading h2 span {
   color: #d6a857;
@@ -393,6 +393,7 @@ section.customization_section
   font-size: 22px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 section.customization_section
   .customization_start_here
@@ -425,11 +426,11 @@ section.customization_section
   .single_color
   label
   span {
-    display: block;
-    height: 22px;
-    width: 22px;
-    cursor: pointer;
-    border: 2px solid #000000 !important;
+  display: block;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+  border: 2px solid #000000 !important;
 }
 section.customization_section
   .customization_start_here
@@ -899,7 +900,15 @@ section.customization_section {
   }
 }
 
-section.customization_section .customization_start_here .luggage_description .luggage_steps .single_step .colors .single_color label span.gray {
+section.customization_section
+  .customization_start_here
+  .luggage_description
+  .luggage_steps
+  .single_step
+  .colors
+  .single_color
+  label
+  span.gray {
   background: gray;
 }
 .for_the_radios label {

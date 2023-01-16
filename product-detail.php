@@ -11,6 +11,9 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
+                         <a href="wishlist.php" class="wishlist-heart">
+                             <span><i class="fa fa-heart"></i></span>
+                         </a>
                          <img src="images/product-img.png" class="img-fluid" alt="">
                      </figure>
                  </div>
@@ -185,7 +188,7 @@
                      </section>
                      <div class="cart-btn-wrapper for-details">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
-                         <a href="./wishlist.php"><span class="add-atowish-list" title="Add to Wishlist"><i class="fa fa-heart"></i></span></a>
+                         <button onclick="location.href='checkout.php'" class="btn">Check Out</button>
                      </div>
                  </div>
              </div>
@@ -373,10 +376,10 @@
          </div>
      </div>
  </section>
-  <section class="shop-sec pb-5">
+ <section class="shop-sec pb-5">
      <div class="container">
          <div class="row ">
-             
+
              <div class="col-lg-6 mx-auto">
                  <div class="row acc">
                      <div class="col-lg-4">

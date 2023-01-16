@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Slick SLider -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+
     <!-- Bootstrap CDN -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CDN -->
-
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- Slick SLider -->
     <link href="slick/slick.css" rel="stylesheet">
     <link href="slick/slick-theme.css" rel="stylesheet">

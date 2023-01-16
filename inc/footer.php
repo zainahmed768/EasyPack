@@ -95,11 +95,14 @@
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href=""><span class="bi bi-tiktok"></span></a></li>
                                         <!-- <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i>/a></li> -->
+                                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                            </a></li>
                                         <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i>
-</a></li>
-<li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
-</a></li>
+                                            </a></li>
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -2303,12 +2306,12 @@
             window.wNumb = wNumb;
         }());
 
-        $(".letters_input").change(function () {
+        $(".letters_input").change(function() {
             // console.log($(this).attr("id"));
             $(".for_text_on_beg").attr("maxlength", $(this).val());
             $(".for_text_on_beg").val("");
         });
-        $( ".customize_checkbox" ).on( "click", function() {
+        $(".customize_checkbox").on("click", function() {
             $(".final_customized_bag").toggleClass("d-none");
         })
     </script>

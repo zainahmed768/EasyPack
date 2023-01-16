@@ -528,7 +528,14 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
+                                         <a href="wishlist.php" class="wishlist-heart">
+                                             <span>
+                                                 <i class="fa fa-heart"></i>
+                                             </span>
+                                         </a>
+                                         <a href="product-detail.php">
                                          <img src="images/pro1.png" class="img-fluid" alt="">
+                                         </a>
                                      </figure>
                                  </div>
                                  <div class="product-content-wrapper">
@@ -544,6 +551,11 @@
                              <div class="product-card-wrapper">
                                  <div class="product-img-wrapper">
                                      <figure>
+                                         <a href="wishlist.php" class="wishlist-heart">
+                                             <span>
+                                                 <i class="fa fa-heart"></i>
+                                             </span>
+                                         </a>
                                          <img src="images/pro2.png" class="img-fluid" alt="">
                                      </figure>
                                  </div>
@@ -559,6 +571,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/pro3.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -573,6 +590,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/pro4.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -587,6 +609,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/pro5.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -601,6 +628,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/pro6.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -615,6 +647,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop7.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -629,6 +666,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop8.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -643,6 +685,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop7.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -657,6 +704,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop10.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -671,6 +723,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop11.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
@@ -685,6 +742,11 @@
                          <div class="product-card-wrapper">
                              <div class="product-img-wrapper">
                                  <figure>
+                                     <a href="wishlist.php" class="wishlist-heart">
+                                         <span>
+                                             <i class="fa fa-heart"></i>
+                                         </span>
+                                     </a>
                                      <img src="images/shop12.png" class="img-fluid" alt="">
                                  </figure>
                              </div>

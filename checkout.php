@@ -267,9 +267,9 @@
                              <div class="credit_earned">
                                  <!-- <span>Credit Earned For this order. $15.00</span> -->
                                  <label class="custom_check_box mt-5">Agree to our terms & conditions.
-                                 <input type="checkbox" checked="checked">
-                                 <span class="checkmark"></span>
-                             </label>
+                                     <input type="checkbox" checked="checked">
+                                     <span class="checkmark"></span>
+                                 </label>
                              </div>
                          </div>
                      </div>
@@ -277,8 +277,7 @@
              </div>
              <div class="the_confir_order">
                  <div class="save_details">
-                     <label class="custom_check_box">Proident, sunt in culpa qui officia deserunt mollit anim id est
-                         laborum. <input type="checkbox" checked="checked">
+                     <label class="custom_check_box">To mark this check box that you are agree to our <a href="terms.php">terms & conditions.</a> <input type="checkbox" checked="checked">
                          <span class="checkmark"></span>
                      </label>
                  </div>
