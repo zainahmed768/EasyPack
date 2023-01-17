@@ -4,6 +4,14 @@
  <link rel="stylesheet" href="css/accessories.css">
  <link rel="stylesheet" href="css/customization.css">
  <link rel="stylesheet" href="css/product-detail.css">
+ <style>
+     .shop-banner.only-for-shop-page .shop-banner-content-wrapper h2 {
+         font-family: "Generica";
+         font-size: 52px;
+         font-weight: 700;
+         color: #000000;
+     }
+ </style>
  <!-- product detail starts here -->
  <section class="product-detail-sec">
      <div class="container">

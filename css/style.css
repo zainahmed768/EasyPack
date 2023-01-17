@@ -390,6 +390,12 @@ section.collection-sec .row {
 	font-size: 24px;
 	color: #d29f45;
 } */
+.shop-banner.only-for-shop-page .shop-banner-content-wrapper h2 {
+	font-family: "Generica";
+	font-size: 52px;
+	font-weight: 700;
+	color: #000000;
+}
 .custom-sec .custom-heading h2 {
 	font-family: "Generica";
 	font-size: 24px;
