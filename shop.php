@@ -136,7 +136,7 @@
 
                      <div class="side-bar-material">
                          <!-- <h3>Material</h3> -->
-                         <div class="material-list">
+                         <!-- <div class="material-list">
                              <div class="mat-flex">
                                  <li>Burlap</li>
                                  <li>(1)</li>
@@ -173,7 +173,7 @@
                                  <li>Synthetic</li>
                                  <li>(2)</li>
                              </div>
-                         </div>
+                         </div> -->
                      </div>
 
                      <div class="side-bar-color">
@@ -534,7 +534,7 @@
                                              </span>
                                          </a>
                                          <a href="product-detail.php">
-                                         <img src="images/pro1.png" class="img-fluid" alt="">
+                                             <img src="images/pro1.png" class="img-fluid" alt="">
                                          </a>
                                      </figure>
                                  </div>
