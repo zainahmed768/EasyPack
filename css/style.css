@@ -640,10 +640,13 @@ section.pics-sec {
 .product-sec .content-wrapper h2 {
 	color: #000000;
 	font-weight: 700;
-	font-size: 42px;
+	font-size: 44px;
 	text-align: center;
 	font-family: "Generica";
 	text-transform: capitalize;
+}
+.product-sec .content-wrapper h2:nth-child(2) {
+	text-transform: uppercase;
 }
 .product-sec .content-wrapper h2 span {
 	color: #d29f45;

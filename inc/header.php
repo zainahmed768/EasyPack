@@ -11,7 +11,7 @@
                             <ul>
                                 <li><a href="index.php">Home</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown">
                                         Shop <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -26,14 +26,14 @@
 
                                 <li><a href="social.php">SOCIAL</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        About US  <i class="fa fa-angle-down"></i>
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        About US <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="impact.php">Making an impact</a>
+                                        <a class="dropdown-item" href="impact.php">Making an impact</a>
                                         <a class="dropdown-item" href="Our-Story.php">Our Story</a>
                                         <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
-                                        
+
                                         <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a>
                                         <a class="dropdown-item" href="luggage.php">Luggage Specification</a>
 
@@ -43,16 +43,16 @@
                                 <!-- <li><a href="contact.php">Customer Care</a></li> -->
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Customer Care  <i class="fa fa-angle-down"></i>
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Customer Care <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="contact.php">Contact Us</a>
-                                    <a class="dropdown-item" href="Shipping.php">Shipping</a>
-                                    <a class="dropdown-item" href="Warranty.php">Warranty and Repairs</a>
+                                        <a class="dropdown-item" href="contact.php">Contact Us</a>
+                                        <a class="dropdown-item" href="Shipping.php">Shipping</a>
+                                        <a class="dropdown-item" href="Warranty.php">Warranty and Repairs</a>
                                         <a class="dropdown-item" href="faq.php">Faq's</a>
                                         <!-- <a class="dropdown-item" href="our-mission.php">Our Mission</a> -->
-                                        
+
                                         <!-- <a class="dropdown-item" href="Video-Tutorials.php">Video tutorials</a> -->
                                     </div>
                                 </li>
