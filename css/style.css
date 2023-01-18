@@ -46,6 +46,9 @@ p {
 .btn:hover {
 	color: #000;
 }
+.text-lower-case {
+	text-transform: lowercase !important;
+}
 h1,
 h2,
 h3,

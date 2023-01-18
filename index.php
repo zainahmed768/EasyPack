@@ -82,7 +82,7 @@
                     <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
                     <!-- <h2>Our Gallery</h2> -->
                     <h2>Check out our <span>EasyPack Luggage</span> Ready Collection</h2>
-                    <h2>or</h2>
+                    <h2 class="text-lower-case">or</h2>
                     <h2><span>Customize it </span> for Free</h2>
                 </div>
             </div>
