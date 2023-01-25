@@ -7,10 +7,9 @@
 <!-- Faq section  -->
 <section class="faq-sec">
     <div class="container">
-    <div class="privacy-head">
-             <h2>Frequently Asked Questions</h2>
-       
-         </div>
+        <div class="privacy-head text-center">
+            <h2>Frequently Asked Questions</h2>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="all-faq">

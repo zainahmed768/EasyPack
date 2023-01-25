@@ -7,7 +7,7 @@
  <!-- *******Privacy Policy*************** -->
  <section class="privacy-sec">
      <div class="container">
-         <div class="privacy-head">
+         <div class="privacy-head text-center">
              <h2>Shipping</h2>
              <h4>Legal Information & Notices</h4>
          </div>

@@ -16,7 +16,7 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <!-- <a class="dropdown-item" href="Galary.php">Our Gallery</a> -->
-                                        <a class="dropdown-item" href="shop.php">Luggages</a>
+                                        <a class="dropdown-item" href="shop.php">Luggage</a>
                                         <!-- <a class="dropdown-item" href="customize.php">Customize for Free</a> -->
                                         <a class="dropdown-item" href="our-accessories.php">Accessories</a>
                                     </div>

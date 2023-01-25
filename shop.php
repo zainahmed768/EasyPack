@@ -19,12 +19,11 @@
  <section class="shop-banner only-for-shop-page">
      <div class="container">
          <div class="row">
-             <div class="col-lg-3"></div>
-             <div class="col-lg-6 text-center align-self-center">
+             <div class="col-lg-7 text-center align-self-center mx-auto">
                  <div class="shop-banner-content-wrapper only-for-shop-page">
                      <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
-                     <h2>
-                         <span> EasyPack <br> Luggage</span>
+                     <h2> Our
+                         <span> EasyPack Luggage</span>
                      </h2>
                      <!-- <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -32,7 +31,6 @@
                      <a href="cart.php" class="btn">SHOP NOW</a> -->
                  </div>
              </div>
-             <div class="col-lg-3"></div>
              <!-- <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
