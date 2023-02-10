@@ -6,39 +6,54 @@
  <link rel="stylesheet" href="css/story.css">
  <link rel="stylesheet" href="css/accessories.css">
  <style>
-.shop-banner .shop-banner-content-wrapper h2 {
-    font-size: 52px;
-}
+     section.shop-sec .slick-next {
+         right: -25px;
+         z-index: 1;
+     }
+
+     .shop-banner .shop-banner-content-wrapper h2 {
+         font-size: 52px;
+     }
+
+     .product-card-wrapper .product-img-wrapper img {
+         margin: 0 auto;
+     }
+
+     .shop-banner {
+         padding: 175px 0px 47px 0px;
+     }
  </style>
  <!-- shop banner starts here -->
- <section class="shop-banner">
+ <section class="shop-banner only-for-shop-page">
      <div class="container">
          <div class="row">
-             <div class="col-lg-6 align-self-center">
+             <div class="col-lg-3"></div>
+             <div class="col-lg-6 text-center align-self-center mt-2 pt-2">
                  <div class="shop-banner-content-wrapper">
-                     <h6>BEST OF OUR PRODUCTS</h6>
+                     <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
                      <h2>
                          Our Accessories
                      </h2>
-                     <p>
+                     <!-- <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                     </p>
-                     <a href="#" class="btn">SHOP NOW</a>
+                     </p> -->
+                     <a href="shop.php" class="btn mt-4">SHOP NOW</a>
                  </div>
              </div>
-             <div class="col-lg-6">
+             <div class="col-lg-3"></div>
+             <!-- <div class="col-lg-6">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/accessiories.png" class="img-fluid" alt="">
+                         <img src="images/acc-ban1.png" class="img-fluid" alt="">
                      </figure>
                  </div>
-             </div>
+             </div> -->
          </div>
      </div>
  </section>
  <!-- shop banner End here -->
  <!-- Accessories starts here -->
- <section class="Accessories-sec">
+ <!-- <section class="Accessories-sec">
      <div class="container">
          <div class="row">
              <div class="col-lg-12">
@@ -50,36 +65,38 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="accessories-slider-wrapper">
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acs9.jpg" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
+                     <a href="product-detail2.php">
+                         <div class="single-accessories-wrapper">
+                             <div class="single-img-wrapper">
+                                 <figure>
+                                     <img src="images/acs9.jpg" alt="">
+                                 </figure>
+                             </div>
+                             <div class="single-pro-content-wrapper">
+                                 <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
+                                 <p>RS.2250 | <strike>RS.3250</strike> </p>
+                                 <div class="rating-wrapper">
+                                     <ul>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star-o"></i>
+                                         </li>
+                                     </ul>
+                                 </div>
                              </div>
                          </div>
-                     </div>
+                     </a>
                      <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
@@ -200,296 +217,90 @@
                              </div>
                          </div>
                      </div>
-                     <!-- <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc6.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc1.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc2.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc3.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc4.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc5.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc6.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div> -->
+
                  </div>
              </div>
          </div>
      </div>
- </section>
+ </section> -->
  <!-- Accessories End here -->
  <!-- ***************Shop section*********** -->
  <section class="shop-sec pb-5">
      <div class="container">
-         <div class="row acc">
-             <div class="col-lg-3">
-                 <div class="product-card-wrapper">
-                     <div class="product-img-wrapper">
-                         <figure>
-                             <img src="images/acs1.jpg" class="img-fluid" alt="">
-                         </figure>
+         <div class="row ">
+             <div class="col-lg-2"></div>
+             <div class="col-lg-8">
+                 <div class="row acc">
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
-                     <div class="product-content-wrapper">
-                         <h4>$139</h4>
-                         <h6>Easypack Suitcase</h6>
-                         <h3>DELSEY Paris Helium</h3>
+
+                     <div class="col-lg-4">
+                         <a href="#">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
                      </div>
                  </div>
              </div>
-             <div class="col-lg-3">
-                 <div class="product-card-wrapper">
-                     <div class="product-img-wrapper">
-                         <figure>
-                             <img src="images/acs2.jpg" class="img-fluid" alt="">
-                         </figure>
-                     </div>
-                     <div class="product-content-wrapper">
-                         <h4>$139</h4>
-                         <h6>Easypack Suitcase</h6>
-                         <h3>DELSEY Paris Helium</h3>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-3">
-                 <div class="product-card-wrapper">
-                     <div class="product-img-wrapper">
-                         <figure>
-                             <img src="images/acs3.jpg" class="img-fluid" alt="">
-                         </figure>
-                     </div>
-                     <div class="product-content-wrapper">
-                         <h4>$139</h4>
-                         <h6>Easypack Suitcase</h6>
-                         <h3>DELSEY Paris Helium</h3>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-3">
-                 <div class="product-card-wrapper">
-                     <div class="product-img-wrapper">
-                         <figure>
-                             <img src="images/acs8.jpg" class="img-fluid" alt="">
-                         </figure>
-                     </div>
-                     <div class="product-content-wrapper">
-                         <h4>$139</h4>
-                         <h6>Easypack Suitcase</h6>
-                         <h3>DELSEY Paris Helium</h3>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-lg-3">
-                 <div class="product-card-wrapper">
-                     <div class="product-img-wrapper">
-                         <figure>
-                             <img src="images/acs10.jpg" class="img-fluid" alt="">
-                         </figure>
-                     </div>
-                     <div class="product-content-wrapper">
-                         <h4>$139</h4>
-                         <h6>Easypack Suitcase</h6>
-                         <h3>DELSEY Paris Helium</h3>
-                     </div>
-                 </div>
-             </div>
+             <div class="col-lg-2"></div>
+
              <!-- <div class="col-lg-3">
                  <div class="product-card-wrapper">
                      <div class="product-img-wrapper">
@@ -538,44 +349,46 @@
  </section>
  <!-- *******************End of shop Section*********** -->
  <!-- Accessories starts here -->
- <section class="Accessories-sec pt-0">
+ <!-- <section class="Accessories-sec pt-0">
      <div class="container">
          <div class="row">
              <div class="col-lg-12">
                  <div class="accessories-slider-wrapper">
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acs11.jpg" alt="">
-                             </figure>
-                             <div class="new-arrival">
-                                 <h6>New Arrived</h6>
+                     <a href="product-detail2.php">
+                         <div class="single-accessories-wrapper">
+                             <div class="single-img-wrapper">
+                                 <figure>
+                                     <img src="images/acs11.jpg" alt="">
+                                 </figure>
+                                 <div class="new-arrival">
+                                     <h6>New Arrived</h6>
+                                 </div>
+                             </div>
+                             <div class="single-pro-content-wrapper">
+                                 <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
+                                 <p>RS.2250 | <strike>RS.3250</strike> </p>
+                                 <div class="rating-wrapper">
+                                     <ul>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star"></i>
+                                         </li>
+                                         <li>
+                                             <i class="fa fa-star-o"></i>
+                                         </li>
+                                     </ul>
+                                 </div>
                              </div>
                          </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
+                     </a>
                      <div class="single-accessories-wrapper">
                          <div class="single-img-wrapper">
                              <figure>
@@ -703,228 +516,18 @@
                              </div>
                          </div>
                      </div>
-                      <!-- <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc6.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div> 
-                      <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc1.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div> 
-                      <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc2.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div> 
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc3.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc4.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc5.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="single-accessories-wrapper">
-                         <div class="single-img-wrapper">
-                             <figure>
-                                 <img src="images/acc6.png" alt="">
-                             </figure>
-                         </div>
-                         <div class="single-pro-content-wrapper">
-                             <h6>Geek Vape AGESIS MAX 100W Starter Kit </h6>
-                             <p>RS.2250 | <strike>RS.3250</strike> </p>
-                             <div class="rating-wrapper">
-                                 <ul>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star"></i>
-                                     </li>
-                                     <li>
-                                         <i class="fa fa-star-o"></i>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div> -->
                  </div>
              </div>
-         </div> 
+         </div>
          <div class="row py-5">
              <div class="col-lg-12">
                  <div class="btn-wrapper text-center">
-                     <a href="#" class="btn">View All</a>
+                     <a href="shop.php" class="btn">View All</a>
                  </div>
              </div>
          </div>
      </div>
- </section>
+ </section> -->
  <!-- Accessories End here -->
  <!-- easypack starts here -->
  <?php include 'inc/easypack.php' ?>

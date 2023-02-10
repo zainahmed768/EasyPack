@@ -2,6 +2,7 @@
  <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
  <link rel="stylesheet" href="css/product-detail.css">
+
  <!-- product detail starts here -->
  <section class="product-detail-sec">
      <div class="container">
@@ -9,7 +10,7 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
-                         <img src="images/product-detail2.png" class="img-fluid" alt="">
+                         <img src="images/acs1.png" class="img-fluid" alt="">
                      </figure>
                  </div>
                  <div class="product-list-img-wrapper">
@@ -17,26 +18,25 @@
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/acs2.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/acs9.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                          <li>
                              <div class="product-list-wrapper">
                                  <figure>
-                                     <img src="images/product-detail3.png" class="img-fluid" alt="">
+                                     <img src="images/acs10.png" class="img-fluid" alt="">
                                  </figure>
                              </div>
                          </li>
                      </ul>
-
                  </div>
              </div>
              <div class="col-lg-6">
@@ -73,7 +73,7 @@
                                  </div>
                              </div>
                          </div>
-                         <div class="color-wrapper">
+                         <!-- <div class="color-wrapper">
                              <div class="heading-wrapper">
                                  <h6>Color:</h6>
                              </div>
@@ -87,9 +87,9 @@
                                  <input type="radio" name="color" id="white" />
                                  <label for="white"><span class="white"></span></label>
                              </div>
-                         </div>
+                         </div> -->
                      </div>
-                     <div class="form">
+                     <!-- <div class="form">
                          <section class="plan cf">
                              <h2>Size:</h2>
                              <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">21’’ (53 cms) <br> Carry On – Case</label>
@@ -104,7 +104,7 @@
                          <div class="size-wrapper">
                              <h4>M</h4>
                          </div>
-                     </div>
+                     </div> -->
                      <div class="cart-btn-wrapper">
                          <button class="btn">Add to cart</button>
                          <button class="btn">Add to wishlist</button>

@@ -1,7 +1,17 @@
  <!-- Header Include -->
  <?php include 'inc/head.php'; ?>
  <!-- Header Include -->
+ <link rel="stylesheet" href="css/accessories.css">
+ <link rel="stylesheet" href="css/customization.css">
  <link rel="stylesheet" href="css/product-detail.css">
+ <style>
+     .shop-banner.only-for-shop-page .shop-banner-content-wrapper h2 {
+         font-family: "Generica";
+         font-size: 52px;
+         font-weight: 700;
+         color: #000000;
+     }
+ </style>
  <!-- product detail starts here -->
  <section class="product-detail-sec">
      <div class="container">
@@ -9,6 +19,9 @@
              <div class="col-lg-6">
                  <div class="product-img-wrapper">
                      <figure>
+                         <a href="wishlist.php" class="wishlist-heart">
+                             <span><i class="fa fa-heart"></i></span>
+                         </a>
                          <img src="images/product-img.png" class="img-fluid" alt="">
                      </figure>
                  </div>
@@ -75,9 +88,9 @@
                          </div>
                          <div class="color-wrapper">
                              <div class="heading-wrapper">
-                                 <h6>Color:</h6>
+                                 <!-- <h6>Color:</h6> -->
                              </div>
-                             <div class="radio-coolor-wrapper">
+                             <!-- <div class="radio-coolor-wrapper">
                                  <input type="radio" name="color" id="black" />
                                  <label for="black"><span class="black"></span></label>
                                  <input type="radio" name="color" id="red" value="red" />
@@ -86,7 +99,7 @@
                                  <label for="blue"><span class="blue"></span></label>
                                  <input type="radio" name="color" id="white" />
                                  <label for="white"><span class="white"></span></label>
-                             </div>
+                             </div> -->
                          </div>
                      </div>
                      <div class="form">
@@ -97,24 +110,99 @@
                              <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">28’’ (71 cms) <br> Large-Size Case</label>
                          </section>
                      </div>
-                     <div class="availability-wrapper">
+                     <!-- <div class="availability-wrapper">
                          <div class="heading-wrapper">
                              <h6>Availability:</h6>
                          </div>
                          <div class="size-wrapper">
                              <h4>M</h4>
                          </div>
-                     </div>
-                     <div class="cart-btn-wrapper">
+                     </div> -->
+                     <section class="customization_section py-0">
+                         <div class="customization_start_here pt-5">
+                             <div class="luggage_description">
+                                 <div class="left_side_start">
+                                     <div class="save_details mt-3">
+                                         <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear Cover for your Easy Pack Luggage.
+                                             <input type="checkbox" checked="checked">
+                                             <span class="checkmark"></span>
+                                         </label>
+                                     </div>
+                                     <div class="small_images">
+                                         <figure>
+                                             <img src="images/sm_bag.png" alt="">
+                                         </figure>
+                                     </div>
+                                     <!-- <div class="accesories">
+                                 <div class="select_btn">
+                                     <button onclick="window.location.href='our-accessories.php'" class="btn">SELECT YOUR ACCESSORIES</button>
+                                 </div>
+                                 <div class="accesorries_list">
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
+                                         <label for="accesories_1">
+                                             <figure>
+                                                 <img src="images/acce1.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
+                                         <label for="accesories_2">
+                                             <figure>
+                                                 <img src="images/acce2.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                     <div class="single_accesory">
+                                         <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
+                                         <label for="accesories_3">
+                                             <figure>
+                                                 <img src="images/acce3.png" alt="">
+                                             </figure>
+                                         </label>
+                                     </div>
+                                 </div>
+                             </div> -->
+                                 </div>
+                                 <div class="the_heading mt-5">
+                                     <label class="custom_check_box">
+                                         <h6> <b> Do you want to PERSONALIZE your Luggage?</b></h6>
+                                         <input type="checkbox" class="customize_checkbox" checked="checked">
+                                         <span class="checkmark"></span>
+                                     </label>
+                                     <p>Embroidery is 2 inches high, top left corner of the cover</p>
+                                 </div>
+                                 <div class="final_customized_bag">
+                                     <figure>
+                                         <img src="images/customized.png" alt="">
+                                     </figure>
+                                     <div class="for_the_radios">
+                                         <label for="three">
+                                             <input type="radio" class="letters_input" name="letters" value="3" checked id="three">
+                                             <span>Up to 3 letters $7.95</span>
+                                         </label>
+                                         <label for="ten">
+                                             <input type="radio" name="letters" class="letters_input" value="10" id="ten">
+                                             <span>Up to 10 letters $11.95</span>
+                                         </label>
+                                     </div>
+                                     <div class="ep_input justify-content-start">
+                                         <!-- <label for="ep">EP</label> -->
+                                         <input type="text" maxlength="3" name="ep" class="for_text_on_beg pl-2" placeholder="EP" id="ep">
+                                     </div>
+                                 </div>
+                             </div>
+                     </section>
+                     <div class="cart-btn-wrapper for-details">
                          <button onclick="location.href='cart.php'" class="btn">Add to cart</button>
-                         <button class="btn">Add to wishlist</button>
+                         <button onclick="location.href='checkout.php'" class="btn">Check Out</button>
                      </div>
                  </div>
              </div>
          </div>
-         <div class="row">
-             <div class="col-lg-6"></div>
-             <div class="col-lg-6">
+         <!-- <div class="row">
+             <div class="col-lg-6 ml-auto ms-auto">
                  <div class="review-wrapper">
                      <div class="heading-wrapper">
                          <h5>Reviews</h5>
@@ -266,6 +354,153 @@
                      <button onclick="location.href='SubmitRreview.php'" class="load">LOAD MORE</button>
                  </div>
              </div>
+         </div> -->
+     </div>
+ </section>
+ <section class="shop-banner only-for-shop-page pt-0 pb-5 mb-3">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-3"></div>
+             <div class="col-lg-6 text-center align-self-center mt-2 pt-2">
+                 <div class="shop-banner-content-wrapper">
+                     <!-- <h6>BEST OF OUR PRODUCTS</h6> -->
+                     <h2>
+                         Our Accessories
+                     </h2>
+                     <!-- <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                     </p> -->
+                     <!-- <a href="shop.php" class="btn mt-4">SHOP NOW</a> -->
+                 </div>
+             </div>
+             <div class="col-lg-3"></div>
+             <!-- <div class="col-lg-6">
+                 <div class="img-wrapper">
+                     <figure>
+                         <img src="images/acc-ban1.png" class="img-fluid" alt="">
+                     </figure>
+                 </div>
+             </div> -->
+         </div>
+     </div>
+ </section>
+ <section class="shop-sec pb-5">
+     <div class="container">
+         <div class="row ">
+
+             <div class="col-lg-6 mx-auto">
+                 <div class="row acc">
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+
+                     <div class="col-lg-4">
+                         <a href="#">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs1.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+
+                     <div class="col-lg-4">
+                         <a href="product-detail2.php">
+                             <div class="product-card-wrapper">
+                                 <div class="product-img-wrapper">
+                                     <figure>
+                                         <img src="images/acs3.png" class="img-fluid" alt="">
+                                     </figure>
+                                 </div>
+                                 <div class="product-content-wrapper">
+                                     <h4>$139</h4>
+                                     <h6>Easypack Suitcase</h6>
+                                     <h3>DELSEY Paris Helium</h3>
+                                 </div>
+                             </div>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+
+             <!-- <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii2.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii3.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3">
+                 <div class="product-card-wrapper">
+                     <div class="product-img-wrapper">
+                         <figure>
+                             <img src="images/ii4.png" class="img-fluid" alt="">
+                         </figure>
+                     </div>
+                     <div class="product-content-wrapper">
+                         <h4>$139</h4>
+                         <h6>Easypack Suitcase</h6>
+                         <h3>DELSEY Paris Helium</h3>
+                     </div>
+                 </div>
+             </div> -->
          </div>
      </div>
  </section>

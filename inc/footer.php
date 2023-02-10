@@ -9,9 +9,10 @@
                             </figure>
                         </div>
                         <div class="logo-content-wrapper">
-                            <p>
+                            <!-- <p>
                                 2022 by Easy Pack. All rights reserved.
-                            </p>
+                            </p> -->
+                            <p>2022 by EasyPack Luggage. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
@@ -19,11 +20,11 @@
                     <div class="footer-head footer-menu-1">
                         <h4>Menu </h4>
                         <ul>
-                            <li><a href="feature.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="shop.php">Shop</a></li>
                             <li><a href="customization.php">Customization</a></li>
                             <li><a href="social.php">Social</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <!-- <li><a href="#">About Us</a></li> -->
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
@@ -81,7 +82,8 @@
                         <h4>NEWSLETTER</h4>
                     </div>
                     <div class="for-news">
-                        <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adip.</p> -->
+                        <p>Subscribe us to get updates</p>
                         <div class="form-news">
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subscribe for newsletter">
@@ -93,7 +95,14 @@
                                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li><a href=""><span class="bi bi-tiktok"></span></a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i>/a></li> -->
+                                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                            </a></li>
+                                        <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                            </a></li>
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -159,7 +168,14 @@
         });
         $('.acc').slick({
             infinite: true,
-            slidesToShow: 4,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false,
+        });
+
+        $('.product-list-slider').slick({
+            slidesToShow: 3,
             slidesToScroll: 1,
             arrows: true,
             dots: false,
@@ -284,14 +300,14 @@
         // <!-- ******Zoom in Zoom Out*****
 
         // <!-- Over Scroll Header color change -->
-        $(window).on("scroll", function() {
-            if ($(window).scrollTop() > 70) {
-                $("header").addClass("active");
-            } else {
-                //remove the background property so it comes transparent again (defined in your css)
-                $("header").removeClass("active");
-            }
-        });
+        // $(window).on("scroll", function() {
+        //     if ($(window).scrollTop() > 70) {
+        //         $("header").addClass("active");
+        //     } else {
+        //         //remove the background property so it comes transparent again (defined in your css)
+        //         $("header").removeClass("active");
+        //     }
+        // });
         // <!-- Over Scroll Header color change -->
 
 
@@ -2289,6 +2305,15 @@
             /** @export */
             window.wNumb = wNumb;
         }());
+
+        $(".letters_input").change(function() {
+            // console.log($(this).attr("id"));
+            $(".for_text_on_beg").attr("maxlength", $(this).val());
+            $(".for_text_on_beg").val("");
+        });
+        $(".customize_checkbox").on("click", function() {
+            $(".final_customized_bag").toggleClass("d-none");
+        })
     </script>
 
 

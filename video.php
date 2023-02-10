@@ -35,7 +35,7 @@
  </div>
  <div class="car-caption-flex">
      <div class="car-caption">
-         <h3>Best of our Products</h3>
+         <!-- <h3>Best of our Products</h3> -->
          <h2>ShelfPack <br> Suitcases</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et
              dolore <br> magna aliqua. Ut enim ad minim veniam.</p>

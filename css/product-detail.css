@@ -1,3 +1,6 @@
+.product-detail-sec .product-img-wrapper figure {
+	margin: 0px;
+}
 .product-detail-sec {
 	padding: 150px 0px 100px 0px;
 }
@@ -5,9 +8,10 @@
 	background: #fff;
 	border: 1px solid #707070;
 	text-align: center;
-	padding: 50px 0px;
+	padding: 10px 0px;
 	margin-bottom: 30px;
 	box-shadow: 0px 0px 6px 3px #ececec;
+	position: relative;
 }
 .product-detail-sec .product-img-wrapper img {
 	height: 394px;
@@ -33,6 +37,16 @@
 }
 .product-detail-sec input[type="radio"] {
 	display: none;
+}
+.product-detail-sec .product-img-wrapper a.wishlist-heart {
+	position: absolute;
+	right: 5%;
+	color: red;
+	font-size: 25px;
+}
+
+.product-detail-sec .product-img-wrapper a.wishlist-heart:hover {
+	color: red;
 }
 .product-detail-sec input[type="radio"]:checked + label span::after {
 	content: "\f00c";
@@ -324,6 +338,34 @@ form .payment-plan input:checked + label:after,
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper {
 	margin-top: 35px;
 }
+.product-detail-sec .product-detail-wrapper .cart-btn-wrapper.for-details {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.product-detail-sec
+	.product-detail-wrapper
+	.cart-btn-wrapper.for-details
+	span.add-atowish-list
+	i {
+	font-size: 41px;
+	color: red;
+	cursor: pointer;
+}
+.product-detail-sec
+	.product-detail-wrapper
+	.cart-btn-wrapper.for-details
+	span.add-atowish-list:hover
+	i {
+	color: #000000;
+	transition: 0.6s all;
+}
+.product-detail-sec
+	.product-detail-wrapper
+	.cart-btn-wrapper.for-details
+	span.add-atowish-list {
+	display: block;
+}
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper .btn {
 	/* font-family: "Segoe UI"; */
 	font-size: 13px;
@@ -331,6 +373,7 @@ form .payment-plan input:checked + label:after,
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding: 13px 53px;
+	width: 217px;
 }
 .product-detail-sec .product-detail-wrapper .cart-btn-wrapper .btn:hover {
 	background-color: #fff;
@@ -472,4 +515,44 @@ form .payment-plan input:checked + label:after,
 
 .product-detail-sec .load-more-wrapper {
 	margin-top: 33px;
+}
+
+.color-acc {
+	margin-left: 0px !important;
+}
+
+section.customization_section
+	.customization_start_here
+	.luggage_description
+	label {
+	width: unset !important;
+	transform: unset !important;
+	border: 0px;
+}
+
+section.customization_section
+	.customization_start_here
+	.luggage_description
+	label:hover
+	span {
+	transform: unset !important;
+}
+
+section.customization_section
+	.customization_start_here
+	.luggage_description
+	label
+	input {
+	display: inline !important;
+}
+
+section.customization_section
+	.customization_start_here
+	.luggage_description
+	.final_customized_bag
+	.for_the_radios
+	label {
+	display: flex;
+	gap: 14px;
+	align-items: center;
 }

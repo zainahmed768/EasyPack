@@ -16,7 +16,7 @@
      <div class="container">
          <div class="row">
              <div class="col-lg-12">
-                 <div class="text-wrapper">
+                 <div class="text-wrapper mt-2 pt-1">
                      <h2>Our Most Popular Collection</h2>
                  </div>
              </div>
@@ -194,7 +194,7 @@
          <div class="row pt-5">
              <div class="col-lg-12">
                  <div class="btn-wrapper text-center">
-                     <a href="#" class="btn">OR CUSTOMIZE</a>
+                     <a href="customization.php" class="btn">OR CUSTOMIZE</a>
                  </div>
              </div>
          </div>

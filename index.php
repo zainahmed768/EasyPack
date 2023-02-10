@@ -2,10 +2,10 @@
 <?php include 'inc/head.php' ?>
 <!-- Footer -->
 <style>
-header .nav-list ul li a {
-    color: #fff;
-    padding: 0 6px;
-}
+    header .nav-list ul li a {
+        color: #fff;
+        padding: 0 6px;
+    }
 
     header .nav-list img {
         filter: invert(1);
@@ -79,7 +79,11 @@ header .nav-list ul li a {
                 <div class="content-wrapper">
                     <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
                         Customize it at No Additional Cost.</h2> -->
-                       <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
+                    <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
+                    <!-- <h2>Our Gallery</h2> -->
+                    <h2>Check out our <span>EasyPack Luggage</span> Ready Collection</h2>
+                    <h2 class="text-lower-case">or</h2>
+                    <h2><span>Customize it </span> for Free</h2>
                 </div>
             </div>
         </div>
@@ -212,6 +216,7 @@ header .nav-list ul li a {
                 </div>
                 <div class="content-wrapper">
                     <h3>Make It Your Way</h3>
+                    <!-- <h3>Accessories</h3> -->
                 </div>
             </div>
         </div>
@@ -227,7 +232,7 @@ header .nav-list ul li a {
                 <div class="custom-all">
                     <div class="custom-heading">
                         <h2>When you Customize Your <br>
-                            EasyPack Luggage You can:</h2>
+                           <span>EasyPack Luggage</span> You can:</h2>
                     </div>
                     <div class="coutomizz-list-wrapper">
                         <ul>
@@ -258,7 +263,7 @@ header .nav-list ul li a {
                         </ul>
                     </div>
                     <div class="btn-wrapper">
-                        <a href="#" class="btn">CUSTOMIZE NOW</a>
+                        <a href="customization.php" class="btn">CUSTOMIZE NOW</a>
                     </div>
 
                 </div>
@@ -362,7 +367,7 @@ header .nav-list ul li a {
                 </div>
                 <div class="contact-icon">
                     <ul>
-                        <li><a href="#"><img class="img-fluid" src="images/fill4.png" alt=""> </a></li>
+                        <li><a href="#"><span><i  class="fa fa-whatsapp "></i></span> </a></li>
                         <li><a href="#"><img class="img-fluid" src="images/fill5.png" alt=""> </a></li>
                         <li><a href="#"><img class="img-fluid" src="images/fill6.png" alt=""> </a></li>
                     </ul>
