@@ -4,6 +4,14 @@
 
  <link rel="stylesheet" href="css/shop.css">
  <link rel="stylesheet" href="css/customization.css">
+ <style>
+   .shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 52px;
+}
+.shop-banner-content-wrapper h2 span {
+    color: #d29f45;
+}
+ </style>
 
  <!-- *********************Banner section********************** -->
  <!-- ***********************End of bannersection************************** -->
@@ -11,11 +19,11 @@
  <section class="shop-banner">
      <div class="container">
          <div class="row">
-             <div class="col-lg-6 align-self-center">
+             <div class="col-lg-7 align-self-center">
                  <div class="shop-banner-content-wrapper">
                      <h6>BEST OF OUR PRODUCTS</h6>
                      <h2>
-                         EasyPack <br> Luggage
+                         Customize Your <br><span>Easypack Luggage</span>
                      </h2>
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -23,10 +31,10 @@
                      <a href="#" class="btn">SHOP NOW</a>
                  </div>
              </div>
-             <div class="col-lg-6">
+             <div class="col-lg-5">
                  <div class="img-wrapper">
                      <figure>
-                         <img src="images/shop-banner-img.png" class="img-fluid" alt="">
+                         <img src="images/Easypack-pic.jpg" class="img-fluid" alt="">
                      </figure>
                  </div>
              </div>
@@ -39,8 +47,8 @@
  <section class="customization_section">
      <div class="container">
          <div class="top_heading text-center">
-             <h2>Customize your <span>EasyPack Laggage</span><br>
-                 At No Additional Cost</h2>
+             <h2>Customize your <span>EasyPack Luggage</span><br>
+             For Free</h2>
          </div>
          <div class="customization_start_here">
              <div class="row">
@@ -251,7 +259,7 @@
                              <div class="single_step">
                                  <div class="text">
                                      <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
+                                     <h4>COLOR OF THE Cover</h4>
                                      <p>Select the color of your body</p>
                                  </div>
                                  <div class="colors">
@@ -284,7 +292,7 @@
                              <div class="single_step">
                                  <div class="text">
                                      <span class="step_no">Step 2</span>
-                                     <h4>COLOR OF THE BODY</h4>
+                                     <h4>COLOR OF Trim</h4>
                                      <p>Select the color of your body</p>
                                  </div>
                                  <div class="colors">
