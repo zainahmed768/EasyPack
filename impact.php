@@ -13,13 +13,16 @@
      header {
          position: unset;
      }
+.shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 52px;
+}
 
-     .factory-view p {
-         color: #5e5e5e;
-         font-family: "Montserrat";
-         font-size: 14px;
-         font-weight: 400;
-     }
+.factory-view p {
+    color: #5e5e5e;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+}
  </style>
 
  <!-- shop banner starts here -->
@@ -34,9 +37,10 @@
                          Making an Impact
                      </h2>
                      <p>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p>
-                     <a href="shop.php" class="btn">SHOP NOW</a>
+                     <a href="#" class="btn-content">SHOP NOW</a>
                  </div>
              </div>
              <div class="col-lg-3"></div>
@@ -60,7 +64,9 @@
                      <div class="text-wrapper">
                          <h4>We provide Best Quality Luggage</h4>
                          <p>
-                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                             ullamco laboris nisi ut aliquip ex ea commodo consequat.
                          </p>
                      </div>
                  </div>
@@ -90,9 +96,19 @@
                  <div class="story-wrapper">
                      <h4>Made by our experienced team</h4>
                      <p>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
+                         sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                      </p>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magn mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magn mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                         aute irure dolor in reprehenderit in</p>
                  </div>
              </div>
 

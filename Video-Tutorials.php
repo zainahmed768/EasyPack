@@ -22,7 +22,11 @@
                      <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p>
+<<<<<<< Updated upstream
                      <a href="shop.php" class="btn">SHOP NOW</a>
+=======
+                     <a href="#" class="btn-content">SHOP NOW</a>
+>>>>>>> Stashed changes
                  </div>
              </div>
              <div class="col-lg-3"></div>

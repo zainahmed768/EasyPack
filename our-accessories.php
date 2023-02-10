@@ -36,8 +36,13 @@
                      </h2>
                      <!-- <p>
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+<<<<<<< Updated upstream
                      </p> -->
                      <a href="shop.php" class="btn mt-4">SHOP NOW</a>
+=======
+                     </p>
+                     <a href="#" class="btn-content">SHOP NOW</a>
+>>>>>>> Stashed changes
                  </div>
              </div>
              <div class="col-lg-3"></div>
@@ -522,7 +527,11 @@
          <div class="row py-5">
              <div class="col-lg-12">
                  <div class="btn-wrapper text-center">
+<<<<<<< Updated upstream
                      <a href="shop.php" class="btn">View All</a>
+=======
+                     <a href="#" class="btn-content">View All</a>
+>>>>>>> Stashed changes
                  </div>
              </div>
          </div>

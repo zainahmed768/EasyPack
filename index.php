@@ -7,17 +7,17 @@
         padding: 0 6px;
     }
 
-    header .nav-list img {
-        filter: invert(1);
-    }
+header .nav-list img {
+    filter: invert(1);
+}
 
-    .nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
-        filter: none;
-    }
+.nav-sec .nav-list .profile-wrapper .profile-img-wrapper img {
+    filter: none;
+}
 
-    .nav-sec .nav-list .profile-wrapper .profile-content-wrapper h4 {
-        color: #ffffff;
-    }
+.nav-sec .nav-list .profile-wrapper .profile-content-wrapper h4 {
+    color: #ffffff;
+}
 </style>
 <!-- Use it like any other HTML element -->
 
@@ -79,11 +79,15 @@
                 <div class="content-wrapper">
                     <!-- <h2>Check Out Our Popular <span>EasyPack Luggage</span> or
                         Customize it at No Additional Cost.</h2> -->
+<<<<<<< Updated upstream
                     <!-- <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2> -->
                     <!-- <h2>Our Gallery</h2> -->
                     <h2>Check out our <span>EasyPack Luggage</span> Ready Collection</h2>
                     <h2 class="text-lower-case">or</h2>
                     <h2><span>Customize it </span> for Free</h2>
+=======
+                    <h2> Check Out Our Popular <span>EasyPack Luggage</span> or Customize it For Free</h2>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
@@ -212,7 +216,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="btn-wrapper">
-                    <a href="shop.php" class="btn">SHOP NOW</a>
+                    <a href="shop.php" class="btn-content">SHOP NOW</a>
                 </div>
                 <div class="content-wrapper">
                     <h3>Make It Your Way</h3>
@@ -263,7 +267,11 @@
                         </ul>
                     </div>
                     <div class="btn-wrapper">
+<<<<<<< Updated upstream
                         <a href="customization.php" class="btn">CUSTOMIZE NOW</a>
+=======
+                        <a href="#" class="btn-header">CUSTOMIZE NOW</a>
+>>>>>>> Stashed changes
                     </div>
 
                 </div>
@@ -288,7 +296,8 @@
                                 <!-- <figure>
                                     <img src="images/custom1.png" class="img-fluid" alt="">
                                 </figure> -->
-                                <model-viewer style="height: 400px;width: 100%;" src="images/Suit Case low 2 (1).glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Suit Case low 2 (1).glb"
+                                    alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
                             </div>
                             <div class="single-content-wrapper">
                                 <h6>21’’ (53 cms)</h6>
@@ -300,7 +309,8 @@
                                 <!-- <figure>
                                     <img src="images/custom2.png" class="img-fluid" alt="">
                                 </figure> -->
-                                <model-viewer style="height: 400px;width: 100%;" src="images/Black.glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Black.glb" alt="dragon"
+                                    auto-rotate camera-controls poster="images/case.png"></model-viewer>
                             </div>
                             <div class="single-content-wrapper">
                                 <h6>24’’ (61 cms)</h6>
@@ -312,7 +322,8 @@
                                 <!-- <figure>
                                     <img src="images/custom3.png" class="img-fluid" alt="">
                                 </figure> -->
-                                <model-viewer style="height: 400px;width: 100%;" src="images/Red.glb" alt="dragon" auto-rotate camera-controls poster="images/case.png"></model-viewer>
+                                <model-viewer style="height: 400px;width: 100%;" src="images/Red.glb" alt="dragon"
+                                    auto-rotate camera-controls poster="images/case.png"></model-viewer>
                             </div>
                             <div class="single-content-wrapper">
                                 <h6>28’’ (71 cms)</h6>
@@ -379,10 +390,12 @@
                     <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
                         <div class="contact-form">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Full Name">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Phone">
                             </div>
                         </div>
 
@@ -390,10 +403,11 @@
                     <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
                         <div class="contact-form">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Email Address">
                             </div>
                             <div class="form-btn">
-                                <button type="submit" class="btn btn-primary">Get In Touch</button>
+                                <button type="submit" class="btn-content">Get In Touch</button>
                             </div>
                         </div>
                     </div>

@@ -8,6 +8,13 @@
      .shop-banner .shop-banner-content-wrapper .btn:hover {
          color: #000;
      }
+.shop-banner .shop-banner-content-wrapper h2 {
+    font-size: 52px;
+}
+
+.shop-banner-content-wrapper h2 span {
+    color: #d29f45;
+}
  </style>
  <!-- *********************Banner section********************** -->
  <!-- ***********************End of bannersection************************** -->
@@ -24,9 +31,10 @@
                          <span style="color: #d29f45;"> EasyPack <br>Luggage</span>
                      </h2>
                      <p>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                         labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p>
-                     <a href="#" class="btn">SHOP NOW</a>
+                     <a href="#" class="btn-content">SHOP NOW</a>
                  </div>
              </div>
              <div class="col-lg-3"></div>
@@ -42,6 +50,7 @@
          <div class="top_heading text-center">
              <h2>Customize your <span>EasyPack Luggage</span><br>
                  At No Additional Cost</h2>
+                 For Free</h2>
          </div>
          <div class="customization_start_here">
              <div class="row">
@@ -54,6 +63,9 @@
                          </div>
                          <!-- <div class="save_details">
                              <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear Cover for your Easy Pack Luggage.
+                         <div class="save_details">
+                             <label class="custom_check_box">As a Valued Customer we will include a free of charge Clear
+                                 Cover for your Easy Pack Luggage.
                                  <input type="checkbox" checked="checked">
                                  <span class="checkmark"></span>
                              </label>
@@ -69,7 +81,8 @@
                              </div>
                              <div class="accesorries_list">
                                  <div class="single_accesory">
-                                     <input type="radio" name="accesories" checked id="accesories_1" hidden class="accesory_input">
+                                     <input type="radio" name="accesories" checked id="accesories_1" hidden
+                                         class="accesory_input">
                                      <label for="accesories_1">
                                          <figure>
                                              <img src="images/acce1.png" alt="">
@@ -77,7 +90,8 @@
                                      </label>
                                  </div>
                                  <div class="single_accesory">
-                                     <input type="radio" name="accesories" id="accesories_2" hidden class="accesory_input">
+                                     <input type="radio" name="accesories" id="accesories_2" hidden
+                                         class="accesory_input">
                                      <label for="accesories_2">
                                          <figure>
                                              <img src="images/acce2.png" alt="">
@@ -85,7 +99,8 @@
                                      </label>
                                  </div>
                                  <div class="single_accesory">
-                                     <input type="radio" name="accesories" id="accesories_3" hidden class="accesory_input">
+                                     <input type="radio" name="accesories" id="accesories_3" hidden
+                                         class="accesory_input">
                                      <label for="accesories_3">
                                          <figure>
                                              <img src="images/acce3.png" alt="">
@@ -120,10 +135,13 @@
                                      </div>
                                      <div class="lugage_quantity">
                                          <span clas>Quantity:</span>
-                                         <input type="number" name="" value="01" readonly min="1" class="quantity" id="quantity1">
+                                         <input type="number" name="" value="01" readonly min="1" class="quantity"
+                                             id="quantity1">
                                          <div class="quantity_controller">
-                                             <span class="increment_quantity"><i class="fa fa-angle-up increment"></i></span>
-                                             <span class="decrement_quantity"><i class="fa fa-angle-down decrement"></i></span>
+                                             <span class="increment_quantity"><i
+                                                     class="fa fa-angle-up increment"></i></span>
+                                             <span class="decrement_quantity"><i
+                                                     class="fa fa-angle-down decrement"></i></span>
                                          </div>
                                      </div>
                                  </div>
@@ -143,10 +161,13 @@
                                      </div>
                                      <div class="lugage_quantity">
                                          <span clas>Quantity:</span>
-                                         <input type="number" name="" value="01" readonly min="1" class="quantity" id="quantity1">
+                                         <input type="number" name="" value="01" readonly min="1" class="quantity"
+                                             id="quantity1">
                                          <div class="quantity_controller">
-                                             <span class="increment_quantity"><i class="fa fa-angle-up increment"></i></span>
-                                             <span class="decrement_quantity"><i class="fa fa-angle-down decrement"></i></span>
+                                             <span class="increment_quantity"><i
+                                                     class="fa fa-angle-up increment"></i></span>
+                                             <span class="decrement_quantity"><i
+                                                     class="fa fa-angle-down decrement"></i></span>
                                          </div>
                                      </div>
                                  </div>
@@ -166,10 +187,13 @@
                                      </div>
                                      <div class="lugage_quantity">
                                          <span clas>Quantity:</span>
-                                         <input type="number" name="" value="01" readonly min="1" class="quantity" id="quantity1">
+                                         <input type="number" name="" value="01" readonly min="1" class="quantity"
+                                             id="quantity1">
                                          <div class="quantity_controller">
-                                             <span class="increment_quantity"><i class="fa fa-angle-up increment"></i></span>
-                                             <span class="decrement_quantity"><i class="fa fa-angle-down decrement"></i></span>
+                                             <span class="increment_quantity"><i
+                                                     class="fa fa-angle-up increment"></i></span>
+                                             <span class="decrement_quantity"><i
+                                                     class="fa fa-angle-down decrement"></i></span>
                                          </div>
                                      </div>
                                  </div>
@@ -224,25 +248,29 @@
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
-                                         <input type="radio" name="body_colors" hidden id="body_colors_1" class="body_colors">
+                                         <input type="radio" name="body_colors" hidden id="body_colors_1"
+                                             class="body_colors">
                                          <label for="body_colors_1">
                                              <span class="black"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="body_colors" hidden id="body_colors_2" class="body_colors">
+                                         <input type="radio" name="body_colors" hidden id="body_colors_2"
+                                             class="body_colors">
                                          <label for="body_colors_2">
                                              <span class="red"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="body_colors" hidden id="body_colors_3" class="body_colors">
+                                         <input type="radio" name="body_colors" hidden id="body_colors_3"
+                                             class="body_colors">
                                          <label for="body_colors_3">
                                              <span class="blue"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="body_colors" hidden id="body_colors_4" class="body_colors">
+                                         <input type="radio" name="body_colors" hidden id="body_colors_4"
+                                             class="body_colors">
                                          <label for="body_colors_4">
                                              <span class="white"></span>
                                          </label>
@@ -257,25 +285,29 @@
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
-                                         <input type="radio" name="cover_colors" hidden id="cover_colors_1" class="body_colors">
+                                         <input type="radio" name="cover_colors" hidden id="cover_colors_1"
+                                             class="body_colors">
                                          <label for="cover_colors_1">
                                              <span class="black"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="cover_colors" hidden id="cover_colors_3" class="body_colors">
+                                         <input type="radio" name="cover_colors" hidden id="cover_colors_3"
+                                             class="body_colors">
                                          <label for="cover_colors_3">
                                              <span class="blue"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="cover_colors" hidden id="cover_colors_2" class="body_colors">
+                                         <input type="radio" name="cover_colors" hidden id="cover_colors_2"
+                                             class="body_colors">
                                          <label for="cover_colors_2">
                                              <span class="red"></span>
                                          </label>
                                      </div>
                                      <div class="single_color">
-                                         <input type="radio" name="cover_colors" hidden id="cover_colors_4" class="body_colors">
+                                         <input type="radio" name="cover_colors" hidden id="cover_colors_4"
+                                             class="body_colors">
                                          <label for="cover_colors_4">
                                              <span class="white_05"></span>
                                          </label>
@@ -290,7 +322,8 @@
                                  </div>
                                  <div class="colors">
                                      <div class="single_color">
-                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_1"
+                                             class="body_colors">
                                          <label for="trim_colors_1">
                                              <span class="black"></span>
                                          </label>
@@ -305,6 +338,10 @@
                                          <input type="radio" name="trim_colors" hidden id="trim_colors_1" class="body_colors">
                                          <label for="trim_colors_1">
                                              <span class="gray"></span>
+                                         <input type="radio" name="trim_colors" hidden id="trim_colors_4"
+                                             class="body_colors">
+                                         <label for="trim_colors_4">
+                                             <span class="white_1"></span>
                                          </label>
                                      </div>
                                  </div>
@@ -384,6 +421,11 @@
                                  <a href="./cart.php" class="btn">Add to Cart</a>
                                  <a href="./checkout.php" class="btn ml-3">Checkout</a>
                              </div>
+                             <label class="custom_check_box mt-5">I would like to add my initial embroidered for
+                                 additional $19.95
+                                 <input type="checkbox" checked="checked">
+                                 <span class="checkmark"></span>
+                             </label>
                          </div>
                      </div>
                  </div>
@@ -405,6 +447,9 @@
                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                      </p> -->
                      <!-- <a href="shop.php" class="btn mt-4">SHOP NOW</a> -->
+             <div class="proced_to_checkout">
+                 <div class="chck_btn">
+                     <a href="checkout.php" class="btn-content">CONTINUE TO CHECKOUT</a>
                  </div>
              </div>
              <div class="col-lg-3"></div>
